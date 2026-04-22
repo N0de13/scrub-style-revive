@@ -1,10 +1,18 @@
+import logo from "@/assets/logo.jpg";
+
 const Footer = () => {
   return (
     <footer className="bg-foreground py-12">
       <div className="container">
         <div className="grid md:grid-cols-3 gap-8 mb-8">
           <div>
-            <h3 className="font-display text-xl font-bold text-background mb-3">The Scrub Boutique ULTD</h3>
+            <div className="inline-block bg-background rounded-xl p-3 mb-4">
+              <img
+                src={logo}
+                alt="The Scrub Boutique ULTD"
+                className="h-12 w-auto"
+              />
+            </div>
             <p className="text-background/60 text-sm leading-relaxed">
               New Jersey's premier destination for medical scrubs, custom embroidery, and professional uniforms.
             </p>
