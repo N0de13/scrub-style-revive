@@ -3,6 +3,7 @@ import { Link } from "react-router-dom";
 import { Menu, X, Phone, MapPin, ChevronDown } from "lucide-react";
 import { motion, AnimatePresence } from "framer-motion";
 import { brands } from "@/data/brands";
+import logo from "@/assets/logo.jpg";
 
 type NavItem =
   | { label: string; href: string }
@@ -55,8 +56,12 @@ const Navbar = () => {
       {/* Main nav */}
       <nav className="sticky top-0 z-50 bg-card/95 backdrop-blur-md border-b border-border">
         <div className="container flex items-center justify-between h-16 md:h-20">
-          <Link to="/" className="font-display text-xl md:text-2xl font-bold text-primary tracking-tight">
-            The Scrub Boutique <span className="text-secondary text-sm font-body font-normal">ULTD</span>
+          <Link to="/" className="flex items-center" aria-label="The Scrub Boutique ULTD home">
+            <img
+              src={logo}
+              alt="The Scrub Boutique ULTD — Medical Uniforms, Chef Wear & Accessories"
+              className="h-10 md:h-12 w-auto"
+            />
           </Link>
 
           {/* Desktop links */}
