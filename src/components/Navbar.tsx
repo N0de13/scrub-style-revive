@@ -1,12 +1,24 @@
 import { useState } from "react";
-import { Menu, X, Phone, MapPin } from "lucide-react";
+import { Link } from "react-router-dom";
+import { Menu, X, Phone, MapPin, ChevronDown } from "lucide-react";
 import { motion, AnimatePresence } from "framer-motion";
+import { brands } from "@/data/brands";
 
-const navLinks = [
+type NavItem =
+  | { label: string; href: string }
+  | { label: string; href: string; children: { label: string; href: string }[] };
+
+const navLinks: NavItem[] = [
   { label: "Home", href: "/#home" },
   { label: "About", href: "/about" },
-  
-  { label: "Brands", href: "/#brands" },
+  {
+    label: "Brands",
+    href: "/brands",
+    children: [
+      { label: "All Brands", href: "/brands" },
+      ...brands.map((b) => ({ label: b.name, href: `/brands/${b.slug}` })),
+    ],
+  },
   { label: "Embroidery", href: "/embroidery" },
   { label: "Groups", href: "/groups" },
   { label: "Contact", href: "/#contact" },
@@ -14,6 +26,7 @@ const navLinks = [
 
 const Navbar = () => {
   const [open, setOpen] = useState(false);
+  const [openDropdown, setOpenDropdown] = useState<string | null>(null);
 
   return (
     <>
@@ -42,21 +55,58 @@ const Navbar = () => {
       {/* Main nav */}
       <nav className="sticky top-0 z-50 bg-card/95 backdrop-blur-md border-b border-border">
         <div className="container flex items-center justify-between h-16 md:h-20">
-          <a href="#home" className="font-display text-xl md:text-2xl font-bold text-primary tracking-tight">
+          <Link to="/" className="font-display text-xl md:text-2xl font-bold text-primary tracking-tight">
             The Scrub Boutique <span className="text-secondary text-sm font-body font-normal">ULTD</span>
-          </a>
+          </Link>
 
           {/* Desktop links */}
           <div className="hidden lg:flex items-center gap-6">
-            {navLinks.map((link) => (
-              <a
-                key={link.label}
-                href={link.href}
-                className="text-sm font-medium text-foreground/80 hover:text-primary transition-colors"
-              >
-                {link.label}
-              </a>
-            ))}
+            {navLinks.map((link) => {
+              const hasChildren = "children" in link;
+              if (hasChildren) {
+                return (
+                  <div key={link.label} className="relative group">
+                    <Link
+                      to={link.href}
+                      className="flex items-center gap-1 text-sm font-medium text-foreground/80 hover:text-primary transition-colors py-2"
+                    >
+                      {link.label}
+                      <ChevronDown className="w-3.5 h-3.5 transition-transform group-hover:rotate-180" />
+                    </Link>
+                    <div className="absolute top-full left-1/2 -translate-x-1/2 pt-2 opacity-0 invisible group-hover:opacity-100 group-hover:visible transition-all">
+                      <div className="bg-card border border-border rounded-2xl shadow-xl py-2 min-w-[220px]">
+                        {link.children.map((child) => (
+                          <Link
+                            key={child.href}
+                            to={child.href}
+                            className="block px-5 py-2 text-sm text-foreground/80 hover:text-primary hover:bg-muted/50 transition-colors"
+                          >
+                            {child.label}
+                          </Link>
+                        ))}
+                      </div>
+                    </div>
+                  </div>
+                );
+              }
+              return link.href.startsWith("/#") ? (
+                <a
+                  key={link.label}
+                  href={link.href}
+                  className="text-sm font-medium text-foreground/80 hover:text-primary transition-colors"
+                >
+                  {link.label}
+                </a>
+              ) : (
+                <Link
+                  key={link.label}
+                  to={link.href}
+                  className="text-sm font-medium text-foreground/80 hover:text-primary transition-colors"
+                >
+                  {link.label}
+                </Link>
+              );
+            })}
             <a
               href="https://shop.thescrubboutiqueultd.com/"
               target="_blank"
@@ -86,22 +136,65 @@ const Navbar = () => {
               exit={{ height: 0, opacity: 0 }}
               className="lg:hidden overflow-hidden bg-card border-b border-border"
             >
-              <div className="container py-4 flex flex-col gap-3">
-                {navLinks.map((link) => (
-                  <a
-                    key={link.label}
-                    href={link.href}
-                    className="text-sm font-medium text-foreground/80 hover:text-primary py-2"
-                    onClick={() => setOpen(false)}
-                  >
-                    {link.label}
-                  </a>
-                ))}
+              <div className="container py-4 flex flex-col gap-1">
+                {navLinks.map((link) => {
+                  const hasChildren = "children" in link;
+                  if (hasChildren) {
+                    const isOpen = openDropdown === link.label;
+                    return (
+                      <div key={link.label} className="border-b border-border/50 last:border-0">
+                        <button
+                          className="flex items-center justify-between w-full text-sm font-medium text-foreground/80 hover:text-primary py-3"
+                          onClick={() => setOpenDropdown(isOpen ? null : link.label)}
+                        >
+                          {link.label}
+                          <ChevronDown className={`w-4 h-4 transition-transform ${isOpen ? "rotate-180" : ""}`} />
+                        </button>
+                        {isOpen && (
+                          <div className="pb-3 pl-4 flex flex-col gap-1">
+                            {link.children.map((child) => (
+                              <Link
+                                key={child.href}
+                                to={child.href}
+                                className="text-sm text-foreground/70 hover:text-primary py-1.5"
+                                onClick={() => {
+                                  setOpen(false);
+                                  setOpenDropdown(null);
+                                }}
+                              >
+                                {child.label}
+                              </Link>
+                            ))}
+                          </div>
+                        )}
+                      </div>
+                    );
+                  }
+                  return link.href.startsWith("/#") ? (
+                    <a
+                      key={link.label}
+                      href={link.href}
+                      className="text-sm font-medium text-foreground/80 hover:text-primary py-3 border-b border-border/50 last:border-0"
+                      onClick={() => setOpen(false)}
+                    >
+                      {link.label}
+                    </a>
+                  ) : (
+                    <Link
+                      key={link.label}
+                      to={link.href}
+                      className="text-sm font-medium text-foreground/80 hover:text-primary py-3 border-b border-border/50 last:border-0"
+                      onClick={() => setOpen(false)}
+                    >
+                      {link.label}
+                    </Link>
+                  );
+                })}
                 <a
                   href="https://shop.thescrubboutiqueultd.com/"
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="mt-2 px-5 py-2.5 rounded-full bg-accent text-accent-foreground text-sm font-semibold text-center hover:opacity-90 transition-opacity"
+                  className="mt-3 px-5 py-2.5 rounded-full bg-accent text-accent-foreground text-sm font-semibold text-center hover:opacity-90 transition-opacity"
                 >
                   Shop Online
                 </a>
