@@ -6,6 +6,7 @@ import BrandsMarquee from "@/components/BrandsMarquee";
 import EmbroiderySection from "@/components/EmbroiderySection";
 import GroupsSection from "@/components/GroupsSection";
 import PromoBar from "@/components/PromoBar";
+import TestimonialsSection from "@/components/TestimonialsSection";
 import ContactSection from "@/components/ContactSection";
 import Footer from "@/components/Footer";
 
@@ -20,6 +21,7 @@ const Index = () => {
       <EmbroiderySection />
       <GroupsSection />
       <PromoBar />
+      <TestimonialsSection />
       <ContactSection />
       <Footer />
     </div>
