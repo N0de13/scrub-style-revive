@@ -5,6 +5,7 @@ import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
 import { Seo, localBusinessJsonLd } from "@/components/Seo";
 import { brands, getBrand } from "@/data/brands";
+import barcoBadge from "@/assets/barco-platinum-badge.png";
 
 const BrandPage = () => {
   const { slug } = useParams<{ slug: string }>();
@@ -74,39 +75,86 @@ const BrandPage = () => {
             <span className="text-primary-foreground">{brand.name}</span>
           </nav>
 
-          <motion.div
-            initial={{ opacity: 0, y: 20 }}
-            animate={{ opacity: 1, y: 0 }}
-            className="max-w-3xl"
-          >
-            <p className="text-teal-light font-medium text-sm uppercase tracking-[0.2em] mb-4">
-              {brand.tagline}
-            </p>
-            <h1 className="text-4xl sm:text-5xl md:text-6xl lg:text-7xl font-display font-bold text-primary-foreground leading-[1.05] mb-6">
-              {brand.name}
-              <br />
-              <span className="italic text-teal-light">in New Jersey</span>
-            </h1>
-            <p className="text-lg md:text-xl text-primary-foreground/85 mb-8 max-w-2xl font-light leading-relaxed">
-              {brand.shortDescription}
-            </p>
-            <div className="flex flex-wrap gap-4">
-              <a
-                href="https://shop.thescrubboutiqueultd.com/"
-                target="_blank"
-                rel="noopener noreferrer"
-                className="inline-flex items-center gap-2 px-8 py-3.5 rounded-full bg-accent text-accent-foreground font-semibold text-sm hover:opacity-90 transition-opacity"
+          <div className="grid lg:grid-cols-[1fr_auto] gap-10 items-center">
+            <motion.div
+              initial={{ opacity: 0, y: 20 }}
+              animate={{ opacity: 1, y: 0 }}
+              className="max-w-3xl"
+            >
+              <p className="text-teal-light font-medium text-sm uppercase tracking-[0.2em] mb-4">
+                {brand.tagline}
+              </p>
+              <h1 className="text-4xl sm:text-5xl md:text-6xl lg:text-7xl font-display font-bold text-primary-foreground leading-[1.05] mb-6">
+                {brand.name}
+                <br />
+                <span className="italic text-teal-light">in New Jersey</span>
+              </h1>
+              <p className="text-lg md:text-xl text-primary-foreground/85 mb-8 max-w-2xl font-light leading-relaxed">
+                {brand.shortDescription}
+              </p>
+              <div className="flex flex-wrap gap-4">
+                <a
+                  href="https://shop.thescrubboutiqueultd.com/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="inline-flex items-center gap-2 px-8 py-3.5 rounded-full bg-accent text-accent-foreground font-semibold text-sm hover:opacity-90 transition-opacity"
+                >
+                  Shop {brand.name} <ArrowRight className="w-4 h-4" />
+                </a>
+                <a
+                  href="/#contact"
+                  className="inline-flex items-center gap-2 px-8 py-3.5 rounded-full border-2 border-primary-foreground/30 text-primary-foreground font-semibold text-sm hover:bg-primary-foreground/10 transition-colors"
+                >
+                  <MapPin className="w-4 h-4" /> Visit Eatontown Store
+                </a>
+              </div>
+            </motion.div>
+
+            {brand.slug === "barco" && (
+              <motion.div
+                initial={{ opacity: 0, scale: 0.8, rotate: -10 }}
+                animate={{ opacity: 1, scale: 1, rotate: 0 }}
+                transition={{ delay: 0.3, type: "spring", stiffness: 100 }}
+                className="hidden lg:flex flex-col items-center"
               >
-                Shop {brand.name} <ArrowRight className="w-4 h-4" />
-              </a>
-              <a
-                href="/#contact"
-                className="inline-flex items-center gap-2 px-8 py-3.5 rounded-full border-2 border-primary-foreground/30 text-primary-foreground font-semibold text-sm hover:bg-primary-foreground/10 transition-colors"
-              >
-                <MapPin className="w-4 h-4" /> Visit Eatontown Store
-              </a>
-            </div>
-          </motion.div>
+                <img
+                  src={barcoBadge}
+                  alt="Official Barco Platinum Retailer Badge"
+                  className="w-48 xl:w-56 h-auto drop-shadow-[0_15px_30px_rgba(0,0,0,0.4)]"
+                />
+                <p className="mt-4 text-teal-light text-xs uppercase tracking-[0.2em] font-medium text-center">
+                  We are a<br />
+                  <span className="text-primary-foreground font-display text-base normal-case tracking-normal">
+                    Barco Platinum Retailer
+                  </span>
+                </p>
+              </motion.div>
+            )}
+          </div>
+
+          {/* Mobile badge */}
+          {brand.slug === "barco" && (
+            <motion.div
+              initial={{ opacity: 0, y: 20 }}
+              animate={{ opacity: 1, y: 0 }}
+              transition={{ delay: 0.4 }}
+              className="lg:hidden mt-10 flex items-center gap-4 bg-primary-foreground/10 backdrop-blur-sm border border-primary-foreground/20 rounded-2xl p-4 max-w-sm"
+            >
+              <img
+                src={barcoBadge}
+                alt="Official Barco Platinum Retailer Badge"
+                className="w-20 h-20 flex-shrink-0 drop-shadow-lg"
+              />
+              <div>
+                <p className="text-teal-light text-xs uppercase tracking-[0.2em] font-medium">
+                  We are a
+                </p>
+                <p className="text-primary-foreground font-display font-bold text-lg leading-tight">
+                  Barco Platinum Retailer
+                </p>
+              </div>
+            </motion.div>
+          )}
         </div>
       </section>
 
