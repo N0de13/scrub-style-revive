@@ -3,13 +3,13 @@ import { Menu, X, Phone, MapPin } from "lucide-react";
 import { motion, AnimatePresence } from "framer-motion";
 
 const navLinks = [
-  { label: "Home", href: "#home" },
-  { label: "About", href: "#about" },
-  { label: "Services", href: "#services" },
-  { label: "Brands", href: "#brands" },
-  { label: "Embroidery", href: "#embroidery" },
-  { label: "Groups", href: "#groups" },
-  { label: "Contact", href: "#contact" },
+  { label: "Home", href: "/#home" },
+  { label: "About", href: "/about" },
+  { label: "Services", href: "/#services" },
+  { label: "Brands", href: "/#brands" },
+  { label: "Embroidery", href: "/#embroidery" },
+  { label: "Groups", href: "/#groups" },
+  { label: "Contact", href: "/#contact" },
 ];
 
 const Navbar = () => {
