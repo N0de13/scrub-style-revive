@@ -22,7 +22,7 @@ const navLinks: NavItem[] = [
   },
   { label: "Embroidery", href: "/embroidery" },
   { label: "Groups", href: "/groups" },
-  { label: "Journal", href: "/blog" },
+  { label: "Blog", href: "/blog" },
   { label: "Contact", href: "/#contact" },
 ];
 
