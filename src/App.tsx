@@ -9,6 +9,8 @@ import Embroidery from "./pages/Embroidery";
 import Groups from "./pages/Groups";
 import Brands from "./pages/Brands";
 import BrandPage from "./pages/BrandPage";
+import Blog from "./pages/Blog";
+import BlogPost from "./pages/BlogPost";
 import NotFound from "./pages/NotFound";
 import ScrollToTop from "./components/ScrollToTop";
 
@@ -28,6 +30,8 @@ const App = () => (
           <Route path="/groups" element={<Groups />} />
           <Route path="/brands" element={<Brands />} />
           <Route path="/brands/:slug" element={<BrandPage />} />
+          <Route path="/blog" element={<Blog />} />
+          <Route path="/blog/:slug" element={<BlogPost />} />
           {/* ADD ALL CUSTOM ROUTES ABOVE THE CATCH-ALL "*" ROUTE */}
           <Route path="*" element={<NotFound />} />
         </Routes>
