@@ -5,6 +5,22 @@ import Footer from "@/components/Footer";
 import ownersImg from "@/assets/about-owners.jpg.asset.json";
 import teamImg from "@/assets/about-team.jpg";
 import storeImg from "@/assets/store.jpg";
+import {
+  Seo,
+  localBusinessJsonLd,
+  organizationJsonLd,
+  buildBreadcrumbLd,
+  buildSpeakableLd,
+  siteUrl,
+} from "@/components/Seo";
+
+const aboutPageLd = {
+  "@context": "https://schema.org",
+  "@type": "AboutPage",
+  url: `${siteUrl}/about`,
+  name: "About The Scrub Boutique ULTD",
+  about: { "@id": `${siteUrl}/#store` },
+};
 
 const values = [
   {
@@ -37,6 +53,29 @@ const values = [
 const About = () => {
   return (
     <div className="min-h-screen bg-background">
+      <Seo
+        title="About The Scrub Boutique ULTD | Family-Owned Scrub Store in Lakewood, NJ"
+        description="Meet Pietro & Mary Gallotta — the family behind New Jersey's premier scrub & uniform boutique in Lakewood, NJ. Barco Platinum Retailer serving the Tri-State since 2021."
+        canonicalPath="/about"
+        keywords={[
+          "about The Scrub Boutique",
+          "family owned scrub store NJ",
+          "Pietro Mary Gallotta",
+          "Lakewood NJ uniform store",
+          "Platinum Barco Retailer New Jersey",
+          "Coastline Custom Embroidery",
+        ]}
+        jsonLd={[
+          organizationJsonLd,
+          localBusinessJsonLd,
+          aboutPageLd,
+          buildBreadcrumbLd([
+            { name: "Home", path: "/" },
+            { name: "About", path: "/about" },
+          ]),
+          buildSpeakableLd(`${siteUrl}/about`, ["h1", "h2", "p"]),
+        ]}
+      />
       <Navbar />
 
       {/* Hero */}

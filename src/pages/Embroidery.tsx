@@ -6,6 +6,25 @@ import capImg from "@/assets/embroidery-cap.jpg";
 import machineImg from "@/assets/embroidery-machine.jpg";
 import multiheadImg from "@/assets/embroidery-multihead.jpg";
 import detailImg from "@/assets/embroidery-detail.jpg";
+import {
+  Seo,
+  localBusinessJsonLd,
+  buildBreadcrumbLd,
+  buildSpeakableLd,
+  siteUrl,
+} from "@/components/Seo";
+
+const embroideryServiceLd = {
+  "@context": "https://schema.org",
+  "@type": "Service",
+  serviceType: "Custom Embroidery",
+  name: "Custom Embroidery for Medical, Corporate & Public Safety Uniforms",
+  provider: { "@id": `${siteUrl}/#store` },
+  areaServed: ["Lakewood NJ", "Monmouth County", "Ocean County", "New Jersey", "Tri-State Area"],
+  url: `${siteUrl}/embroidery`,
+  description:
+    "In-house digitizing and commercial multi-head embroidery on scrubs, lab coats, chef coats, corporate apparel, and first responder uniforms.",
+};
 
 const services = [
   {
@@ -40,6 +59,29 @@ const process = [
 const Embroidery = () => {
   return (
     <div className="min-h-screen bg-background">
+      <Seo
+        title="Custom Embroidery in Lakewood, NJ | Logo Scrubs & Uniforms"
+        description="Custom embroidery on scrubs, lab coats, chef coats, corporate polos & first responder uniforms in Lakewood, NJ. In-house digitizing, sample approval & group pricing."
+        canonicalPath="/embroidery"
+        keywords={[
+          "custom embroidery Lakewood NJ",
+          "logo embroidery scrubs New Jersey",
+          "monogram lab coat NJ",
+          "chef coat embroidery Monmouth County",
+          "uniform embroidery Ocean County",
+          "fire EMS police embroidery NJ",
+          "Coastline Custom Embroidery",
+        ]}
+        jsonLd={[
+          localBusinessJsonLd,
+          embroideryServiceLd,
+          buildBreadcrumbLd([
+            { name: "Home", path: "/" },
+            { name: "Embroidery", path: "/embroidery" },
+          ]),
+          buildSpeakableLd(`${siteUrl}/embroidery`, ["h1", "h2", "p"]),
+        ]}
+      />
       <Navbar />
 
       {/* Hero */}
