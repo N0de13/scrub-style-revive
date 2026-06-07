@@ -3,6 +3,7 @@ import { Sparkles, Layers, Building2, Shield, Shirt, ArrowRight, Check } from "l
 import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
 import Breadcrumbs from "@/components/Breadcrumbs";
+import RelatedLinks from "@/components/RelatedLinks";
 import capImg from "@/assets/embroidery-cap.jpg";
 import machineImg from "@/assets/embroidery-machine.jpg";
 import multiheadImg from "@/assets/embroidery-multihead.jpg";
@@ -407,6 +408,7 @@ const Embroidery = () => {
         </div>
       </section>
 
+      <RelatedLinks exclude={["embroidery"]} />
       <Footer />
     </div>
   );

@@ -4,6 +4,7 @@ import { ArrowLeft, Phone, MapPin } from "lucide-react";
 import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
 import Breadcrumbs from "@/components/Breadcrumbs";
+import RelatedLinks from "@/components/RelatedLinks";
 import { Seo, buildBreadcrumbLd, buildSpeakableLd, siteUrl } from "@/components/Seo";
 import { posts } from "@/data/blog";
 
@@ -173,6 +174,7 @@ const BlogPost = () => {
         </div>
       </section>
 
+      <RelatedLinks exclude={["blog"]} />
       <Footer />
     </div>
   );

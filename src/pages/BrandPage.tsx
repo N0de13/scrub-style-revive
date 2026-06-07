@@ -4,6 +4,7 @@ import { Check, ArrowRight, Phone, MapPin, Sparkles } from "lucide-react";
 import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
 import Breadcrumbs from "@/components/Breadcrumbs";
+import RelatedLinks from "@/components/RelatedLinks";
 import { Seo, localBusinessJsonLd, buildBreadcrumbLd, buildSpeakableLd, siteUrl } from "@/components/Seo";
 import { brands, getBrand } from "@/data/brands";
 import barcoBadge from "@/assets/barco-platinum-badge.png";
@@ -354,6 +355,7 @@ const BrandPage = () => {
         </div>
       </section>
 
+      <RelatedLinks exclude={["brands"]} />
       <Footer />
     </div>
   );

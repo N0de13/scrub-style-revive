@@ -10,6 +10,7 @@ import BlogPreviewSection from "@/components/BlogPreviewSection";
 import TestimonialsSection from "@/components/TestimonialsSection";
 import ContactSection from "@/components/ContactSection";
 import Footer from "@/components/Footer";
+import RelatedLinks from "@/components/RelatedLinks";
 import {
   Seo,
   localBusinessJsonLd,
@@ -57,6 +58,7 @@ const Index = () => {
       <BlogPreviewSection />
       <TestimonialsSection />
       <ContactSection />
+      <RelatedLinks exclude={["home"]} title="Discover more at The Scrub Boutique" />
       <Footer />
     </div>
   );

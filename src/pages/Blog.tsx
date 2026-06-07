@@ -3,6 +3,7 @@ import { motion } from "framer-motion";
 import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
 import Breadcrumbs from "@/components/Breadcrumbs";
+import RelatedLinks from "@/components/RelatedLinks";
 import { Seo, buildBreadcrumbLd, buildSpeakableLd, siteUrl } from "@/components/Seo";
 import { posts } from "@/data/blog";
 
@@ -90,6 +91,7 @@ const Blog = () => {
           ))}
         </div>
       </main>
+      <RelatedLinks exclude={["blog"]} />
       <Footer />
     </div>
   );

@@ -3,6 +3,7 @@ import { Heart, Shield, Award, Users, Briefcase, ArrowRight } from "lucide-react
 import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
 import Breadcrumbs from "@/components/Breadcrumbs";
+import RelatedLinks from "@/components/RelatedLinks";
 import ownersImg from "@/assets/about-owners.jpg.asset.json";
 import teamImg from "@/assets/about-team.jpg";
 import storeImg from "@/assets/store.jpg";
@@ -303,6 +304,7 @@ const About = () => {
         </div>
       </section>
 
+      <RelatedLinks exclude={["about"]} />
       <Footer />
     </div>
   );
