@@ -62,7 +62,7 @@ const About = () => {
         keywords={[
           "about The Scrub Boutique",
           "family owned scrub store NJ",
-          "Pietro Mary Gallotta",
+          "Pietro Gallota",
           "Lakewood NJ uniform store",
           "Platinum Barco Retailer New Jersey",
           "Coastline Custom Embroidery",
