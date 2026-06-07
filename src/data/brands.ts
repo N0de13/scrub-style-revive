@@ -97,7 +97,7 @@ export const brands: Brand[] = [
       },
       {
         q: "Where can I try on Grey's Anatomy scrubs in NJ?",
-        a: "Visit The Scrub Boutique ULTD at 315 NJ-35 in Lakewood, NJ. We carry the full Grey's Anatomy lineup in sizes XXS through 5XL.",
+        a: "Visit The Scrub Boutique ULTD at 60 Chambersbridge Road, Unit 4 in Lakewood, NJ. We carry the full Grey's Anatomy lineup in sizes XXS through 5XL.",
       },
     ],
     seoTitle: "Grey's Anatomy Scrubs in New Jersey | Lakewood, NJ | The Scrub Boutique ULTD",
