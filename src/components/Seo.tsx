@@ -52,7 +52,7 @@ export const localBusinessJsonLd = {
   image: `${SITE}/og-image.jpg`,
   url: SITE,
   telephone: "+1-732-308-7788",
-  email: "customerservice@tsbuniforms.com",
+  email: "peter@tsbuniforms.com",
   address: {
     "@type": "PostalAddress",
     streetAddress: "60 Chambersbridge Road, Unit 4",
@@ -85,7 +85,7 @@ export const organizationJsonLd = {
     "@type": "ContactPoint",
     telephone: "+1-732-308-7788",
     contactType: "customer service",
-    email: "customerservice@tsbuniforms.com",
+    email: "peter@tsbuniforms.com",
     areaServed: "US",
     availableLanguage: ["English", "Spanish"],
   },

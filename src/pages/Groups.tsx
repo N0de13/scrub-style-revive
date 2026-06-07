@@ -310,7 +310,7 @@ const Groups = () => {
                 <Phone className="w-4 h-4" /> 732-308-7788
               </a>
               <a
-                href="mailto:customerservice@tsbuniforms.com"
+                href="mailto:peter@tsbuniforms.com"
                 className="inline-flex items-center gap-2 px-8 py-3.5 rounded-full bg-card text-foreground font-semibold text-sm hover:opacity-90 transition-opacity"
               >
                 <Mail className="w-4 h-4" /> Email Us

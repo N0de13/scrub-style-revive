@@ -34,8 +34,8 @@ const ContactSection = () => {
             {
               icon: Mail,
               title: "Email",
-              lines: ["customerservice@", "tsbuniforms.com"],
-              href: "mailto:customerservice@tsbuniforms.com",
+              lines: ["peter@tsbuniforms.com"],
+              href: "mailto:peter@tsbuniforms.com",
             },
             {
               icon: Clock,
