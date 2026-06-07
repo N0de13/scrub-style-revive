@@ -48,7 +48,7 @@ const Brands = () => {
           "medical uniforms Lakewood",
           "nursing brands NJ",
         ]}
-        jsonLd={[localBusinessJsonLd, itemListJsonLd]}
+        jsonLd={[localBusinessJsonLd, itemListJsonLd, breadcrumbLd, speakableLd]}
       />
       <Navbar />
 

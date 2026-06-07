@@ -2,10 +2,10 @@ import { Link } from "react-router-dom";
 import { motion } from "framer-motion";
 import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
-import { Seo } from "@/components/Seo";
+import { Seo, buildBreadcrumbLd, buildSpeakableLd, siteUrl } from "@/components/Seo";
 import { posts } from "@/data/blog";
 
-const SITE = "https://scrubs.therealsocialcompany.com";
+const SITE = siteUrl;
 
 const Blog = () => {
   const itemListLd = {
@@ -29,8 +29,15 @@ const Blog = () => {
         title="Medical Uniform Journal | The Scrub Boutique ULTD, Lakewood NJ"
         description="Expert guides on scrubs, nursing footwear, embroidery and uniforms from New Jersey's premier medical boutique in Lakewood, NJ."
         canonicalPath="/blog"
-        keywords={["scrubs blog", "nursing tips New Jersey", "medical uniforms Lakewood", "scrub care", "nurse accessories NJ"]}
-        jsonLd={itemListLd}
+        keywords={["scrubs blog", "nursing tips New Jersey", "medical uniforms Lakewood", "scrub care", "nurse accessories NJ", "chef coats NJ"]}
+        jsonLd={[
+          itemListLd,
+          buildBreadcrumbLd([
+            { name: "Home", path: "/" },
+            { name: "Journal", path: "/blog" },
+          ]),
+          buildSpeakableLd(`${SITE}/blog`, ["h1", "h2", "p"]),
+        ]}
       />
       <Navbar />
       <header className="bg-secondary/30 border-b border-border">
