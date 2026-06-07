@@ -105,7 +105,7 @@ const BrandPage = () => {
                   href="/#contact"
                   className="inline-flex items-center gap-2 px-8 py-3.5 rounded-full border-2 border-primary-foreground/30 text-primary-foreground font-semibold text-sm hover:bg-primary-foreground/10 transition-colors"
                 >
-                  <MapPin className="w-4 h-4" /> Visit Eatontown Store
+                  <MapPin className="w-4 h-4" /> Visit Lakewood Store
                 </a>
               </div>
             </motion.div>
@@ -298,7 +298,7 @@ const BrandPage = () => {
                 Explore More Brands
               </p>
               <h2 className="text-2xl md:text-4xl font-display font-bold text-foreground leading-tight">
-                More brands we carry in Eatontown
+                More brands we carry in Lakewood
               </h2>
             </div>
             <Link
@@ -334,7 +334,7 @@ const BrandPage = () => {
             Try {brand.name} on in person.
           </h2>
           <p className="text-accent-foreground/80 mb-6 max-w-xl mx-auto">
-            Visit our Eatontown, NJ boutique—sizes XXS to 5XL, expert fitting, and in-house embroidery.
+            Visit our Lakewood, NJ boutique—sizes XXS to 5XL, expert fitting, and in-house embroidery.
           </p>
           <div className="flex flex-wrap gap-4 justify-center">
             <a

@@ -54,7 +54,7 @@ export const localBusinessJsonLd = {
   address: {
     "@type": "PostalAddress",
     streetAddress: "315 NJ-35 Store #3",
-    addressLocality: "Eatontown",
+    addressLocality: "Lakewood",
     addressRegion: "NJ",
     postalCode: "07724",
     addressCountry: "US",

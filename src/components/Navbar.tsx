@@ -42,12 +42,12 @@ const Navbar = () => {
             </a>
             <span className="hidden sm:flex items-center gap-1.5">
               <MapPin className="w-3.5 h-3.5" />
-              315 NJ-35 Store #3, Eatontown, NJ 07724
+              315 NJ-35 Store #3, Lakewood, NJ 07724
             </span>
           </div>
           <div className="flex items-center gap-3">
             <a href="https://www.facebook.com/TheScrubBoutiqueUltd" target="_blank" rel="noopener noreferrer" className="hover:text-teal-light transition-colors">FB</a>
-            <a href="https://www.instagram.com/thescrubboutiqueeatontown/" target="_blank" rel="noopener noreferrer" className="hover:text-teal-light transition-colors">IG</a>
+            <a href="https://www.instagram.com/thescrubboutiquelakewood/" target="_blank" rel="noopener noreferrer" className="hover:text-teal-light transition-colors">IG</a>
             <a href="https://www.tiktok.com/@thescrubboutique" target="_blank" rel="noopener noreferrer" className="hover:text-teal-light transition-colors">TT</a>
             <a href="https://www.linkedin.com/company/the-scrub-boutique" target="_blank" rel="noopener noreferrer" className="hover:text-teal-light transition-colors">LI</a>
           </div>

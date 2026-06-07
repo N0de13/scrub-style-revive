@@ -60,7 +60,7 @@ const About = () => {
               <span className="italic text-teal-light">Scrub Boutique</span> Family
             </h1>
             <p className="text-lg md:text-xl text-primary-foreground/80 font-light leading-relaxed">
-              A family-owned boutique in Eatontown, NJ, dedicated to outfitting healthcare professionals with style, comfort, and uncompromising quality since 2021.
+              A family-owned boutique in Lakewood, NJ, dedicated to outfitting healthcare professionals with style, comfort, and uncompromising quality since 2021.
             </p>
           </motion.div>
         </div>
@@ -96,7 +96,7 @@ const About = () => {
                 <span className="italic text-secondary">passion for service</span>
               </h2>
               <p className="text-muted-foreground leading-relaxed mb-4">
-                The Scrub Boutique ULTD is a family-owned retail business located in Eatontown, New Jersey. We provide our customers with the best uniforms—from medical scrubs, chef wear, and corporate apparel to professional shoes, industrial work wear, public safety uniforms, hi-visibility safety gear, accessories and much more.
+                The Scrub Boutique ULTD is a family-owned retail business located in Lakewood, New Jersey. We provide our customers with the best uniforms—from medical scrubs, chef wear, and corporate apparel to professional shoes, industrial work wear, public safety uniforms, hi-visibility safety gear, accessories and much more.
               </p>
               <p className="text-muted-foreground leading-relaxed mb-6">
                 Owners <span className="font-semibold text-foreground">Pietro and Mary Gallotta</span> are passionate about providing attentive customer service and a superb shopping experience for every customer who shops with us. Together, this husband-and-wife team has grown the company across New Jersey and the Tri-State area.
@@ -177,7 +177,7 @@ const About = () => {
             >
               <img
                 src={storeImg}
-                alt="Inside The Scrub Boutique ULTD store in Eatontown, NJ"
+                alt="Inside The Scrub Boutique ULTD store in Lakewood, NJ"
                 className="rounded-2xl shadow-2xl w-full object-cover aspect-[4/5]"
                 loading="lazy"
               />

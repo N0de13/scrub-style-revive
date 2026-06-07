@@ -34,12 +34,12 @@ const Brands = () => {
     <div className="min-h-screen bg-background">
       <Seo
         title="Scrub & Uniform Brands We Carry in New Jersey | The Scrub Boutique ULTD"
-        description="Shop Barco, Grey's Anatomy, Zavate, Medi Chic, Landau, White Cross, Nurse Mates, First Tactical, and SanMar at New Jersey's premier scrub boutique in Eatontown."
+        description="Shop Barco, Grey's Anatomy, Zavate, Medi Chic, Landau, White Cross, Nurse Mates, First Tactical, and SanMar at New Jersey's premier scrub boutique in Lakewood."
         canonicalPath="/brands"
         keywords={[
           "scrub brands New Jersey",
           "Barco Platinum Retailer NJ",
-          "medical uniforms Eatontown",
+          "medical uniforms Lakewood",
           "nursing brands NJ",
         ]}
         jsonLd={[localBusinessJsonLd, itemListJsonLd]}

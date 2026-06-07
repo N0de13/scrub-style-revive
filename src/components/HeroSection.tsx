@@ -18,7 +18,7 @@ const HeroSection = () => {
             transition={{ delay: 0.2 }}
             className="text-teal-light font-medium text-sm uppercase tracking-[0.2em] mb-4"
           >
-            Barco Platinum Retailer · Eatontown, NJ
+            Barco Platinum Retailer · Lakewood, NJ
           </motion.p>
           <motion.h1
             initial={{ opacity: 0, y: 30 }}
