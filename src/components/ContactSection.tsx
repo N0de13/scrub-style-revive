@@ -63,6 +63,25 @@ const ContactSection = () => {
             </motion.a>
           ))}
         </div>
+
+        <motion.div
+          initial={{ opacity: 0, y: 20 }}
+          whileInView={{ opacity: 1, y: 0 }}
+          viewport={{ once: true }}
+          transition={{ delay: 0.4 }}
+          className="mt-12 rounded-2xl overflow-hidden border border-primary-foreground/10"
+        >
+          <iframe
+            src="https://maps.google.com/maps?q=60+Chambersbridge+Road,+Unit+4,+Lakewood,+NJ+08701&t=&z=15&ie=UTF8&iwloc=&output=embed"
+            width="100%"
+            height="400"
+            style={{ border: 0 }}
+            allowFullScreen
+            loading="lazy"
+            referrerPolicy="no-referrer-when-downgrade"
+            title="The Scrub Boutique Location"
+          />
+        </motion.div>
       </div>
     </section>
   );
