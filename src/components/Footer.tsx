@@ -4,7 +4,7 @@ const Footer = () => {
   return (
     <footer className="bg-foreground py-12">
       <div className="container">
-        <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8 mb-8">
+        <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-8 mb-8">
           <div>
             <h4 className="font-semibold text-background mb-3 text-sm uppercase tracking-wider">Family Owned &amp; Operated</h4>
             <div className="overflow-hidden rounded-xl mb-4">
@@ -26,6 +26,18 @@ const Footer = () => {
               <a href="#embroidery" className="text-background/60 text-sm hover:text-background transition-colors">Embroidery</a>
               <a href="#groups" className="text-background/60 text-sm hover:text-background transition-colors">Group Orders</a>
               <a href="#contact" className="text-background/60 text-sm hover:text-background transition-colors">Contact Us</a>
+            </div>
+          </div>
+          <div>
+            <h4 className="font-semibold text-background mb-3 text-sm uppercase tracking-wider">Store Hours</h4>
+            <div className="flex flex-col gap-1.5">
+              <div className="flex justify-between text-sm"><span className="text-background/60">Sunday</span><span className="text-background/80">Closed</span></div>
+              <div className="flex justify-between text-sm"><span className="text-background/60">Monday</span><span className="text-background/80">10 AM – 6 PM</span></div>
+              <div className="flex justify-between text-sm"><span className="text-background/60">Tuesday</span><span className="text-background/80">10 AM – 6 PM</span></div>
+              <div className="flex justify-between text-sm"><span className="text-background/60">Wednesday</span><span className="text-background/80">10 AM – 6 PM</span></div>
+              <div className="flex justify-between text-sm"><span className="text-background/60">Thursday</span><span className="text-background/80">10 AM – 6 PM</span></div>
+              <div className="flex justify-between text-sm"><span className="text-background/60">Friday</span><span className="text-background/80">10 AM – 6 PM</span></div>
+              <div className="flex justify-between text-sm"><span className="text-background/60">Saturday</span><span className="text-background/80">10 AM – 5 PM</span></div>
             </div>
           </div>
           <div>
