@@ -60,7 +60,7 @@ const BlogPost = () => {
         canonicalPath={`/blog/${post.slug}`}
         keywords={[...post.shortKeywords, ...post.longKeywords]}
         image={`${SITE}${post.image}`}
-        jsonLd={[articleLd, faqLd, breadcrumbLd]}
+        jsonLd={[articleLd, faqLd, breadcrumbLd, speakableLd]}
       />
       <Navbar />
 
