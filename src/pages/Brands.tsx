@@ -3,7 +3,7 @@ import { motion } from "framer-motion";
 import { ArrowRight } from "lucide-react";
 import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
-import { Seo, localBusinessJsonLd } from "@/components/Seo";
+import { Seo, localBusinessJsonLd, buildBreadcrumbLd, buildSpeakableLd, siteUrl } from "@/components/Seo";
 import { brands } from "@/data/brands";
 
 const categoryLabels: Record<string, string> = {
@@ -26,9 +26,15 @@ const Brands = () => {
       "@type": "ListItem",
       position: i + 1,
       name: b.name,
-      url: `https://thescrubboutiqueultd.lovable.app/brands/${b.slug}`,
+      url: `${siteUrl}/brands/${b.slug}`,
     })),
   };
+
+  const breadcrumbLd = buildBreadcrumbLd([
+    { name: "Home", path: "/" },
+    { name: "Brands", path: "/brands" },
+  ]);
+  const speakableLd = buildSpeakableLd(`${siteUrl}/brands`, ["h1", "h2", "p"]);
 
   return (
     <div className="min-h-screen bg-background">
