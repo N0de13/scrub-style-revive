@@ -63,6 +63,12 @@ const BlogPost = () => {
         jsonLd={[articleLd, faqLd, breadcrumbLd, speakableLd]}
       />
       <Navbar />
+      <Breadcrumbs
+        items={[
+          { name: "Journal", path: "/blog" },
+          { name: post.title },
+        ]}
+      />
 
       <article>
         <div className="container max-w-4xl pt-12 pb-8">

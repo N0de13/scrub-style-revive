@@ -2,6 +2,7 @@ import { motion } from "framer-motion";
 import { Heart, Shield, Award, Users, Briefcase, ArrowRight } from "lucide-react";
 import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
+import Breadcrumbs from "@/components/Breadcrumbs";
 import ownersImg from "@/assets/about-owners.jpg.asset.json";
 import teamImg from "@/assets/about-team.jpg";
 import storeImg from "@/assets/store.jpg";
@@ -77,6 +78,7 @@ const About = () => {
         ]}
       />
       <Navbar />
+      <Breadcrumbs items={[{ name: "About" }]} />
 
       {/* Hero */}
       <section className="relative pt-20 pb-16 md:pt-28 md:pb-24 bg-primary overflow-hidden">

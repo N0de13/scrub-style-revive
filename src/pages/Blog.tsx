@@ -40,6 +40,7 @@ const Blog = () => {
         ]}
       />
       <Navbar />
+      <Breadcrumbs items={[{ name: "Journal" }]} />
       <header className="bg-secondary/30 border-b border-border">
         <div className="container py-16 md:py-24 text-center">
           <p className="text-sm uppercase tracking-[0.2em] text-primary mb-3">The Journal</p>

@@ -91,6 +91,7 @@ const Groups = () => {
         ]}
       />
       <Navbar />
+      <Breadcrumbs items={[{ name: "Groups" }]} />
 
       {/* Hero */}
       <section className="relative pt-20 pb-20 md:pt-28 md:pb-32 bg-primary overflow-hidden">
