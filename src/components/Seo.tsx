@@ -53,10 +53,10 @@ export const localBusinessJsonLd = {
   telephone: "+1-732-308-7788",
   address: {
     "@type": "PostalAddress",
-    streetAddress: "315 NJ-35 Store #3",
+    streetAddress: "60 Chambersbridge Road, Unit 4",
     addressLocality: "Lakewood",
     addressRegion: "NJ",
-    postalCode: "07724",
+    postalCode: "08701",
     addressCountry: "US",
   },
   areaServed: ["New Jersey", "Monmouth County", "Ocean County", "Tri-State Area"],

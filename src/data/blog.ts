@@ -59,7 +59,7 @@ export const posts: BlogPost[] = [
         "heading": "Essential Gear Organizers: Pockets and Pouches",
         "paragraphs": [
           "A nurse on the move and in high-stress situations needs their tools organized and accessible. While our premium scrubs from brands like Cherokee and Grey's Anatomy offer fantastic pocket options, sometimes you need a little something extra. Gear organizers and pocket protectors are essential for keeping pens, scissors, alcohol pads, and tape in their place. This prevents the 'weight' of these items from pulling on your scrub tops and ensures that you can find what you need in a second during an emergency in an Ocean County clinic. Efficiency is the name of the game in modern healthcare.",
-          "The Scrub Boutique ULTD carries a range of specialized organizers designed by and for medical professionals. We understand the workflow of New Jersey's busiest hospitals and select products that enhance that process. From sleek badge reels that keep your ID handy to multi-compartment pouches that fit perfectly into a cargo pocket, we've got you covered. Visiting our Lakewood boutique at 315 NJ-35 allows you to test these accessories out in person, finding the storage solutions that work best for your specific daily tasks and personal style."
+          "The Scrub Boutique ULTD carries a range of specialized organizers designed by and for medical professionals. We understand the workflow of New Jersey's busiest hospitals and select products that enhance that process. From sleek badge reels that keep your ID handy to multi-compartment pouches that fit perfectly into a cargo pocket, we've got you covered. Visiting our Lakewood boutique at 60 Chambersbridge Road, Unit 4 allows you to test these accessories out in person, finding the storage solutions that work best for your specific daily tasks and personal style."
         ]
       },
       {
@@ -80,7 +80,7 @@ export const posts: BlogPost[] = [
         "heading": "Under-Scrubs: The Secret to Climate Control",
         "paragraphs": [
           "New Jersey healthcare facilities can have unpredictable climates—from the freezing cold of an OR to the humid hallways of a clinic in summer. Under-scrubs are the unsung heroes of the medical wardrobe. These high-stretch, lightweight tops provide an extra layer of warmth when needed and help wick away sweat when things get busy. Brands like Healing Hands and Barco offer specialized under-scrubs that fit snugly without adding bulk, maintaining the sleek, professional silhouette of your 'fashion-forward' uniform. They are a must-have for comfort during a long shift.",
-          "The Scrub Boutique ULTD in Lakewood recommends a rotation of under-scrubs in several colors to match your favorite sets. They also provide extra coverage for those with tattoos or sensitive skin, ensuring you feel comfortable and professional in any Monmouth County medical environment. Our selection features soft, breathable fabrics that feel like a second skin, allowing you to focus on your patients rather than your temperature. Visit us at 315 NJ-35 to feel these fabrics for yourself and discover why an under-scrub is more than just a layer—it's an essential part of your work strategy."
+          "The Scrub Boutique ULTD in Lakewood recommends a rotation of under-scrubs in several colors to match your favorite sets. They also provide extra coverage for those with tattoos or sensitive skin, ensuring you feel comfortable and professional in any Monmouth County medical environment. Our selection features soft, breathable fabrics that feel like a second skin, allowing you to focus on your patients rather than your temperature. Visit us at 60 Chambersbridge Road, Unit 4 to feel these fabrics for yourself and discover why an under-scrub is more than just a layer—it's an essential part of your work strategy."
         ]
       },
       {
@@ -170,7 +170,7 @@ export const posts: BlogPost[] = [
         "heading": "Longevity Tips: Rotating and Quality Investing",
         "paragraphs": [
           "One of the best ways to ensure your scrubs last is to have a robust rotation. We suggest owning at least five to seven sets of quality scrubs if you work full-time. This allows each garment to have a break and prevents any single set from being over-laundered. At The Scrub Boutique ULTD, we offer a wide range of colors and styles from XXS to 5XL, so you can build a versatile and durable wardrobe. Investing in premium brands like Barco (of which we are a Platinum Retailer) pay off in the long run because they are engineered to withstand the industrial-strength needs of NJ healthcare workers.",
-          "Look for reinforced stitching and high-density weaves when you shop at our 315 NJ-35 location. These features prevent seams from splitting and ensure the garment holds its shape even after fifty washes. We also recommend checking for loose threads or small tears after every wash and repairing them immediately before they become larger issues. By taking an 'expert' approach to your wardrobe maintenance, you're not just saving money; you're ensuring that you consistently represent the high standards of the Monmouth County medical community. Quality in care reflects quality in your profession."
+          "Look for reinforced stitching and high-density weaves when you shop at our 60 Chambersbridge Road, Unit 4 location. These features prevent seams from splitting and ensure the garment holds its shape even after fifty washes. We also recommend checking for loose threads or small tears after every wash and repairing them immediately before they become larger issues. By taking an 'expert' approach to your wardrobe maintenance, you're not just saving money; you're ensuring that you consistently represent the high standards of the Monmouth County medical community. Quality in care reflects quality in your profession."
         ]
       },
       {
@@ -252,7 +252,7 @@ export const posts: BlogPost[] = [
       {
         "heading": "Fit and Function: Choosing the Right Style",
         "paragraphs": [
-          "Just like our medical gear, our culinary apparel comes in a variety of fits. The modern chef often prefers a more tailored, 'slim fit' coat that offers a sleek silhouette without sacrificing mobility. Features like underarm vents, utility pockets for thermometers and tweezers, and reversible closures add practical value. For Monmouth County professionals, these details make a day-to-day difference. At our 315 NJ-35 boutique, we help you find the style that matches your specific kitchen role. Do you need a lightweight short-sleeved coat for a hot line, or a heavy-duty executive coat for a more public-facing position?",
+          "Just like our medical gear, our culinary apparel comes in a variety of fits. The modern chef often prefers a more tailored, 'slim fit' coat that offers a sleek silhouette without sacrificing mobility. Features like underarm vents, utility pockets for thermometers and tweezers, and reversible closures add practical value. For Monmouth County professionals, these details make a day-to-day difference. At our 60 Chambersbridge Road, Unit 4 boutique, we help you find the style that matches your specific kitchen role. Do you need a lightweight short-sleeved coat for a hot line, or a heavy-duty executive coat for a more public-facing position?",
           "Don't forget the rest of the uniform. We also carry a range of high-performance kitchen pants and aprons designed for professional use. Our aprons feature reinforced stress points and adjustable straps for all-day comfort. In the Jersey Shore food scene, where open kitchens are popular, having a polished look from top to bottom is more important than ever. The Scrub Boutique ULTD provides a complete solution for NJ culinary pros, ensuring that every piece of your uniform works together to provide comfort, safety, and a professional 'Fashion Meets Medical' (and Food) aesthetic."
         ]
       },
@@ -286,7 +286,7 @@ export const posts: BlogPost[] = [
       },
       {
         "q": "Do you offer bulk discounts for NJ restaurant groups?",
-        "a": "Yes! We provide competitive bulk pricing for restaurant groups, catering companies, and culinary teams throughout Monmouth and Ocean County. Contact us or visit our 315 NJ-35 location to discuss a uniform program tailored to your facility."
+        "a": "Yes! We provide competitive bulk pricing for restaurant groups, catering companies, and culinary teams throughout Monmouth and Ocean County. Contact us or visit our 60 Chambersbridge Road, Unit 4 location to discuss a uniform program tailored to your facility."
       },
       {
         "q": "How should I care for my professional chef coat to make it last?",
@@ -350,7 +350,7 @@ export const posts: BlogPost[] = [
         "heading": "Storage and Functionality Comparison",
         "paragraphs": [
           "One practical consideration when choosing between scrubs and lab coats is storage. Scrubs are known for their multi-pocket designs, with cargo pants and tops providing space for essentials like shears, pens, and smartphones. This is ideal for active clinical roles where you need tools at your fingertips. Lab coats also offer significant storage, often with deep front pockets and interior 'tablet' pockets designed for modern technology. If you find yourself carrying a lot of gear during rounds in a Monmouth County hospital, the extra pocket space of a lab coat can be a game-changer.",
-          "The Scrub Boutique ULTD understands that every role has different storage needs. We carry brands like Wink and Grey's Anatomy that prioritize functional pocket placement in both their scrubs and coats. During a consultation at our 315 NJ-35 location, we can help you compare the utility of different models. Do you need a chest pocket for a penlight? A secure zip-pocket for your keys? We help you find the 'fashion meets medical' solution that ensures you're prepared for every task your day in the New Jersey healthcare system throws at you."
+          "The Scrub Boutique ULTD understands that every role has different storage needs. We carry brands like Wink and Grey's Anatomy that prioritize functional pocket placement in both their scrubs and coats. During a consultation at our 60 Chambersbridge Road, Unit 4 location, we can help you compare the utility of different models. Do you need a chest pocket for a penlight? A secure zip-pocket for your keys? We help you find the 'fashion meets medical' solution that ensures you're prepared for every task your day in the New Jersey healthcare system throws at you."
         ]
       },
       {
@@ -419,7 +419,7 @@ export const posts: BlogPost[] = [
         "heading": "Customizing Your Group's Look in Lakewood, NJ",
         "paragraphs": [
           "One of the biggest advantages of partnering with a local expert like The Scrub Boutique ULTD is the level of customization we offer. We don't just provide off-the-shelf solutions; we help you build a signature look. This includes everything from choosing a specific color palette that aligns with your branding to adding custom logo embroidery. For NJ healthcare groups, this personal touch is essential for standing out in a crowded market. Whether it's a sleek logo on a Barco One top or a personalized name on a premium lab coat, we ensure every detail is perfect.",
-          "Our location at 315 NJ-35 in Lakewood serves as the hub for these customizations. Group leaders can visit us to see and feel the fabric options, ensuring the chosen uniforms will meet the comfort demands of their staff. We offer a wide range of sizes, from XXS to 5XL, ensuring that every member of your team has a fit that provides 'confidence they can wear.' By handling the embroidery and personalization locally, we offer faster turnaround times and superior quality control compared to national online vendors."
+          "Our location at 60 Chambersbridge Road, Unit 4 in Lakewood serves as the hub for these customizations. Group leaders can visit us to see and feel the fabric options, ensuring the chosen uniforms will meet the comfort demands of their staff. We offer a wide range of sizes, from XXS to 5XL, ensuring that every member of your team has a fit that provides 'confidence they can wear.' By handling the embroidery and personalization locally, we offer faster turnaround times and superior quality control compared to national online vendors."
         ]
       },
       {
@@ -447,7 +447,7 @@ export const posts: BlogPost[] = [
         "heading": "Why Choose The Scrub Boutique ULTD for Your NJ Group?",
         "paragraphs": [
           "Choosing the right partner for your group uniform program is critical. At The Scrub Boutique ULTD, we pride ourselves on being the premier destination for 'Fashion Meets Medical' in the Tri-State area. Our commitment to expertise, friendly service, and premium products sets us apart. We are a part of the New Jersey healthcare community, and we take personal pride in seeing our local teams looking and feeling their best. From small dental offices in Red Bank to large hospital systems in Ocean County, we provide the same dedicated attention to every group.",
-          "Visit us in Lakewood at 315 NJ-35 to start a conversation about your facility's needs. We'll show you how a professionally managed uniform program can transform your staff's image and improve daily operations. Let us handle the details of your branding and apparel, providing 'confidence you can wear' for your entire team. Join the many Monmouth County facilities that trust The Scrub Boutique ULTD for their professional uniform needs."
+          "Visit us in Lakewood at 60 Chambersbridge Road, Unit 4 to start a conversation about your facility's needs. We'll show you how a professionally managed uniform program can transform your staff's image and improve daily operations. Let us handle the details of your branding and apparel, providing 'confidence you can wear' for your entire team. Join the many Monmouth County facilities that trust The Scrub Boutique ULTD for their professional uniform needs."
         ]
       }
     ],
@@ -536,7 +536,7 @@ export const posts: BlogPost[] = [
       {
         "heading": "The Scrub Boutique ULTD: Your Footwear Experts in NJ",
         "paragraphs": [
-          "Visit us at 315 NJ-35 in Lakewood, NJ, to experience the best selection of nursing footwear in the Tri-State area. We don't just sell shoes; we provide a personalized fitting experience. Our team understands that as a healthcare professional, your time is valuable, and your comfort is paramount. We take the time to listen to your needs—whether you struggle with bunions, flat feet, or simply need more cushion—and guide you to the brands and models that will serve you best. From the Jersey Shore to the heart of Monmouth County, we are the trusted source for medical gear.",
+          "Visit us at 60 Chambersbridge Road, Unit 4 in Lakewood, NJ, to experience the best selection of nursing footwear in the Tri-State area. We don't just sell shoes; we provide a personalized fitting experience. Our team understands that as a healthcare professional, your time is valuable, and your comfort is paramount. We take the time to listen to your needs—whether you struggle with bunions, flat feet, or simply need more cushion—and guide you to the brands and models that will serve you best. From the Jersey Shore to the heart of Monmouth County, we are the trusted source for medical gear.",
           "We also carry the essential accessories to go with your new shoes, including high-performance compression socks that further reduce leg fatigue and swelling. When you shop with The Scrub Boutique ULTD, you're getting an expert partner dedicated to your professional well-being. Come see our 'Fashion Meets Medical' collection and discover why local healthcare heroes choose us for their 12-hour shift essentials. We look forward to helping you find the shoes that will carry you through your next long shift with confidence and style."
         ]
       }
@@ -627,7 +627,7 @@ export const posts: BlogPost[] = [
         "heading": "Confidence You Can Wear: Success Stories from Lakewood",
         "paragraphs": [
           "We have seen firsthand how the right uniform can transform a person's workday. Many of our Monmouth and Ocean County customers come to us after years of settling for ill-fitting, uncomfortable scrubs. Seeing their faces light up when they find a set of Barco or Healing Hands scrubs that actually fits their curves and looks stylish is why we do what we do. Our 'fashion meets medical' philosophy isn't just for a specific size—it's for everyone. We take pride in being the go-to destination for inclusive medical fashion in the Lakewood area.",
-          "When you feel good in what you’re wearing, it shows in your patient care. You're more focused, more energetic, and more confident. The Scrub Boutique ULTD is more than just a store; we are a community dedicated to supporting the healthcare workers who take care of New Jersey. Visit us at 315 NJ-35 to experience our expert service and browse our extensive XXS-5XL collection. Let us help you find the professional wardrobe that provides the comfort and confidence you deserve every single day."
+          "When you feel good in what you’re wearing, it shows in your patient care. You're more focused, more energetic, and more confident. The Scrub Boutique ULTD is more than just a store; we are a community dedicated to supporting the healthcare workers who take care of New Jersey. Visit us at 60 Chambersbridge Road, Unit 4 to experience our expert service and browse our extensive XXS-5XL collection. Let us help you find the professional wardrobe that provides the comfort and confidence you deserve every single day."
         ]
       }
     ],
@@ -638,7 +638,7 @@ export const posts: BlogPost[] = [
       },
       {
         "q": "Do you carry plus-size petite and tall options in New Jersey?",
-        "a": "Yes! The Scrub Boutique ULTD understands that plus-size professionals come in all heights. We stock plus-size scrubs in petite and tall inseams from various top brands at our 315 NJ-35 location, ensuring a perfect fit for every resident of Monmouth and Ocean County."
+        "a": "Yes! The Scrub Boutique ULTD understands that plus-size professionals come in all heights. We stock plus-size scrubs in petite and tall inseams from various top brands at our 60 Chambersbridge Road, Unit 4 location, ensuring a perfect fit for every resident of Monmouth and Ocean County."
       },
       {
         "q": "Are jogger-style scrubs available in larger sizes like 3XL-5XL?",
@@ -689,7 +689,7 @@ export const posts: BlogPost[] = [
         "heading": "Why Local Embroidery Matters in Monmouth County",
         "paragraphs": [
           "Ordering custom uniforms online often leads to disappointment—colors might be off, logos might be crooked, or the turnaround time might take weeks. Choosing a local partner like The Scrub Boutique ULTD in Lakewood, NJ, offers significant advantages. You can see the thread colors in person, feel the quality of the garments, and even try them on before the embroidery process begins. This 'hands-on' approach eliminates guesswork and ensures that the final product perfectly aligns with your vision. Plus, supporting a local business strengthens our community right here in the Jersey Shore area.",
-          "Our location at 315 NJ-35 is conveniently situated for healthcare professionals throughout Monmouth and Ocean Counties. We pride ourselves on offering personalized consultations where we walk you through font choices, logo placement, and sizing. Because we are local, we understand the specific needs of New Jersey medical facilities. We offer faster turnaround times than national retailers and provide a level of customer service that only a boutique can offer. When you work with us, you’re not just an order number; you're a partner in professional excellence."
+          "Our location at 60 Chambersbridge Road, Unit 4 is conveniently situated for healthcare professionals throughout Monmouth and Ocean Counties. We pride ourselves on offering personalized consultations where we walk you through font choices, logo placement, and sizing. Because we are local, we understand the specific needs of New Jersey medical facilities. We offer faster turnaround times than national retailers and provide a level of customer service that only a boutique can offer. When you work with us, you’re not just an order number; you're a partner in professional excellence."
         ]
       },
       {
@@ -732,7 +732,7 @@ export const posts: BlogPost[] = [
       },
       {
         "q": "What is the cost for adding a name and title to a scrub top?",
-        "a": "Pricing for embroidery starts at a very competitive rate for basic text like names and titles. For specific pricing and bulk discounts for NJ medical practices, please contact us or visit The Scrub Boutique ULTD at 315 NJ-35."
+        "a": "Pricing for embroidery starts at a very competitive rate for basic text like names and titles. For specific pricing and bulk discounts for NJ medical practices, please contact us or visit The Scrub Boutique ULTD at 60 Chambersbridge Road, Unit 4."
       },
       {
         "q": "Do you need a special file for my hospital's logo?",
@@ -786,7 +786,7 @@ export const posts: BlogPost[] = [
         "heading": "Longevity and Fabric Integrity",
         "paragraphs": [
           "Beyond hygiene, antimicrobial treatments actually help extend the lifespan of your scrubs. Microorganisms like mold and mildew don't just cause smells—they can over time eat away at the fibers of your clothing. This leads to premature thinning of the fabric, pilling, and loss of structural integrity. By inhibiting these organisms, antimicrobial scrubs maintain their 'like-new' texture and appearance for a significantly longer period. For the budget-conscious Monmouth County professional, this means fewer replacements and a better return on investment.",
-          "At our boutique, located at 315 NJ-35 in Lakewood, we emphasize that quality matters. A premium scrub set from our antimicrobial collection isn't just a purchase; it's an investment in your career. We help New Jersey healthcare workers select pieces that offer high-performance stretch and durability, ensuring that the flattering fit you love on day one remains the same on day one hundred. The Scrub Boutique ULTD is committed to providing uniforms that are as resilient as the people who wear them."
+          "At our boutique, located at 60 Chambersbridge Road, Unit 4 in Lakewood, we emphasize that quality matters. A premium scrub set from our antimicrobial collection isn't just a purchase; it's an investment in your career. We help New Jersey healthcare workers select pieces that offer high-performance stretch and durability, ensuring that the flattering fit you love on day one remains the same on day one hundred. The Scrub Boutique ULTD is committed to providing uniforms that are as resilient as the people who wear them."
         ]
       },
       {
@@ -807,7 +807,7 @@ export const posts: BlogPost[] = [
         "heading": "Care and Maintenance Tips for Technical Fabrics",
         "paragraphs": [
           "To keep your antimicrobial scrubs performing at their peak, proper care is essential. While these fabrics are durable, they benefit from specific laundry practices. We recommend washing them in cool to warm water with a mild detergent. Avoid using fabric softeners or dryer sheets, as these can coat the antimicrobial fibers and reduce their effectiveness over time. If you’re working in a New Jersey clinic with high exposure risks, follow the hospital's protocols for disinfection while keeping these fabric-specific tips in mind to ensure longevity.",
-          "The Scrub Boutique ULTD is more than just a retail store; we are your partners in professional excellence. We provide comprehensive care guides for every brand we carry, from Grey's Anatomy to Wink. By following our expert advice, healthcare workers from Ocean County to Monmouth County can ensure their 'Fashion Meets Medical' wardrobe remains in peak condition. Stop by our 315 NJ-35 location for personalized tips on how to care for your specific uniform needs."
+          "The Scrub Boutique ULTD is more than just a retail store; we are your partners in professional excellence. We provide comprehensive care guides for every brand we carry, from Grey's Anatomy to Wink. By following our expert advice, healthcare workers from Ocean County to Monmouth County can ensure their 'Fashion Meets Medical' wardrobe remains in peak condition. Stop by our 60 Chambersbridge Road, Unit 4 location for personalized tips on how to care for your specific uniform needs."
         ]
       }
     ],

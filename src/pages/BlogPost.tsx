@@ -125,19 +125,19 @@ const BlogPost = () => {
           <section className="mt-16 p-8 md:p-10 rounded-3xl bg-primary text-primary-foreground">
             <h2 className="font-display text-2xl md:text-3xl mb-3">Visit our Lakewood, NJ boutique</h2>
             <p className="opacity-90 mb-6 max-w-xl">
-              Get expert fittings, custom embroidery, and the full Barco Platinum lineup at 315 NJ-35 in Lakewood — proudly serving Monmouth County and the Jersey Shore.
+              Get expert fittings, custom embroidery, and the full Barco Platinum lineup at 60 Chambersbridge Road, Unit 4 in Lakewood — proudly serving Monmouth County and the Jersey Shore.
             </p>
             <div className="flex flex-wrap gap-4 text-sm">
               <a href="tel:866-245-9816" className="inline-flex items-center gap-2 px-5 py-2.5 rounded-full bg-accent text-accent-foreground font-semibold">
                 <Phone className="w-4 h-4" /> 866-245-9816
               </a>
               <a
-                href="https://maps.google.com/?q=315+NJ-35+Lakewood+NJ"
+                href="https://maps.google.com/?q=60+Chambersbridge+Road+Unit+4+Lakewood+NJ"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="inline-flex items-center gap-2 px-5 py-2.5 rounded-full border border-primary-foreground/30 hover:bg-primary-foreground/10 transition-colors"
               >
-                <MapPin className="w-4 h-4" /> 315 NJ-35, Lakewood
+                <MapPin className="w-4 h-4" /> 60 Chambersbridge Road, Lakewood
               </a>
             </div>
           </section>
