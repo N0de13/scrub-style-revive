@@ -23,7 +23,7 @@ const ContactSection = () => {
               icon: MapPin,
               title: "Address",
               lines: ["60 Chambersbridge Road", "Unit 4", "Lakewood, NJ 08701"],
-              href: "https://www.google.com/maps/place/60+Chambersbridge+Road,+Unit+4,+Lakewood,+NJ+08701",
+              href: "https://maps.app.goo.gl/7ZGULnNvccpsntKH9",
             },
             {
               icon: Phone,

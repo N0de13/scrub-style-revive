@@ -132,7 +132,7 @@ const BlogPost = () => {
                 <Phone className="w-4 h-4" /> 866-245-9816
               </a>
               <a
-                href="https://maps.google.com/?q=60+Chambersbridge+Road+Unit+4+Lakewood+NJ"
+                href="https://maps.app.goo.gl/7ZGULnNvccpsntKH9"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="inline-flex items-center gap-2 px-5 py-2.5 rounded-full border border-primary-foreground/30 hover:bg-primary-foreground/10 transition-colors"
