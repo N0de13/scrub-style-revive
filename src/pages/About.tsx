@@ -57,7 +57,7 @@ const About = () => {
     <div className="min-h-screen bg-background">
       <Seo
         title="About The Scrub Boutique ULTD | Family-Owned Scrub Store in Lakewood, NJ"
-        description="Meet Pietro & Mary Gallotta — the family behind New Jersey's premier scrub & uniform boutique in Lakewood, NJ. Barco Platinum Retailer serving the Tri-State since 2021."
+        description="Meet Pietro Gallota — the family behind New Jersey's premier scrub & uniform boutique in Lakewood, NJ. Barco Platinum Retailer serving the Tri-State since 2021."
         canonicalPath="/about"
         keywords={[
           "about The Scrub Boutique",
@@ -119,7 +119,7 @@ const About = () => {
             >
               <img
                 src={ownersImg.url}
-                alt="Pietro and Mary Gallotta, owners of The Scrub Boutique ULTD"
+                alt="Pietro Gallota, owner of The Scrub Boutique ULTD"
                 className="rounded-2xl shadow-2xl w-full object-cover aspect-[4/5]"
                 loading="lazy"
               />
@@ -141,7 +141,7 @@ const About = () => {
                 The Scrub Boutique ULTD is a family-owned retail business located in Lakewood, New Jersey. We provide our customers with the best uniforms—from medical scrubs, chef wear, and corporate apparel to professional shoes, industrial work wear, public safety uniforms, hi-visibility safety gear, accessories and much more.
               </p>
               <p className="text-muted-foreground leading-relaxed mb-6">
-                Owners <span className="font-semibold text-foreground">Pietro and Mary Gallotta</span> are passionate about providing attentive customer service and a superb shopping experience for every customer who shops with us. Together, this husband-and-wife team has grown the company across New Jersey and the Tri-State area.
+                Owner <span className="font-semibold text-foreground">Pietro Gallota</span> is passionate about providing attentive customer service and a superb shopping experience for every customer who shops with us. He has grown the company across New Jersey and the Tri-State area.
               </p>
               <div className="grid grid-cols-3 gap-4 pt-4 border-t border-border">
                 <div>
