@@ -3,6 +3,7 @@ import { motion } from "framer-motion";
 import { ArrowLeft, Phone, MapPin } from "lucide-react";
 import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
+import Breadcrumbs from "@/components/Breadcrumbs";
 import { Seo, buildBreadcrumbLd, buildSpeakableLd, siteUrl } from "@/components/Seo";
 import { posts } from "@/data/blog";
 
@@ -63,6 +64,12 @@ const BlogPost = () => {
         jsonLd={[articleLd, faqLd, breadcrumbLd, speakableLd]}
       />
       <Navbar />
+      <Breadcrumbs
+        items={[
+          { name: "Journal", path: "/blog" },
+          { name: post.title },
+        ]}
+      />
 
       <article>
         <div className="container max-w-4xl pt-12 pb-8">

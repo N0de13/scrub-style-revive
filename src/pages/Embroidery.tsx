@@ -2,6 +2,7 @@ import { motion } from "framer-motion";
 import { Sparkles, Layers, Building2, Shield, Shirt, ArrowRight, Check } from "lucide-react";
 import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
+import Breadcrumbs from "@/components/Breadcrumbs";
 import capImg from "@/assets/embroidery-cap.jpg";
 import machineImg from "@/assets/embroidery-machine.jpg";
 import multiheadImg from "@/assets/embroidery-multihead.jpg";
@@ -83,6 +84,7 @@ const Embroidery = () => {
         ]}
       />
       <Navbar />
+      <Breadcrumbs items={[{ name: "Embroidery" }]} />
 
       {/* Hero */}
       <section className="relative pt-20 pb-20 md:pt-28 md:pb-32 bg-primary overflow-hidden">

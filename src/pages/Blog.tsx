@@ -2,6 +2,7 @@ import { Link } from "react-router-dom";
 import { motion } from "framer-motion";
 import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
+import Breadcrumbs from "@/components/Breadcrumbs";
 import { Seo, buildBreadcrumbLd, buildSpeakableLd, siteUrl } from "@/components/Seo";
 import { posts } from "@/data/blog";
 
@@ -40,6 +41,7 @@ const Blog = () => {
         ]}
       />
       <Navbar />
+      <Breadcrumbs items={[{ name: "Journal" }]} />
       <header className="bg-secondary/30 border-b border-border">
         <div className="container py-16 md:py-24 text-center">
           <p className="text-sm uppercase tracking-[0.2em] text-primary mb-3">The Journal</p>

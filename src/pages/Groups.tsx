@@ -2,6 +2,7 @@ import { motion } from "framer-motion";
 import { Tag, Sparkles, Headphones, Shirt, Store, ArrowRight, Check, Phone, Mail } from "lucide-react";
 import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
+import Breadcrumbs from "@/components/Breadcrumbs";
 import groupsHero from "@/assets/groups-hero.png";
 import teamImg from "@/assets/groups-team.jpg";
 import {
@@ -91,6 +92,7 @@ const Groups = () => {
         ]}
       />
       <Navbar />
+      <Breadcrumbs items={[{ name: "Groups" }]} />
 
       {/* Hero */}
       <section className="relative pt-20 pb-20 md:pt-28 md:pb-32 bg-primary overflow-hidden">

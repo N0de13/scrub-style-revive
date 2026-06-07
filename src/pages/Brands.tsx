@@ -3,6 +3,7 @@ import { motion } from "framer-motion";
 import { ArrowRight } from "lucide-react";
 import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
+import Breadcrumbs from "@/components/Breadcrumbs";
 import { Seo, localBusinessJsonLd, buildBreadcrumbLd, buildSpeakableLd, siteUrl } from "@/components/Seo";
 import { brands } from "@/data/brands";
 
@@ -51,6 +52,7 @@ const Brands = () => {
         jsonLd={[localBusinessJsonLd, itemListJsonLd, breadcrumbLd, speakableLd]}
       />
       <Navbar />
+      <Breadcrumbs items={[{ name: "Brands" }]} />
 
       {/* Hero */}
       <section className="relative pt-20 pb-16 md:pt-28 md:pb-24 bg-primary overflow-hidden">
