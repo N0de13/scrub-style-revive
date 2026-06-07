@@ -22,8 +22,8 @@ const ContactSection = () => {
             {
               icon: MapPin,
               title: "Address",
-              lines: ["315 NJ-35 Store #3", "Lakewood, NJ 07724"],
-              href: "https://www.google.com/maps/place/315+NJ-35,+Lakewood,+NJ+07724",
+              lines: ["60 Chambersbridge Road", "Unit 4", "Lakewood, NJ 08701"],
+              href: "https://www.google.com/maps/place/60+Chambersbridge+Road,+Unit+4,+Lakewood,+NJ+08701",
             },
             {
               icon: Phone,
