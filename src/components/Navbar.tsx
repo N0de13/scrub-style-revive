@@ -42,7 +42,7 @@ const Navbar = () => {
             </a>
             <span className="hidden sm:flex items-center gap-1.5">
               <MapPin className="w-3.5 h-3.5" />
-              315 NJ-35 Store #3, Lakewood, NJ 07724
+              60 Chambersbridge Road, Unit 4, Lakewood, NJ 08701
             </span>
           </div>
           <div className="flex items-center gap-3">
