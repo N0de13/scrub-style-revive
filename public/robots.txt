@@ -22,4 +22,4 @@ Allow: /
 User-agent: *
 Allow: /
 
-Sitemap: https://scrubs.therealsocialcompany.com/sitemap.xml
+Sitemap: https://thescrubboutiqueultd.com/sitemap.xml
