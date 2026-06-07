@@ -1,10 +1,11 @@
 import logo from "@/assets/logo.jpg";
+import familyPhoto from "@/assets/tsb-family.jpg.asset.json";
 
 const Footer = () => {
   return (
     <footer className="bg-foreground py-12">
       <div className="container">
-        <div className="grid md:grid-cols-3 gap-8 mb-8">
+        <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-8 mb-8">
           <div>
             <div className="inline-block bg-background rounded-xl p-3 mb-4">
               <img
@@ -24,8 +25,19 @@ const Footer = () => {
               <a href="#embroidery" className="text-background/60 text-sm hover:text-background transition-colors">Embroidery</a>
               <a href="#groups" className="text-background/60 text-sm hover:text-background transition-colors">Group Orders</a>
               <a href="#contact" className="text-background/60 text-sm hover:text-background transition-colors">Contact Us</a>
+          </div>
+          <div>
+            <h4 className="font-semibold text-background mb-3 text-sm uppercase tracking-wider">Family Owned &amp; Operated</h4>
+            <div className="overflow-hidden rounded-xl">
+              <img
+                src={familyPhoto.url}
+                alt="The Scrub Boutique ULTD — family owned and operated"
+                className="w-full h-40 object-cover"
+                loading="lazy"
+              />
             </div>
           </div>
+        </div>
           <div>
             <h4 className="font-semibold text-background mb-3 text-sm uppercase tracking-wider">Follow Us</h4>
             <div className="flex flex-col gap-2">
