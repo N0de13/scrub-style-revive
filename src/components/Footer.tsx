@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 import familyPhoto from "@/assets/tsb-family.jpg.asset.json";
 
 const Footer = () => {
@@ -23,9 +24,12 @@ const Footer = () => {
             <h4 className="font-semibold text-background mb-3 text-sm uppercase tracking-wider">Quick Links</h4>
             <div className="flex flex-col gap-2">
               <a href="https://shop.thescrubboutiqueultd.com/" target="_blank" rel="noopener noreferrer" className="text-background/60 text-sm hover:text-background transition-colors">Shop Online</a>
-              <a href="#embroidery" className="text-background/60 text-sm hover:text-background transition-colors">Embroidery</a>
-              <a href="#groups" className="text-background/60 text-sm hover:text-background transition-colors">Group Orders</a>
-              <a href="#contact" className="text-background/60 text-sm hover:text-background transition-colors">Contact Us</a>
+              <Link to="/about" className="text-background/60 text-sm hover:text-background transition-colors">About Us</Link>
+              <Link to="/brands" className="text-background/60 text-sm hover:text-background transition-colors">Shop Brands</Link>
+              <Link to="/embroidery" className="text-background/60 text-sm hover:text-background transition-colors">Custom Embroidery</Link>
+              <Link to="/groups" className="text-background/60 text-sm hover:text-background transition-colors">Group Orders</Link>
+              <Link to="/blog" className="text-background/60 text-sm hover:text-background transition-colors">Blog</Link>
+              <a href="/#contact" className="text-background/60 text-sm hover:text-background transition-colors">Contact Us</a>
             </div>
           </div>
           <div>

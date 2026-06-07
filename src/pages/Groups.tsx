@@ -3,6 +3,7 @@ import { Tag, Sparkles, Headphones, Shirt, Store, ArrowRight, Check, Phone, Mail
 import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
 import Breadcrumbs from "@/components/Breadcrumbs";
+import RelatedLinks from "@/components/RelatedLinks";
 import groupsHero from "@/assets/groups-hero.png";
 import teamImg from "@/assets/groups-team.jpg";
 import {
@@ -326,6 +327,7 @@ const Groups = () => {
         </div>
       </section>
 
+      <RelatedLinks exclude={["groups"]} />
       <Footer />
     </div>
   );

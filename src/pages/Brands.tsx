@@ -4,6 +4,7 @@ import { ArrowRight } from "lucide-react";
 import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
 import Breadcrumbs from "@/components/Breadcrumbs";
+import RelatedLinks from "@/components/RelatedLinks";
 import { Seo, localBusinessJsonLd, buildBreadcrumbLd, buildSpeakableLd, siteUrl } from "@/components/Seo";
 import { brands } from "@/data/brands";
 
@@ -127,6 +128,7 @@ const Brands = () => {
         </section>
       ))}
 
+      <RelatedLinks exclude={["brands"]} />
       <Footer />
     </div>
   );
