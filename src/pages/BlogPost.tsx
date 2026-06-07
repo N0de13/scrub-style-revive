@@ -3,10 +3,10 @@ import { motion } from "framer-motion";
 import { ArrowLeft, Phone, MapPin } from "lucide-react";
 import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
-import { Seo } from "@/components/Seo";
+import { Seo, buildBreadcrumbLd, buildSpeakableLd, siteUrl } from "@/components/Seo";
 import { posts } from "@/data/blog";
 
-const SITE = "https://scrubs.therealsocialcompany.com";
+const SITE = siteUrl;
 
 const BlogPost = () => {
   const { slug } = useParams<{ slug: string }>();
@@ -44,15 +44,13 @@ const BlogPost = () => {
     })),
   };
 
-  const breadcrumbLd = {
-    "@context": "https://schema.org",
-    "@type": "BreadcrumbList",
-    itemListElement: [
-      { "@type": "ListItem", position: 1, name: "Home", item: SITE },
-      { "@type": "ListItem", position: 2, name: "Journal", item: `${SITE}/blog` },
-      { "@type": "ListItem", position: 3, name: post.title, item: url },
-    ],
-  };
+  const breadcrumbLd = buildBreadcrumbLd([
+    { name: "Home", path: "/" },
+    { name: "Journal", path: "/blog" },
+    { name: post.title, path: `/blog/${post.slug}` },
+  ]);
+
+  const speakableLd = buildSpeakableLd(url, ["h1", "h2", "p"]);
 
   return (
     <div className="min-h-screen">
@@ -62,7 +60,7 @@ const BlogPost = () => {
         canonicalPath={`/blog/${post.slug}`}
         keywords={[...post.shortKeywords, ...post.longKeywords]}
         image={`${SITE}${post.image}`}
-        jsonLd={[articleLd, faqLd, breadcrumbLd]}
+        jsonLd={[articleLd, faqLd, breadcrumbLd, speakableLd]}
       />
       <Navbar />
 

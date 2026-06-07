@@ -4,6 +4,25 @@ import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
 import groupsHero from "@/assets/groups-hero.png";
 import teamImg from "@/assets/groups-team.jpg";
+import {
+  Seo,
+  localBusinessJsonLd,
+  buildBreadcrumbLd,
+  buildSpeakableLd,
+  siteUrl,
+} from "@/components/Seo";
+
+const groupsServiceLd = {
+  "@context": "https://schema.org",
+  "@type": "Service",
+  serviceType: "Group Uniform Program",
+  name: "Hospital & Group Uniform Programs",
+  provider: { "@id": `${siteUrl}/#store` },
+  areaServed: ["Lakewood NJ", "Monmouth County", "Ocean County", "New Jersey", "Tri-State Area"],
+  url: `${siteUrl}/groups`,
+  description:
+    "Bulk pricing, embroidery, and dress-code standardization for hospitals, medical offices, schools, veterinary clinics, chef teams, and first responder units across New Jersey.",
+};
 
 const features = [
   {
@@ -47,6 +66,30 @@ const idealFor = [
 const Groups = () => {
   return (
     <div className="min-h-screen bg-background">
+      <Seo
+        title="Hospital & Group Uniform Programs in NJ | The Scrub Boutique ULTD"
+        description="Group discounts, custom embroidery & white-glove uniform programs for NJ hospitals, medical offices, schools & first responders. Serving RWJBarnabas, Hackensack Meridian & Atlantic Health."
+        canonicalPath="/groups"
+        keywords={[
+          "hospital uniform program NJ",
+          "group scrubs discount New Jersey",
+          "bulk scrub orders Lakewood",
+          "RWJBarnabas scrubs discount",
+          "Hackensack Meridian uniforms",
+          "Atlantic Health scrubs",
+          "medical office uniforms Monmouth County",
+          "nursing school scrubs NJ",
+        ]}
+        jsonLd={[
+          localBusinessJsonLd,
+          groupsServiceLd,
+          buildBreadcrumbLd([
+            { name: "Home", path: "/" },
+            { name: "Groups", path: "/groups" },
+          ]),
+          buildSpeakableLd(`${siteUrl}/groups`, ["h1", "h2", "p"]),
+        ]}
+      />
       <Navbar />
 
       {/* Hero */}

@@ -3,7 +3,7 @@ import { motion } from "framer-motion";
 import { Check, ArrowRight, Phone, MapPin, Sparkles } from "lucide-react";
 import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
-import { Seo, localBusinessJsonLd } from "@/components/Seo";
+import { Seo, localBusinessJsonLd, buildBreadcrumbLd, buildSpeakableLd, siteUrl } from "@/components/Seo";
 import { brands, getBrand } from "@/data/brands";
 import barcoBadge from "@/assets/barco-platinum-badge.png";
 
@@ -23,15 +23,13 @@ const BrandPage = () => {
     })),
   };
 
-  const breadcrumbJsonLd = {
-    "@context": "https://schema.org",
-    "@type": "BreadcrumbList",
-    itemListElement: [
-      { "@type": "ListItem", position: 1, name: "Home", item: "https://thescrubboutiqueultd.lovable.app/" },
-      { "@type": "ListItem", position: 2, name: "Brands", item: "https://thescrubboutiqueultd.lovable.app/brands" },
-      { "@type": "ListItem", position: 3, name: brand.name },
-    ],
-  };
+  const breadcrumbJsonLd = buildBreadcrumbLd([
+    { name: "Home", path: "/" },
+    { name: "Brands", path: "/brands" },
+    { name: brand.name, path: `/brands/${brand.slug}` },
+  ]);
+
+  const speakableLd = buildSpeakableLd(`${siteUrl}/brands/${brand.slug}`, ["h1", "h2", "p"]);
 
   const productJsonLd = {
     "@context": "https://schema.org",
@@ -56,7 +54,7 @@ const BrandPage = () => {
         description={brand.seoDescription}
         canonicalPath={`/brands/${brand.slug}`}
         keywords={brand.keywords}
-        jsonLd={[localBusinessJsonLd, productJsonLd, faqJsonLd, breadcrumbJsonLd]}
+        jsonLd={[localBusinessJsonLd, productJsonLd, faqJsonLd, breadcrumbJsonLd, speakableLd]}
       />
       <Navbar />
 
