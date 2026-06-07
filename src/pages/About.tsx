@@ -2,7 +2,7 @@ import { motion } from "framer-motion";
 import { Heart, Shield, Award, Users, Briefcase, ArrowRight } from "lucide-react";
 import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
-import ownersImg from "@/assets/about-owners.jpg";
+import ownersImg from "@/assets/about-owners.jpg.asset.json";
 import teamImg from "@/assets/about-team.jpg";
 import storeImg from "@/assets/store.jpg";
 
@@ -76,7 +76,7 @@ const About = () => {
               viewport={{ once: true }}
             >
               <img
-                src={ownersImg}
+                src={ownersImg.url}
                 alt="Pietro and Mary Gallotta, owners of The Scrub Boutique ULTD"
                 className="rounded-2xl shadow-2xl w-full object-cover aspect-[4/5]"
                 loading="lazy"
