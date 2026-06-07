@@ -11,7 +11,7 @@ const Footer = () => {
               <img
                 src={familyPhoto.url}
                 alt="The Scrub Boutique ULTD — family owned and operated"
-                className="w-full h-40 object-cover"
+                className="w-full h-40 object-cover object-top"
                 loading="lazy"
               />
             </div>
