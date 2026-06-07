@@ -75,7 +75,7 @@ const Groups = () => {
               <span className="italic text-teal-light">Save together.</span>
             </h1>
             <p className="text-lg md:text-xl text-primary-foreground/85 mb-8 max-w-2xl font-light leading-relaxed">
-              Group discounts and full-service uniform programs for medical offices, hospitals, schools, and organizations near Eatontown, New Jersey.
+              Group discounts and full-service uniform programs for medical offices, hospitals, schools, and organizations near Lakewood, New Jersey.
             </p>
             <div className="flex flex-wrap gap-4">
               <a

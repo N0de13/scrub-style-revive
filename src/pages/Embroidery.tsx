@@ -344,7 +344,7 @@ const Embroidery = () => {
             Ready to put your logo on it?
           </h2>
           <p className="text-accent-foreground/80 mb-6 max-w-xl mx-auto">
-            Visit our Eatontown store or send us your artwork to get a free quote on your custom embroidery project.
+            Visit our Lakewood store or send us your artwork to get a free quote on your custom embroidery project.
           </p>
           <div className="flex flex-wrap gap-4 justify-center">
             <a

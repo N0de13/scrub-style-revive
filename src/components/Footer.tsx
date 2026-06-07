@@ -30,7 +30,7 @@ const Footer = () => {
             <h4 className="font-semibold text-background mb-3 text-sm uppercase tracking-wider">Follow Us</h4>
             <div className="flex flex-col gap-2">
               <a href="https://www.facebook.com/TheScrubBoutiqueUltd" target="_blank" rel="noopener noreferrer" className="text-background/60 text-sm hover:text-background transition-colors">Facebook</a>
-              <a href="https://www.instagram.com/thescrubboutiqueeatontown/" target="_blank" rel="noopener noreferrer" className="text-background/60 text-sm hover:text-background transition-colors">Instagram</a>
+              <a href="https://www.instagram.com/thescrubboutiquelakewood/" target="_blank" rel="noopener noreferrer" className="text-background/60 text-sm hover:text-background transition-colors">Instagram</a>
               <a href="https://www.tiktok.com/@thescrubboutique" target="_blank" rel="noopener noreferrer" className="text-background/60 text-sm hover:text-background transition-colors">TikTok</a>
               <a href="https://www.linkedin.com/company/the-scrub-boutique" target="_blank" rel="noopener noreferrer" className="text-background/60 text-sm hover:text-background transition-colors">LinkedIn</a>
             </div>

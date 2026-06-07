@@ -29,7 +29,7 @@ const AboutSection = () => {
               <span className="italic text-secondary">Scrub Boutique</span>
             </h2>
             <p className="text-muted-foreground leading-relaxed mb-4">
-              Located in Eatontown, NJ, The Scrub Boutique ULTD offers a wide range of sizes from XXS to 5XL. Our selection includes top brands such as Barco, Zavate, Medi Chic, Landau, White Cross, Nurse Mates, First Tactical, and Sanmar.
+              Located in Lakewood, NJ, The Scrub Boutique ULTD offers a wide range of sizes from XXS to 5XL. Our selection includes top brands such as Barco, Zavate, Medi Chic, Landau, White Cross, Nurse Mates, First Tactical, and Sanmar.
             </p>
             <p className="text-muted-foreground leading-relaxed mb-6">
               As a Barco Uniforms Platinum Retailer, we offer the best possible prices with the newest styles and fashions. We understand comfort, durability, and style matter in your workwear.

@@ -22,8 +22,8 @@ const ContactSection = () => {
             {
               icon: MapPin,
               title: "Address",
-              lines: ["315 NJ-35 Store #3", "Eatontown, NJ 07724"],
-              href: "https://www.google.com/maps/place/315+NJ-35,+Eatontown,+NJ+07724",
+              lines: ["315 NJ-35 Store #3", "Lakewood, NJ 07724"],
+              href: "https://www.google.com/maps/place/315+NJ-35,+Lakewood,+NJ+07724",
             },
             {
               icon: Phone,

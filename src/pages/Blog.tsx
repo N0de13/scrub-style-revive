@@ -26,10 +26,10 @@ const Blog = () => {
   return (
     <div className="min-h-screen">
       <Seo
-        title="Medical Uniform Journal | The Scrub Boutique ULTD, Eatontown NJ"
-        description="Expert guides on scrubs, nursing footwear, embroidery and uniforms from New Jersey's premier medical boutique in Eatontown, NJ."
+        title="Medical Uniform Journal | The Scrub Boutique ULTD, Lakewood NJ"
+        description="Expert guides on scrubs, nursing footwear, embroidery and uniforms from New Jersey's premier medical boutique in Lakewood, NJ."
         canonicalPath="/blog"
-        keywords={["scrubs blog", "nursing tips New Jersey", "medical uniforms Eatontown", "scrub care", "nurse accessories NJ"]}
+        keywords={["scrubs blog", "nursing tips New Jersey", "medical uniforms Lakewood", "scrub care", "nurse accessories NJ"]}
         jsonLd={itemListLd}
       />
       <Navbar />
