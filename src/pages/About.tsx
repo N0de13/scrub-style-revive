@@ -76,7 +76,7 @@ const About = () => {
               viewport={{ once: true }}
             >
               <img
-                src={ownersImg}
+                src={ownersImg.url}
                 alt="Pietro and Mary Gallotta, owners of The Scrub Boutique ULTD"
                 className="rounded-2xl shadow-2xl w-full object-cover aspect-[4/5]"
                 loading="lazy"
