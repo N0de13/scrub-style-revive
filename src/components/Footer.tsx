@@ -48,6 +48,12 @@ const Footer = () => {
         </div>
         <div className="border-t border-background/10 pt-8 text-center">
           <p className="text-background/40 text-sm">© 2026 The Scrub Boutique ULTD — Monmouth County, New Jersey</p>
+          <p className="text-green-400 text-sm mt-1">
+            Managed By The Real Social{" "}
+            <a href="https://therealsocialcompany.com" target="_blank" rel="noopener noreferrer" className="underline hover:text-green-300 transition-colors">
+              therealsocialcompany.com
+            </a>
+          </p>
         </div>
       </div>
     </footer>
