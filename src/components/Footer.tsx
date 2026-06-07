@@ -1,10 +1,11 @@
 import logo from "@/assets/logo.jpg";
+import familyPhoto from "@/assets/tsb-family.jpg.asset.json";
 
 const Footer = () => {
   return (
     <footer className="bg-foreground py-12">
       <div className="container">
-        <div className="grid md:grid-cols-3 gap-8 mb-8">
+        <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-8 mb-8">
           <div>
             <div className="inline-block bg-background rounded-xl p-3 mb-4">
               <img
