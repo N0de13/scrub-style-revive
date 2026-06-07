@@ -3,6 +3,7 @@ import { motion } from "framer-motion";
 import { Check, ArrowRight, Phone, MapPin, Sparkles } from "lucide-react";
 import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
+import Breadcrumbs from "@/components/Breadcrumbs";
 import { Seo, localBusinessJsonLd, buildBreadcrumbLd, buildSpeakableLd, siteUrl } from "@/components/Seo";
 import { brands, getBrand } from "@/data/brands";
 import barcoBadge from "@/assets/barco-platinum-badge.png";
@@ -57,6 +58,12 @@ const BrandPage = () => {
         jsonLd={[localBusinessJsonLd, productJsonLd, faqJsonLd, breadcrumbJsonLd, speakableLd]}
       />
       <Navbar />
+      <Breadcrumbs
+        items={[
+          { name: "Brands", path: "/brands" },
+          { name: brand.name },
+        ]}
+      />
 
       {/* Hero */}
       <section className="relative pt-20 pb-16 md:pt-28 md:pb-24 bg-primary overflow-hidden">
@@ -65,13 +72,7 @@ const BrandPage = () => {
           <div className="absolute bottom-0 -right-20 w-96 h-96 rounded-full bg-accent blur-3xl" />
         </div>
         <div className="container relative z-10">
-          <nav className="text-primary-foreground/60 text-xs uppercase tracking-[0.2em] mb-6 flex gap-2">
-            <Link to="/" className="hover:text-teal-light">Home</Link>
-            <span>/</span>
-            <Link to="/brands" className="hover:text-teal-light">Brands</Link>
-            <span>/</span>
-            <span className="text-primary-foreground">{brand.name}</span>
-          </nav>
+
 
           <div className="grid lg:grid-cols-[1fr_auto] gap-10 items-center">
             <motion.div
