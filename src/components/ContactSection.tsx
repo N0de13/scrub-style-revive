@@ -1,5 +1,5 @@
 import { motion } from "framer-motion";
-import { Phone, Mail, MapPin, Clock } from "lucide-react";
+import { Phone, Mail, MapPin, Clock, MessageSquare } from "lucide-react";
 
 const ContactSection = () => {
   return (
@@ -17,7 +17,7 @@ const ContactSection = () => {
           </h2>
         </motion.div>
 
-        <div className="grid sm:grid-cols-2 lg:grid-cols-4 gap-6">
+        <div className="grid sm:grid-cols-2 lg:grid-cols-5 gap-6">
           {[
             {
               icon: MapPin,
@@ -42,6 +42,12 @@ const ContactSection = () => {
               title: "Visit Us",
               lines: ["Mon–Sat: 10am–6pm", "Sunday: Closed"],
               href: undefined,
+            },
+            {
+              icon: MessageSquare,
+              title: "Sign Up For SMS",
+              lines: ["Get deals & updates"],
+              href: "https://lp.constantcontactpages.com/sl/wKsaPu3",
             },
           ].map((item, i) => (
             <motion.a
