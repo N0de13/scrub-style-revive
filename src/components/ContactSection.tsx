@@ -43,6 +43,12 @@ const ContactSection = () => {
               lines: ["Mon–Sat: 10am–6pm", "Sunday: Closed"],
               href: undefined,
             },
+            {
+              icon: MessageSquare,
+              title: "Sign Up For SMS",
+              lines: ["Get deals & updates"],
+              href: "https://lp.constantcontactpages.com/sl/wKsaPu3",
+            },
           ].map((item, i) => (
             <motion.a
               key={item.title}
