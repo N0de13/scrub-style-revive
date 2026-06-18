@@ -88,6 +88,25 @@ const ContactSection = () => {
             title="The Scrub Boutique Location"
           />
         </motion.div>
+
+        <motion.div
+          initial={{ opacity: 0, y: 20 }}
+          whileInView={{ opacity: 1, y: 0 }}
+          viewport={{ once: true }}
+          transition={{ delay: 0.5 }}
+          className="mt-16 rounded-2xl overflow-hidden border border-primary-foreground/10 bg-white p-4"
+        >
+          <iframe
+            id="iframe"
+            name="iframe"
+            src="https://www.visualbadge.com/BuildBadge_Type.aspx?aff=C129"
+            style={{ border: 0 }}
+            scrolling="auto"
+            height="1580"
+            width="100%"
+            title="Build Your Custom Badge"
+          />
+        </motion.div>
       </div>
     </section>
   );
