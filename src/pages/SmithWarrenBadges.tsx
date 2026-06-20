@@ -133,7 +133,7 @@ const SmithWarrenBadges = () => {
         </div>
       </section>
 
-      <RelatedLinks currentPath="/smith-warren-badges" />
+      <RelatedLinks />
       <Footer />
     </div>
   );
