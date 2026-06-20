@@ -14,6 +14,7 @@ import BlogPost from "./pages/BlogPost";
 import NotFound from "./pages/NotFound";
 import ScrollToTop from "./components/ScrollToTop";
 import SmsPopup from "./components/SmsPopup";
+import SmithWarrenBadges from "./pages/SmithWarrenBadges";
 
 const queryClient = new QueryClient();
 
