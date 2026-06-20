@@ -22,6 +22,7 @@ const navLinks: NavItem[] = [
   },
   { label: "Embroidery", href: "/embroidery" },
   { label: "Groups", href: "/groups" },
+  { label: "Badges", href: "/smith-warren-badges" },
   { label: "Blog", href: "/blog" },
   { label: "Contact", href: "/#contact" },
 ];
