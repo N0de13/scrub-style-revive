@@ -17,6 +17,7 @@ const navLinks: NavItem[] = [
     href: "/brands",
     children: [
       { label: "All Brands", href: "/brands" },
+      { label: "Smith & Warren Badges", href: "/smith-warren-badges" },
       ...brands.map((b) => ({ label: b.name, href: `/brands/${b.slug}` })),
     ],
   },
