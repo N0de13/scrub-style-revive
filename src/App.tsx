@@ -15,6 +15,7 @@ import NotFound from "./pages/NotFound";
 import ScrollToTop from "./components/ScrollToTop";
 import SmsPopup from "./components/SmsPopup";
 import SmithWarrenBadges from "./pages/SmithWarrenBadges";
+import NewCustomerDiscount from "./pages/NewCustomerDiscount";
 
 const queryClient = new QueryClient();
 
@@ -36,6 +37,7 @@ const App = () => (
           <Route path="/blog" element={<Blog />} />
           <Route path="/blog/:slug" element={<BlogPost />} />
           <Route path="/smith-warren-badges" element={<SmithWarrenBadges />} />
+          <Route path="/new-customer-discount" element={<NewCustomerDiscount />} />
           {/* ADD ALL CUSTOM ROUTES ABOVE THE CATCH-ALL "*" ROUTE */}
           <Route path="*" element={<NotFound />} />
         </Routes>
