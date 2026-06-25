@@ -33,19 +33,19 @@ const SmsPopup = () => {
       onClick={close}
     >
       <div
-        className="relative w-full max-w-lg rounded-3xl bg-card text-card-foreground shadow-2xl overflow-hidden animate-scale-in border border-border"
+        className="relative w-full max-w-lg rounded-3xl bg-slate-900 text-slate-100 shadow-2xl overflow-hidden animate-scale-in border border-slate-800"
         onClick={(e) => e.stopPropagation()}
       >
         <button
           onClick={close}
           aria-label="Close"
-          className="absolute right-3 top-3 z-10 rounded-full bg-background/80 hover:bg-background p-2 text-foreground transition-colors"
+          className="absolute right-3 top-3 z-10 rounded-full bg-slate-800/80 hover:bg-slate-800 p-2 text-slate-300 hover:text-white transition-colors"
         >
           <X className="h-4 w-4" />
         </button>
 
         <div className="grid grid-cols-1 sm:grid-cols-5">
-          <div className="sm:col-span-2 bg-gradient-to-br from-primary/15 via-accent/15 to-secondary/20 flex items-end justify-center p-4 sm:p-2">
+          <div className="sm:col-span-2 bg-gradient-to-br from-slate-950/40 via-primary/20 to-accent/20 flex items-end justify-center p-4 sm:p-2">
             <img
               src={nurseImg}
               alt="Cartoon nurse holding a phone"
@@ -57,17 +57,17 @@ const SmsPopup = () => {
           </div>
 
           <div className="sm:col-span-3 p-6 sm:p-8 flex flex-col gap-4">
-            <span className="inline-flex items-center gap-1.5 self-start rounded-full bg-accent/20 text-accent-foreground px-3 py-1 text-xs font-medium uppercase tracking-wider">
+            <span className="inline-flex items-center gap-1.5 self-start rounded-full bg-accent/30 text-white px-3 py-1 text-xs font-medium uppercase tracking-wider">
               <MessageSquare className="h-3.5 w-3.5" />
               Email & SMS List
             </span>
             <h2
               id="sms-popup-title"
-              className="font-serif text-3xl sm:text-4xl leading-tight text-foreground"
+              className="font-serif text-3xl sm:text-4xl leading-tight text-white"
             >
-              Pssst… get the <em className="text-primary not-italic">good stuff</em> first.
+              Pssst… get the <em className="text-teal-light not-italic">good stuff</em> first.
             </h2>
-            <p className="text-sm text-muted-foreground">
+            <p className="text-sm text-slate-300">
               Join our email and SMS list for early access to new scrub drops, embroidery
               specials, and Lakewood-only perks.
             </p>
@@ -77,14 +77,14 @@ const SmsPopup = () => {
                 target="_blank"
                 rel="noopener noreferrer"
                 onClick={close}
-                className="inline-flex items-center justify-center gap-2 rounded-full bg-primary text-primary-foreground px-6 py-3 font-medium hover:opacity-90 transition-opacity"
+                className="inline-flex items-center justify-center gap-2 rounded-full bg-primary text-primary-foreground px-6 py-3 font-medium hover:bg-primary/90 transition-colors"
               >
                 <MessageSquare className="h-4 w-4" />
                 Join Our Email and SMS List
               </a>
               <button
                 onClick={close}
-                className="text-xs text-muted-foreground hover:text-foreground transition-colors"
+                className="text-xs text-slate-400 hover:text-white transition-colors"
               >
                 No thanks, maybe later
               </button>
