@@ -28,6 +28,7 @@ const App = () => (
       <BrowserRouter>
         <ScrollToTop />
         <SmsPopup />
+        <EmailPopup />
         <Routes>
           <Route path="/" element={<Index />} />
           <Route path="/about" element={<About />} />
