@@ -80,10 +80,13 @@ const EmailPopup = () => {
             </p>
             <button
               onClick={copyCode}
-              className="mt-2 text-xs text-teal-light hover:underline"
+              className="mt-2 text-xs text-teal-light hover:underline block mx-auto"
             >
               {copied ? "Copied!" : "Tap to copy"}
             </button>
+            <p className="mt-2.5 text-[11px] text-slate-400 italic">
+              *Excludes accessories, shoes, and sale items.
+            </p>
           </div>
 
           <Link
