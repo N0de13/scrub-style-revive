@@ -59,7 +59,7 @@ const SmsPopup = () => {
           <div className="sm:col-span-3 p-6 sm:p-8 flex flex-col gap-4">
             <span className="inline-flex items-center gap-1.5 self-start rounded-full bg-accent/20 text-accent-foreground px-3 py-1 text-xs font-medium uppercase tracking-wider">
               <MessageSquare className="h-3.5 w-3.5" />
-              VIP Texts
+              Email & SMS List
             </span>
             <h2
               id="sms-popup-title"
@@ -68,7 +68,7 @@ const SmsPopup = () => {
               Pssst… get the <em className="text-primary not-italic">good stuff</em> first.
             </h2>
             <p className="text-sm text-muted-foreground">
-              Join our SMS list for early access to new scrub drops, embroidery
+              Join our email and SMS list for early access to new scrub drops, embroidery
               specials, and Lakewood-only perks.
             </p>
             <div className="flex flex-col gap-2 pt-1">
@@ -80,7 +80,7 @@ const SmsPopup = () => {
                 className="inline-flex items-center justify-center gap-2 rounded-full bg-primary text-primary-foreground px-6 py-3 font-medium hover:opacity-90 transition-opacity"
               >
                 <MessageSquare className="h-4 w-4" />
-                Sign Up For SMS
+                Join Our Email and SMS List
               </a>
               <button
                 onClick={close}
