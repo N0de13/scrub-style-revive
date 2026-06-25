@@ -46,7 +46,7 @@ const ContactSection = () => {
             },
             {
               icon: MessageSquare,
-              title: "Sign Up For SMS",
+              title: "Join Our Email and SMS List",
               lines: ["Get deals & updates"],
               href: "https://lp.constantcontactpages.com/sl/wKsaPu3",
             },
