@@ -1,6 +1,5 @@
 import { motion } from "framer-motion";
 import { Phone, Mail, MapPin, Clock, MessageSquare } from "lucide-react";
-import designYourOwnBadgeAsset from "@/assets/design-your-own-badge.png.asset.json";
 
 const ContactSection = () => {
   return (
