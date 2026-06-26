@@ -90,26 +90,6 @@ const ContactSection = () => {
           />
         </motion.div>
 
-        <motion.div
-          initial={{ opacity: 0, y: 20 }}
-          whileInView={{ opacity: 1, y: 0 }}
-          viewport={{ once: true }}
-          transition={{ delay: 0.5 }}
-          className="mt-12 rounded-2xl overflow-hidden border border-primary-foreground/10 group relative bg-black/10"
-        >
-          <a href="/smith-warren-badges" className="block relative aspect-[21/9] sm:aspect-[3.2/1] w-full">
-            <img
-              src={designYourOwnBadgeAsset.url}
-              alt="Design Your Own Custom Smith & Warren Badge"
-              className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-105"
-            />
-            <div className="absolute inset-0 bg-primary/20 group-hover:bg-primary/10 transition-colors flex items-center justify-center">
-              <span className="bg-accent text-accent-foreground px-6 py-3 rounded-full font-semibold shadow-lg text-sm tracking-wide opacity-0 transform translate-y-2 group-hover:opacity-100 group-hover:translate-y-0 transition-all duration-300">
-                Design Your Badge Now
-              </span>
-            </div>
-          </a>
-        </motion.div>
       </div>
     </section>
   );
