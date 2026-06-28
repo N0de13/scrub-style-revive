@@ -85,7 +85,7 @@ const EmailPopup = () => {
               {copied ? "Copied!" : "Tap to copy"}
             </button>
             <p className="mt-2.5 text-[11px] text-slate-400 italic">
-              *Excludes accessories, shoes, and sale items.
+              *Excludes accessories, shoes, sale items, and game/work apparel.
             </p>
           </div>
 
