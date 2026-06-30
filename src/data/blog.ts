@@ -1,4 +1,5 @@
 import img_antimicrobial_scrubs from "@/assets/blog/antimicrobial-scrubs.jpg";
+import img_antimicrobial_scrubs_guide from "@/assets/blog/antimicrobial-scrubs-guide.jpg";
 import img_best_nursing_shoes from "@/assets/blog/best-nursing-shoes.jpg";
 import img_chef_coats_guide from "@/assets/blog/chef-coats-guide.jpg";
 import img_choose_scrubs_long_shifts from "@/assets/blog/choose-scrubs-long-shifts.jpg";
