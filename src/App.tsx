@@ -23,12 +23,23 @@ import NewCustomerDiscount from "./pages/NewCustomerDiscount";
 
 const queryClient = new QueryClient();
 
+function AnalyticsTracker() {
+  const location = useLocation();
+
+  useEffect(() => {
+    trackPageView(location.pathname + location.search);
+  }, [location]);
+
+  return null;
+}
+
 const App = () => (
   <QueryClientProvider client={queryClient}>
     <TooltipProvider>
       <Toaster />
       <Sonner />
       <BrowserRouter>
+        <AnalyticsTracker />
         <ScrollToTop />
         <SmsPopup />
         <EmailPopup />
@@ -52,3 +63,4 @@ const App = () => (
 );
 
 export default App;
+
