@@ -71,7 +71,7 @@ const Navbar = () => {
             <img
               src={logo}
               alt="The Scrub Boutique ULTD — Medical Uniforms, Chef Wear & Accessories"
-              className="h-10 md:h-12 w-auto"
+              className="h-12 md:h-16 w-auto"
             />
           </Link>
 
