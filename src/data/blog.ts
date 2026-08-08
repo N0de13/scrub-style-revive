@@ -5,6 +5,7 @@ import img_chef_coats_guide from "@/assets/blog/chef-coats-guide.jpg";
 import img_choose_scrubs_long_shifts from "@/assets/blog/choose-scrubs-long-shifts.jpg";
 import img_compression_accessories from "@/assets/blog/compression-accessories.jpg";
 import img_custom_embroidery_nj from "@/assets/blog/custom-embroidery-nj.jpg";
+import img_embroidery_medical_offices_groups from "@/assets/blog/embroidery-medical-offices-groups.jpg";
 import img_hospital_group_programs from "@/assets/blog/hospital-group-programs.jpg";
 import img_plus_size_scrubs from "@/assets/blog/plus-size-scrubs.jpg";
 import img_scrub_care_guide from "@/assets/blog/scrub-care-guide.jpg";
