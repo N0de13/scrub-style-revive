@@ -28,6 +28,116 @@ export type BlogPost = {
 
 export const posts: BlogPost[] = [
   {
+    "slug": "custom-embroidery-medical-offices-groups",
+    "title": "Custom Embroidery for Medical Offices & Groups: The Complete New Jersey Playbook",
+    "metaTitle": "Custom Embroidery for Medical Offices & Groups | Lakewood NJ",
+    "metaDescription": "How NJ medical offices, dental practices and hospital departments run custom embroidery programs—logo digitizing, placement, turnaround, pricing and group ordering in Lakewood, NJ.",
+    "excerpt": "Matching embroidered scrubs turn a staff into a team patients recognize instantly. Here's how New Jersey medical offices and groups set up an embroidery program that actually runs itself.",
+    "shortKeywords": [
+      "custom embroidery medical offices",
+      "embroidered scrubs NJ",
+      "group uniform embroidery",
+      "logo digitizing Lakewood NJ",
+      "practice branded scrubs"
+    ],
+    "longKeywords": [
+      "custom embroidery for medical offices in New Jersey",
+      "bulk embroidered scrubs for dental practices NJ",
+      "where to get logo embroidery on scrubs near Lakewood NJ",
+      "group uniform embroidery program Monmouth County",
+      "how much does scrub embroidery cost in New Jersey",
+      "embroidered lab coats for medical groups Ocean County"
+    ],
+    "date": "2026-12-20",
+    "readTime": "10 min",
+    "sections": [
+      {
+        "heading": "Why Embroidered Uniforms Matter More Than Practices Expect",
+        "paragraphs": [
+          "The first thing a patient notices when they walk into a medical office isn't the artwork or the flooring—it's the people. And what those people are wearing communicates competence before anyone says a word. A practice where every clinician, medical assistant, and front-desk team member wears coordinated scrubs with the practice logo stitched cleanly at the chest reads as organized, established, and trustworthy. A practice where everyone wears whatever they grabbed that morning reads as improvised, no matter how excellent the care is.",
+          "At The Scrub Boutique ULTD in Lakewood, NJ, custom embroidery has quietly become one of our largest service lines. Dental groups in Ocean County, dermatology and urgent care practices along the Jersey Shore, home-health agencies, veterinary hospitals, surgical centers, and hospital departments across Monmouth County all come to us for the same reason: they want their team to look unified without turning uniform management into a second job for the office manager. This guide walks through exactly how those programs work, what they cost, and how to set one up for your group."
+        ]
+      },
+      {
+        "heading": "Step One: Digitizing Your Logo the Right Way",
+        "paragraphs": [
+          "Embroidery machines don't read image files—they read stitch files. Digitizing is the process of converting your practice logo into a stitch map that tells the machine exactly where each needle penetration goes, in what order, in which thread color, and at what density. It is a craft, not a conversion button, and it's where most disappointing embroidery jobs go wrong. A poorly digitized logo puckers the fabric, blurs small text, and loses the crisp edges that make a mark look professional.",
+          "We digitize in-house, and we do it once. That file becomes your practice's permanent asset with us, so every future order—new hires in March, a second location in September, a jacket run before winter—stitches identically to the first batch. We'll also advise on adaptations: fine serif type under about a quarter inch tends to fill in on knit fabrics, thin lines may need thickening, and multi-color gradients usually need to be simplified into solid thread colors. Sending us a vector file (AI, EPS, SVG, or a high-resolution PDF) gives the cleanest result, but we regularly rebuild logos from a business card or a website screenshot when that's all a practice has."
+        ]
+      },
+      {
+        "heading": "Placement, Personalization and Hierarchy",
+        "paragraphs": [
+          "The default for medical offices is a left-chest logo, roughly three to three and a half inches wide, sitting about seven to eight inches down from the shoulder seam. It's the placement patients' eyes naturally find and it survives every position a clinician works in. From there, most groups add a second line of personalization: the staff member's first name and credential—'Danielle, RN' or 'Dr. Ruiz, DMD'—stitched below the logo or opposite it on the right chest.",
+          "Larger organizations often build a visual hierarchy into the program. Clinical staff get the logo plus name and credential; front-desk staff get the logo only; department leads get a contrasting thread color or a different garment color entirely. Lab coats can carry a larger left-chest mark plus a back-yoke or sleeve treatment. Warm-up jackets, fleece vests, hats, and bags round out the wardrobe for outdoor and mobile teams. We plan all of this in one sitting so the program looks intentional rather than accumulated. If you want to see our capabilities firsthand, our [embroidery services page](/embroidery) shows the range."
+        ]
+      },
+      {
+        "heading": "Fabric, Thread and Garment Choices That Hold Up",
+        "paragraphs": [
+          "Modern performance scrubs are largely stretch knits, which behave very differently under a needle than woven cotton. Stretch fabric wants to distort as the machine stitches, so proper backing—a cut-away stabilizer rather than a cheap tear-away—is essential. Done correctly, the embroidery stays flat and square through hundreds of industrial wash cycles. Done poorly, the logo warps into a smile after three months. This is the single biggest quality difference between a specialty boutique and a generic online embroidery vendor.",
+          "Thread choice matters too. We use high-sheen polyester thread on medical apparel because it resists chlorine bleach, which many facilities still use in laundering protocols. Rayon thread looks beautiful but fades under harsh chemicals. For garments, we recommend anchoring the program in a brand with reliable long-term color consistency and deep size runs—Barco One, Grey's Anatomy, Cherokee, Healing Hands and Wink all fit that bill. As a Barco Platinum Retailer, we can guarantee stock depth and color matching across reorders, which matters enormously when you're adding one new hire at a time. Browse everything we carry on our [brands page](/brands)."
+        ]
+      },
+      {
+        "heading": "How Group Ordering Actually Works",
+        "paragraphs": [
+          "The logistics are where most practices get stuck, so we've built the process to remove that burden from your office manager. First, we hold a fitting—either at our Lakewood boutique or on-site at your facility for larger teams. Every staff member tries on the selected styles and confirms their size, which eliminates the exchange chaos that comes from guessing off a size chart. We carry XXS through 5XL in-store, so nobody on your team gets left with an approximate fit.",
+          "Second, we lock the program: approved styles, colors by role, logo placement, and personalization format. Third, we produce the initial run. Fourth—and this is the part practices value most—we keep the program on file so new hires can simply walk in, mention the practice name, and be outfitted in the correct uniform within days. Many of our groups bill centrally; others let employees pay individually against a pre-approved allowance. Both work. Our [group uniform programs page](/groups) covers the full structure, and our [online shop](https://shop.thescrubboutiqueultd.com/) keeps individual reorders easy between program cycles."
+        ]
+      },
+      {
+        "heading": "What It Costs and What Drives the Price",
+        "paragraphs": [
+          "Embroidery pricing comes down to three variables: stitch count, number of thread colors, and quantity. A typical left-chest medical logo lands somewhere between 4,000 and 9,000 stitches, which is a modest add-on per garment. Adding a name and credential is a small incremental charge because it's a low-stitch-count text run. One-time digitizing is charged once per logo and never again for that mark. Volume moves the needle most: group runs for offices, departments, and hospital units earn tiered discounts, and the per-piece cost at twenty-five garments is meaningfully lower than at three.",
+          "The way to think about it isn't cost per shirt—it's cost per impression. An embroidered scrub top worn three days a week for two years is seen by thousands of patients, family members, referring providers, and vendors. Very few marketing line items in a New Jersey medical practice deliver that kind of sustained, credible visibility for the price of a logo stitched at the chest."
+        ]
+      },
+      {
+        "heading": "Turnaround, Reorders and Working With a Local Shop",
+        "paragraphs": [
+          "Standard turnaround on group embroidery runs at our Lakewood shop is generally one to two weeks after art approval and size confirmation, depending on quantity and garment availability. Rush timelines are frequently possible—we've turned around new-hire orders and last-minute conference apparel in a matter of days—but the honest advice is to plan seasonal reorders ahead of your hiring cycles in late summer and January.",
+          "There's a practical reason so many practices choose a local boutique over a national online embroiderer: proximity fixes problems. If a size runs short, you swap it the same week. If a new provider starts Monday, we can outfit them. If your logo needs a tweak, we adjust the stitch file and show you a sew-out sample before running two hundred pieces. You can reach us at 866-245-9816 or stop by 60 Chambersbridge Road, Unit 4 in Lakewood, NJ—we serve practices throughout Ocean County, Monmouth County, and the greater Jersey Shore area. For more on individual embroidery, see our guide to [custom embroidery on medical uniforms in NJ](/blog/custom-embroidery-medical-uniforms-nj)."
+        ]
+      }
+    ],
+    "faqs": [
+      {
+        "q": "What file format should our practice send for logo embroidery?",
+        "a": "A vector file—AI, EPS, SVG, or a high-resolution PDF—produces the cleanest digitizing. If you only have a JPG, PNG, or a printed business card, we can rebuild the logo in-house; just send the highest-resolution version you have along with any brand color codes."
+      },
+      {
+        "q": "How much does custom embroidery cost for a medical office in New Jersey?",
+        "a": "Pricing depends on stitch count, thread colors, and quantity. A standard left-chest logo is a modest per-garment add-on, names and credentials cost less, and one-time digitizing is charged once per logo. Group orders for offices, practices, and hospital departments receive tiered volume discounts—call 866-245-9816 for a quote on your specific run."
+      },
+      {
+        "q": "Can you embroider both our logo and each employee's name and credentials?",
+        "a": "Yes. The most common setup for medical offices is the practice logo on the left chest with the employee's first name and credential stitched beneath it or on the opposite chest. We keep the format consistent across the whole team so every garment matches."
+      },
+      {
+        "q": "How long does a group embroidery order take?",
+        "a": "Most group runs ship one to two weeks after art approval and size confirmation. Rush turnaround is often available for new hires or events—let us know your deadline when you place the order."
+      },
+      {
+        "q": "Do you offer on-site fittings for larger teams?",
+        "a": "Yes. For larger practices, departments, and hospital groups across Monmouth and Ocean counties, we can arrange an on-site fitting so every staff member is sized correctly before production. Smaller teams typically visit our Lakewood boutique, where we stock XXS through 5XL."
+      },
+      {
+        "q": "Can new hires reorder the same uniform later?",
+        "a": "Absolutely. We keep your digitized logo, approved styles, colors, and placement specs on file. New hires can walk in, mention your practice name, and receive the identical uniform—no re-approval or re-digitizing required."
+      },
+      {
+        "q": "Will embroidery hold up to hospital-grade laundering?",
+        "a": "Yes, when it's done properly. We use cut-away stabilizer on stretch knit scrubs and bleach-resistant polyester thread, so the logo stays flat, square, and colorfast through repeated industrial wash cycles."
+      },
+      {
+        "q": "What items besides scrubs can you embroider?",
+        "a": "Lab coats, warm-up jackets, fleece vests, polos, hats, aprons, chef coats, and bags. Many New Jersey practices build a full branded wardrobe so clinical, administrative, and outdoor-facing staff all look like one team."
+      }
+    ],
+    "image": img_embroidery_medical_offices_groups
+  },
+  {
     "slug": "antimicrobial-medical-scrubs-complete-guide",
     "title": "Antimicrobial Medical Scrubs: The Complete 2026 Guide for NJ Healthcare Workers",
     "metaTitle": "Antimicrobial Medical Scrubs Guide 2026 | Lakewood NJ Boutique",
