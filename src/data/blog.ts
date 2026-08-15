@@ -11,6 +11,7 @@ import img_plus_size_scrubs from "@/assets/blog/plus-size-scrubs.jpg";
 import img_scrub_care_guide from "@/assets/blog/scrub-care-guide.jpg";
 import img_scrubs_vs_lab_coats from "@/assets/blog/scrubs-vs-lab-coats.jpg";
 import img_stethoscope_guide from "@/assets/blog/stethoscope-guide.jpg";
+import img_jogger_scrubs_guide from "@/assets/blog/jogger-scrubs-guide.jpg";
 
 export type BlogPost = {
   slug: string;
