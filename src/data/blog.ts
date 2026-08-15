@@ -30,6 +30,119 @@ export type BlogPost = {
 
 export const posts: BlogPost[] = [
   {
+    "slug": "jogger-scrubs-new-favorite-nursing-pants",
+    "title": "Jogger Scrubs: Why They're the New Favorite Nursing Pants in New Jersey",
+    "metaTitle": "Jogger Scrubs NJ | The New Favorite Nursing Pants | Lakewood",
+    "metaDescription": "Why jogger scrubs are replacing traditional scrub pants for NJ nurses—fit, fabric, pockets and the best jogger scrub brands available at our Lakewood, NJ boutique.",
+    "excerpt": "Jogger scrubs have quietly taken over hospital floors across New Jersey. Here's why cuffed, tapered jogger scrub pants are the new favorite for nurses on 12-hour shifts—and how to choose the right pair.",
+    "shortKeywords": [
+      "jogger scrubs",
+      "jogger scrub pants NJ",
+      "cuffed scrubs nurses",
+      "best jogger scrubs Lakewood",
+      "tapered scrub pants"
+    ],
+    "longKeywords": [
+      "jogger scrub pants for nurses in New Jersey",
+      "where to buy jogger scrubs near Lakewood NJ",
+      "best jogger scrubs for 12 hour shifts Monmouth County",
+      "cuffed tapered scrub pants Ocean County NJ",
+      "Barco One jogger scrubs vs Grey's Anatomy joggers",
+      "jogger scrubs vs cargo scrubs for nursing New Jersey"
+    ],
+    "date": "2026-12-28",
+    "readTime": "9 min",
+    "image": img_jogger_scrubs_guide,
+    "sections": [
+      {
+        "heading": "How Jogger Scrubs Quietly Took Over the Hospital Floor",
+        "paragraphs": [
+          "Walk through any hospital in New Jersey today and you'll notice something has shifted in what nurses are wearing below the waist. The baggy, straight-leg scrub pant that defined medical uniforms for decades is still around, but it's no longer the default. Instead, the floor is full of tapered, cuffed jogger scrub pants—slim through the leg, snug at the ankle, cut from the same performance stretch fabric as a premium athletic pant. Jogger scrubs have gone from a niche look worn by the youngest staff to the single fastest-growing silhouette in medical apparel.",
+          "The reasons are practical, not just stylistic. A traditional scrub pant drags, catches on door handles, absorbs bathroom floor moisture, and flaps around the leg with every step. A jogger scrub pants sits cleanly above the shoe, moves with the body, and reads as intentional rather than borrowed from a larger colleague. At The Scrub Boutique ULTD in Lakewood, NJ, jogger styles now outsell classic cuts in nearly every brand we carry. This guide breaks down why jogger scrubs work so well, which brands build them best, and how to choose a pair that survives a year of twelve-hour shifts."
+        ]
+      },
+      {
+        "heading": "What Makes a Scrub Pant a 'Jogger'",
+        "paragraphs": [
+          "A jogger scrub pant is defined by three features: a tapered leg that narrows from knee to ankle, a ribbed or elastic cuff that finishes at or just above the ankle bone, and a mid-rise waistband built for movement. The cuff is the defining element—it's what separates a jogger from a simple tapered pant. That cuff grips the ankle without squeezing it, keeps the hem off the floor, and creates a clean break over the shoe that looks sharp whether you're wearing clogs, sneakers, or compression socks.",
+          "Beyond the silhouette, modern jogger scrubs are almost always cut from performance stretch fabric—typically a rayon-polyester-spandex blend with four-way stretch and moisture-wicking properties. This is the same shift that happened in athletic wear a decade ago: cotton gave way to engineered knits that breathe, stretch, and hold their shape. The result is a pant that moves with you through squatting, lifting, and climbing stairs, then snaps back to its original shape at the end of the shift instead of bagging out at the knee."
+        ]
+      },
+      {
+        "heading": "Why New Jersey Nurses Reach for Joggers First",
+        "paragraphs": [
+          "The fit solves real problems. A straight-leg scrub pant is cut for a generic average body, which means it fits almost no one perfectly—too long for shorter nurses, too loose in the seat for slim builds, too tight in the thigh for athletic or curvy builds. Jogger scrubs, by tapering from the knee down, sidestep the length problem entirely because the cuff sits at the ankle regardless of inseam. That same taper flatters a wider range of body types, which is a big part of why the style has spread so fast across staff of every shape and size.",
+          "There's also a comfort story that only becomes obvious after a long shift. The elastic or ribbed ankle cuff means no fabric pooling around the shoe—nothing to trip on, nothing soaking up puddles on the bathroom floor, nothing dragging through spilled contrast. The mid-rise, stretch waistband sits at the natural waist and moves with bending and squatting instead of digging in. For nurses in Monmouth County and the Jersey Shore running between rooms all day, those small friction points add up. By hour ten, a well-cut jogger scrub simply feels better than the alternative."
+        ]
+      },
+      {
+        "heading": "The Best Jogger Scrub Brands We Carry",
+        "paragraphs": [
+          "Not all jogger scrubs are built the same, and the fabric quality varies more than with classic cuts because the silhouette depends on stretch and recovery. At our Lakewood boutique we stock jogger styles from the brands that do this category right. Barco One jogger scrubs are a customer favorite—made from recycled performance fabric with a flattering tapered leg and a soft knit waistband that doesn't roll. As a Barco Platinum Retailer, we carry the full Barco One jogger color range with the stock depth to match group orders and reorders, which matters when your whole department wants to coordinate. You can see the full Barco lineup on our [Barco brand page](/brands/barco).",
+          "Grey's Anatomy jogger scrubs lean a touch more polished, with a refined drape and a slightly higher stretch content that moves beautifully but holds up well over many washes. Cherokee Workwear and Healing Hands both offer jogger options with a more utility-focused pocket layout for nurses who carry everything. For those who want the premium feel, Wink jogger scrubs have a cult following for their buttery-soft fabric and perfect ankle cuff. The right choice comes down to how you want the pant to behave under your specific workflow—stop in and we'll walk you through the differences with the actual fabric in hand."
+        ]
+      },
+      {
+        "heading": "Pockets, Cuffs and Practical Details",
+        "paragraphs": [
+          "A common worry about jogger scrubs is that the slim leg means fewer pockets. In practice, the best jogger styles are engineered with the same cargo-pocket logic as classic scrubs—just placed more thoughtfully. Look for a deep side cargo pocket that lies flat against the thigh, a back hip pocket, and front slash pockets that sit within the taper rather than bulging out. The taper actually helps: pockets on a straight-leg pant can swing and gape, while the same pocket on a jogger sits closer to the leg and stays put when you move.",
+          "Pay attention to the cuff construction. A ribbed knit cuff grips and recovers best, while a simple elastic band inside a fabric hem can lose tension after a few dozen washes. The waistband should be a wide, stretch knit—not a stiff elastic—and should sit at mid-rise so it stays put without a belt. Drawstrings are standard; some jogger styles add a mock-fly front for a cleaner look. If you're adding [custom embroidery](/embroidery) to a jogger scrub, the left-chest placement works exactly as it does on classic tops, and the tapered leg actually frames a small leg emblem more cleanly than a straight cut does."
+        ]
+      },
+      {
+        "heading": "Sizing Jogger Scrubs for Every Body",
+        "paragraphs": [
+          "One of the real strengths of the jogger silhouette is that it fits a broader range of bodies well, but you still want to size it correctly. Because the leg is tapered, sizing up doesn't just make the pant looser—it changes where the cuff sits. The cuff should land just above the ankle bone; if it rides up to mid-calf the pant is too small, and if it bunches at the top of the foot the pant is too long or too large. We carry jogger scrubs from XXS through 5XL, including petite and tall inseams in several brands, so the cuff lands where it should on every height.",
+          "The best way to size a jogger scrub is to try it on and move—squat, bend, sit, and check that the waistband stays put and the cuff doesn't slide. That's exactly why we maintain a full fitting room at our Lakewood store rather than selling online-only. Our team fits nurses from across Ocean County and Monmouth County every week, and we can tell you in two minutes whether the Barco One jogger or the Grey's Anatomy jogger is going to flatter your build better. If you're part of a [hospital or group uniform program](/groups), we handle jogger sizing for the whole team at once."
+        ]
+      },
+      {
+        "heading": "Caring for Jogger Scrubs So the Cuffs Last",
+        "paragraphs": [
+          "The ankle cuff is the part of a jogger scrub that takes the most stress, and it's the part most likely to fail if the care is wrong. Wash jogger scrubs inside-out in cold water to protect the cuff's elasticity and the fabric's stretch recovery. Skip the high heat in the dryer—warm or low heat preserves the spandex content that gives the pant its shape. High heat is the single biggest reason jogger scrubs lose their snap and the cuffs go slack after a few months. For a full breakdown, our [scrub care guide](/blog/scrub-care-laundry-guide) covers the washing protocol that keeps performance fabric performing.",
+          "Avoid chlorine bleach on colored jogger scrubs; it breaks down the polyester fibers and dulls the color fast. If your facility requires a chlorine wash, choose a polyester-rich jogger and follow the facility's laundering protocol rather than home care. Ironing is rarely needed—performance jogger fabric resists wrinkles—but if you must, use a low setting and never iron directly over the cuff or any embroidered emblem. Treated well, a quality jogger scrub pant will look sharp for a full year of shifts."
+        ]
+      },
+      {
+        "heading": "Finding Your Jogger Scrubs in Lakewood, NJ",
+        "paragraphs": [
+          "Jogger scrubs are best chosen in person, where you can feel the fabric, check the cuff recovery, and confirm the fit by moving in a fitting room. Our boutique at 60 Chambersbridge Road, Unit 4 in Lakewood carries jogger styles from Barco, Grey's Anatomy, Cherokee, Healing Hands, and Wink in the full size range, with new color arrivals every season. We serve nurses, medical assistants, dental hygienists, and veterinary staff from across New Jersey—including Monmouth County, Ocean County, and the Jersey Shore.",
+          "If your department wants to standardize on a jogger silhouette, we handle group orders with custom embroidery and consistent reordering so new hires match the existing team. Stop by, call us, or browse the brands we carry to see which jogger scrub is going to become your new favorite. The right pair changes how a twelve-hour shift feels—and that's why joggers have taken the floor."
+        ]
+      }
+    ],
+    "faqs": [
+      {
+        "q": "Are jogger scrubs allowed in hospitals?",
+        "a": "Most hospitals and medical facilities in New Jersey allow jogger scrubs as long as they meet the dress code for color and length. Because jogger cuffs sit at the ankle, they generally satisfy length requirements more reliably than long straight-leg pants that drag. Always confirm your facility's specific policy, but jogger scrubs are now widely accepted across hospital systems in Monmouth and Ocean Counties."
+      },
+      {
+        "q": "Do jogger scrubs have enough pockets?",
+        "a": "Yes. The best jogger scrub styles are engineered with the same cargo, side, and back pocket layout as classic scrub pants—the pockets are simply integrated into the tapered leg so they sit flat. Brands like Barco One, Grey's Anatomy, and Cherokee Workwear build jogger scrubs with full pocket capacity for nurses who carry scissors, tape, pens, and phones throughout a shift."
+      },
+      {
+        "q": "Will the ankle cuffs stretch out over time?",
+        "a": "Quality ribbed knit cuffs recover well when the scrubs are washed correctly—cold water, low or warm dryer heat, no high heat. High heat is the main reason jogger cuffs lose their grip. Avoiding the hot dryer and chlorine bleach keeps the spandex content intact so the cuff snaps back wash after wash for a year or more."
+      },
+      {
+        "q": "What's the difference between jogger scrubs and cargo scrubs?",
+        "a": "Cargo scrubs are a straight or slightly relaxed leg with prominent side cargo pockets; jogger scrubs taper from the knee to a cuffed ankle. Joggers offer a more tailored, modern silhouette and keep the hem off the floor, while cargo scrubs maximize pocket bulk. Many jogger styles include cargo pockets too, so you don't have to choose between the look and the storage."
+      },
+      {
+        "q": "Which jogger scrub brand is best for 12-hour shifts?",
+        "a": "Barco One and Grey's Anatomy jogger scrubs are the most popular for long shifts because of their four-way stretch performance fabric and soft knit waistbands that don't dig in over hours of bending and squatting. Wink joggers are favored by nurses who prioritize a softer, premium feel. We carry all of these and can help you pick based on your build and workflow."
+      },
+      {
+        "q": "Where can I try on jogger scrubs near me in New Jersey?",
+        "a": "You can try on the full jogger scrub range at The Scrub Boutique ULTD, 60 Chambersbridge Road, Unit 4, Lakewood, NJ 08701. We stock jogger styles from Barco, Grey's Anatomy, Cherokee, Healing Hands, and Wink in sizes XXS–5XL, including petite and tall inseams, and fit nurses from across Monmouth County, Ocean County, and the Jersey Shore."
+      },
+      {
+        "q": "Can I get custom embroidery on jogger scrub pants?",
+        "a": "Yes. Jogger scrubs take left-chest embroidery on the matching top exactly like classic scrubs, and the tapered leg also frames a small leg emblem more cleanly than a straight cut. We digitize your logo once in-house and embroider jogger tops and pants so your whole team matches across reorders. See our embroidery services page for the full program."
+      }
+    ]
+  },
+  {
     "slug": "custom-embroidery-medical-offices-groups",
     "title": "Custom Embroidery for Medical Offices & Groups: The Complete New Jersey Playbook",
     "metaTitle": "Custom Embroidery for Medical Offices & Groups | Lakewood NJ",
