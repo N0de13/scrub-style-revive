@@ -31,6 +31,112 @@ export type BlogPost = {
 
 export const posts: BlogPost[] = [
   {
+    "slug": "clipglow-hands-free-nursing-light",
+    "title": "ClipGlow: The Hands-Free Clip-On Light Every NJ Nurse Needs for Night Shifts",
+    "metaTitle": "ClipGlow Nursing Light NJ | Hands-Free Clip-On Light for Nurses | Lakewood",
+    "metaDescription": "Why the ClipGlow hands-free clip-on light is the must-have night-shift accessory for NJ nurses—rechargeable, magnetic, waterproof, and available at our Lakewood, NJ boutique.",
+    "excerpt": "Night rounds, dark patient rooms, and charting without waking a patient—ClipGlow's hands-free clip-on light solves all of it. Here's why New Jersey nurses are clipping one to every scrub set.",
+    "shortKeywords": [
+      "clipglow",
+      "nursing light",
+      "hands-free light nurses",
+      "clip-on light scrubs NJ",
+      "rechargeable nursing light Lakewood"
+    ],
+    "longKeywords": [
+      "clipglow hands-free light for nurses in New Jersey",
+      "best clip-on light for night shift nurses Lakewood NJ",
+      "rechargeable nursing light for dark patient rooms Monmouth County",
+      "magnetic clip light for medical scrubs Ocean County NJ",
+      "waterproof hands-free light for hospital nurses NJ",
+      "clipglow clip-on light where to buy near Lakewood"
+    ],
+    "date": "2026-12-30",
+    "readTime": "8 min",
+    "image": img_clipglow_nursing_light,
+    "sections": [
+      {
+        "heading": "The Problem ClipGlow Solves for Night-Shift Nurses",
+        "paragraphs": [
+          "If you've worked a single night shift in a New Jersey hospital, you already know the problem. A patient is sleeping. You need to check an IV line, read a medication label, or chart a vitals reading. Flip on the overhead fluorescent and you wake the whole bay. Use your phone flashlight and you're suddenly one-handed—phone in one hand, gauze or chart in the other, and zero fingers free. The ClipGlow hands-free clip-on light exists to solve exactly this. It clips to your scrub collar, lanyard, or badge reel and throws a focused beam of light exactly where you look, leaving both hands free to do the work.",
+          "At The Scrub Boutique ULTD in Lakewood, NJ, we carry ClipGlow because it's one of the most genuinely useful accessories a nurse can own. It's not a gadget that lives in a drawer—it's the kind of thing that earns its place on your uniform within the first shift. This guide walks through how ClipGlow works, who it's built for, and why it has become one of the fastest-selling nursing accessories in our store."
+        ]
+      },
+      {
+        "heading": "What ClipGlow Is and How It Works",
+        "paragraphs": [
+          "ClipGlow is a small, lightweight rechargeable LED light that attaches to almost anything with a strong magnetic clip. Clip it to your scrub collar, the neckline of a lab coat, a stethoscope tube, a lanyard, or even the inside of a handbag. A single press of the power button cycles through four light modes—high, low, colored, and flashing—so you can dial the brightness to the moment. A full charge takes roughly 90 minutes and runs through a long night shift with power to spare.",
+          "The body is wrapped in a silicone cover that's water-resistant, so a splash from a sink or a spilled cup of saline won't kill it. (It isn't submersible, so don't take it swimming, but it shrugs off the everyday mess of a hospital floor.) Because there's no battery to swap and no disposable coin-cells to buy, the total cost of ownership is effectively zero after the first charge—plug it into the same USB port you use for your phone and you're set."
+        ]
+      },
+      {
+        "heading": "Four Light Modes for Every Moment of a Shift",
+        "paragraphs": [
+          "The high setting throws a bright white beam that's perfect for charting in a dark med room, searching through a supply drawer, or inspecting a wound. The low setting softens that output for reading labels at the bedside without flooding the room with light—ideal for those 3 a.m. med passes when you need to confirm a dose without waking anyone. The colored mode casts a gentler, non-disruptive glow that preserves your night vision, which matters more than you'd think when you're walking a dark hallway for the tenth time. The flashing mode is a safety feature—clip it to your scrub and it makes you visible in low light during a parking-lot walk to your car after a shift.",
+          "Having all four modes in one small device is what separates ClipGlow from a cheap keychain light. You're not carrying a separate headlamp, a separate pen light, and a separate safety strobe. You're carrying one clip that handles all three jobs."
+        ]
+      },
+      {
+        "heading": "Why NJ Nurses Reach for ClipGlow First",
+        "paragraphs": [
+          "Hospitals across Monmouth County, Ocean County, and the Jersey Shore run lean overnight, which means a single nurse is often responsible for a whole unit. ClipGlow lets you move room to room without fumbling for a light switch, check on patients without turning on the overhead, and document without a phone in your hand. Nurses tell us it pays for itself the first time it prevents a med error—being able to read a tiny label clearly in a dark room is not a luxury, it's a safety basic.",
+          "It's also genuinely hands-free in a way a phone flashlight never is. When you're turning a patient, adjusting tubing, or doing a wound check, you need both hands. ClipGlow follows your line of sight because it's clipped to your collar, so the light lands on whatever you're looking at. That's a small thing in description and a huge thing in practice."
+        ]
+      },
+      {
+        "heading": "Beyond the Hospital: Handbags, Travel, and Home",
+        "paragraphs": [
+          "ClipGlow was designed for nurses, but it's useful far beyond the hospital. Clip one inside a handbag or tote and you'll never dig around in the dark for your keys again. Keep one in the car for glove-box rummaging on a dark driveway. Take it camping, tuck it in a travel bag, or use it as a reading light that won't disturb a partner. Because it's rechargeable and water-resistant, it survives being thrown in a bag day after day without a second thought.",
+          "For nurses who already own one for work, a second ClipGlow for everyday carry is one of the most common follow-up purchases we see. Once you've lived with a hands-free light for a week, you start noticing how many small daily moments it improves."
+        ]
+      },
+      {
+        "heading": "How to Wear and Care for Your ClipGlow",
+        "paragraphs": [
+          "The magnetic clip is strong enough to hold through fabric, so you can attach it to a scrub top collar, a lab coat lapel, a stethoscope tube, or the strap of a lanyard without it slipping. Most nurses clip it to the shoulder or chest so the beam follows their gaze. Wipe the silicone cover with an alcohol pad as part of your normal end-of-shift wipe-down—it's sealed enough that a quick disinfect is all it needs.",
+          "Charge it from any USB port; a 90-minute charge is a full tank. There's no memory effect and no battery to replace, so treat it like a phone—top it off when it's low and don't worry about it. If you're buying one as a gift for a nursing school graduate, a new hire, or a colleague switching to nights, ClipGlow is the kind of practical, thoughtful accessory that gets used immediately rather than re-gifted."
+        ]
+      },
+      {
+        "heading": "Why We Carry ClipGlow at The Scrub Boutique ULTD",
+        "paragraphs": [
+          "We stock accessories that solve real problems for the healthcare workers who shop with us, not novelty gadgets. ClipGlow earned its spot because every nurse who tried one in the store came back and bought a second. It's rechargeable, durable, water-resistant, and genuinely hands-free—everything a night-shift nurse needs in a light and nothing they don't. Pair it with a great pair of jogger scrubs, supportive nursing shoes, and a well-fitted scrub top and you've built a night-shift kit that'll carry you through a full rotation.",
+          "Stop by our Lakewood, NJ boutique at 60 Chambersbridge Road, Unit 4 to see ClipGlow in person—we'll show you the four light modes, let you feel the clip, and help you find the best spot on your uniform to wear it. You can also shop online for ClipGlow and our full lineup of scrubs, footwear, and embroidery through our online shop."
+        ]
+      }
+    ],
+    "faqs": [
+      {
+        "q": "What is ClipGlow and who is it for?",
+        "a": "ClipGlow is a small, rechargeable hands-free clip-on LED light. It's designed primarily for nurses and healthcare workers on night shifts, but it's equally useful for anyone who needs a portable, hands-free light—students, travelers, campers, and anyone who rummages through a dark bag or car."
+      },
+      {
+        "q": "How long does it take to charge the ClipGlow?",
+        "a": "A full charge takes about 90 minutes from any standard USB port, and that charge will comfortably last through a long night shift with power to spare."
+      },
+      {
+        "q": "Is the ClipGlow waterproof?",
+        "a": "ClipGlow has a silicone outer cover that is water-resistant, so it handles splashes and spills without issue. It is not fully submersible, so don't drop it in a sink or take it in the shower, but normal hospital exposure is no problem."
+      },
+      {
+        "q": "What light modes does ClipGlow have?",
+        "a": "ClipGlow has four modes: high (bright white for charting and inspection), low (softer for bedside readings without waking a patient), colored (a gentle glow that preserves night vision), and flashing (a safety strobe for visibility in low light)."
+      },
+      {
+        "q": "Where do I clip the ClipGlow on my scrubs?",
+        "a": "Most nurses clip it to the collar or neckline of a scrub top so the beam follows their line of sight. The strong magnetic clip also works on a lab coat lapel, a lanyard strap, a stethoscope tube, or the inside of a handbag."
+      },
+      {
+        "q": "Can I buy ClipGlow at The Scrub Boutique ULTD in Lakewood, NJ?",
+        "a": "Yes. We carry ClipGlow at our Lakewood boutique at 60 Chambersbridge Road, Unit 4, and it's also available through our online shop. Stop in and we'll show you the light modes and help you find the best way to wear it."
+      },
+      {
+        "q": "Does ClipGlow need batteries replaced?",
+        "a": "No. ClipGlow is fully rechargeable via USB with no disposable batteries to buy or swap. Treat it like a phone—top it off when it's low and it's ready for the next shift."
+      }
+    ]
+  },
+  {
     "slug": "jogger-scrubs-new-favorite-nursing-pants",
     "title": "Jogger Scrubs: Why They're the New Favorite Nursing Pants in New Jersey",
     "metaTitle": "Jogger Scrubs NJ | The New Favorite Nursing Pants | Lakewood",
