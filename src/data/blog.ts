@@ -32,6 +32,118 @@ export type BlogPost = {
 
 export const posts: BlogPost[] = [
   {
+    "slug": "jogger-scrubs-hottest-trend-medical-uniforms",
+    "title": "Why Jogger Scrubs Are the Hottest Trend in Medical Uniforms",
+    "metaTitle": "Jogger Scrubs Trend NJ | Hottest Medical Uniform Style | Lakewood",
+    "metaDescription": "Why jogger scrubs are the hottest trend in medical uniforms for NJ healthcare workers—tapered fit, black jogger styles, stretch fabric and why to try them on at our Lakewood boutique.",
+    "excerpt": "The boxy scrub silhouette is being replaced by sleeker, tapered jogger scrubs. Here's why joggers are dominating medical uniforms in New Jersey—and why they should be your next workwear upgrade.",
+    "shortKeywords": [
+      "jogger scrubs trend",
+      "jogger scrubs NJ",
+      "black jogger scrubs",
+      "modern medical uniforms Lakewood",
+      "tapered scrub pants trend"
+    ],
+    "longKeywords": [
+      "jogger scrubs hottest trend medical uniforms New Jersey",
+      "black jogger scrubs for nurses Lakewood NJ",
+      "tapered jogger scrub pants Monmouth County",
+      "best jogger scrubs for healthcare workers Ocean County NJ",
+      "Grey's Anatomy jogger scrubs trend New Jersey",
+      "where to try on jogger scrubs near Lakewood NJ"
+    ],
+    "date": "2026-12-31",
+    "readTime": "7 min",
+    "image": img_jogger_scrubs_trend,
+    "sections": [
+      {
+        "heading": "The Shift You've Already Seen on the Floor",
+        "paragraphs": [
+          "If you've stepped into a hospital or clinic lately, you've probably noticed a shift in how healthcare professionals are dressing. The classic, boxy scrub silhouette is being replaced by something sleeker, more modern, and undeniably comfortable: the jogger scrub. And honestly? It's about time.",
+          "At The Scrub Boutique ULTD, a Barco Platinum Retailer serving the medical community across New Jersey, we've watched this trend take off in a big way. Here's why joggers are dominating the medical uniform scene and why they should be your next workwear upgrade."
+        ]
+      },
+      {
+        "heading": "The Perfect Blend of Style and Function",
+        "paragraphs": [
+          "Jogger scrubs feature a tapered leg that cinches at the ankle with an elastic cuff, giving them that athleisure-inspired look that's taken the fashion world by storm. But for healthcare workers, this isn't just about looking good—it's about solving real problems you face on the floor. The slim, intentional cut reads as polished rather than borrowed from a larger colleague, which is a big part of why the style has spread so fast across staff of every shape and size."
+        ]
+      },
+      {
+        "heading": "Why the Jogger Style Works for Long Shifts",
+        "paragraphs": [
+          "Let's be real: a 12-hour shift on concrete floors is brutal on your body. Traditional scrubs with wide, flared legs can bunch up, drag on the ground, and even become a tripping hazard. Jogger-style pants eliminate these issues entirely.",
+          "The tapered ankle design keeps the fabric neatly in place, so you're not stepping on your own pants or worrying about them getting caught on equipment. This matters when you're moving fast between patients or responding to an emergency. Healthcare professionals at Jersey Shore University Medical Center and Monmouth Medical Center have been making the switch, and the feedback is consistent: joggers just work better."
+        ]
+      },
+      {
+        "heading": "Comfort Meets Professionalism",
+        "paragraphs": [
+          "One of the biggest concerns with modernizing scrubs is maintaining a professional appearance. The good news? Jogger scrubs actually look more polished than traditional baggy styles.",
+          "When paired with a well-fitted top, the jogger silhouette creates a clean, streamlined look that still meets professional standards. And with brands like [Grey's Anatomy by Barco](/brands/greys-anatomy) leading the charge, you're getting quality that can handle the demands of your job. See the full lineup on our [Brands page](/brands)."
+        ]
+      },
+      {
+        "heading": "The Rise of Black Jogger Scrubs",
+        "paragraphs": [
+          "If there's one color that's dominating the jogger trend, it's black. Black medical scrubs offer a universally accepted appearance that exudes formality while allowing for easy identification and adherence to uniform standards. In settings where stains and splatters are inevitable—from dental procedures to veterinary work—black does the heavy lifting of masking wear and tear.",
+          "Plus, let's be honest: black looks sharp. It's slimming, professional, and pairs with almost anything, which is why black jogger scrubs are one of our fastest-moving styles in the store."
+        ]
+      },
+      {
+        "heading": "What Healthcare Workers Are Saying",
+        "paragraphs": [
+          "The feedback from medical professionals speaks for itself. Jogger scrubs with elastic waistbands and drawcords offer a secure, customizable fit that stays comfortable through the longest shifts. Key features that professionals love include a tapered leg design for a modern, athletic look, elastic cuffs at the ankles that keep pants in place, stain-resistant fabric that holds up in fast-paced environments, and stretch materials that allow for a full range of motion.",
+          "Healthcare workers have been clear: \"convenient\" online ordering doesn't always equal \"comfortable\" for a 12-hour shift. That's why trying on scrubs before buying matters so much—and it's why we keep a full fitting room at our Lakewood boutique."
+        ]
+      },
+      {
+        "heading": "Why Shop at The Scrub Boutique ULTD",
+        "paragraphs": [
+          "As a Barco Platinum Retailer, The Scrub Boutique ULTD offers the largest selection of medical uniforms in Lakewood and across New Jersey. We've proudly served healthcare professionals from Jersey Shore University Medical Center, Monmouth Medical Center, and throughout the state since 2013. What sets us apart is that we're not just a website—we're a real store with real Uniform Specialists who fit you in person.",
+          "Our expert [in-house embroidery](/embroidery) shop means we embroider everything we sell with no middleman—your name, credentials, or department logo done right. We carry premium brands like Grey's Anatomy by Barco, Skechers, and more. Beyond scrubs, we carry medical accessories, shoes, compression socks, lab coats, and even chef wear, so it's one-stop shopping. And our team of Uniform Specialists understands that a great shift starts with the right gear, helping you find the perfect fit and style that works with you, not against you."
+        ]
+      },
+      {
+        "heading": "Make the Switch to Joggers Today",
+        "paragraphs": [
+          "Joggers aren't just a trend—they're an evolution in medical uniforms that prioritizes what healthcare workers actually need: comfort, mobility, and style. Stop settling for scrubs that don't fit the vibe. Come visit us at The Scrub Boutique ULTD in Lakewood and find your perfect fit. Whether you're a new grad or a seasoned pro, you deserve gear that feels as good as it looks.",
+          "Find us at 60 Chambersbridge Road, Unit 4, Lakewood, NJ 08701, or call 866-245-9816. We proudly serve healthcare professionals from Jersey Shore University Medical Center, Monmouth Medical Center, and beyond. [Shop online](https://shop.thescrubboutiqueultd.com/) or visit us in person today."
+        ]
+      }
+    ],
+    "faqs": [
+      {
+        "q": "Why are jogger scrubs so popular right now?",
+        "a": "Jogger scrubs combine a modern, athletic silhouette with practical benefits for healthcare workers: the tapered ankle keeps fabric off the floor, the stretch waistband stays comfortable through long shifts, and the cut looks more polished than baggy traditional scrubs. That blend of style and function is why joggers have become the fastest-growing scrub silhouette in New Jersey."
+      },
+      {
+        "q": "Are black jogger scrubs professional enough for hospitals?",
+        "a": "Yes. Black is one of the most universally accepted scrub colors and is widely permitted across New Jersey hospital systems. Black jogger scrubs look sharp, mask stains and wear, and pair with almost any top—making them a go-to choice for nurses, dental staff, and veterinary workers alike."
+      },
+      {
+        "q": "Do jogger scrubs meet hospital dress codes in NJ?",
+        "a": "Most hospitals and clinics in New Jersey allow jogger scrubs as long as they meet the facility's color and length policy. Because jogger cuffs sit cleanly at the ankle, they often satisfy length requirements more reliably than long straight-leg pants that drag. Always confirm your facility's policy, but jogger scrubs are now widely accepted across Monmouth and Ocean Counties."
+      },
+      {
+        "q": "Are jogger scrubs comfortable for a 12-hour shift?",
+        "a": "They're designed for it. The elastic waistband with drawcord gives a secure, customizable fit, the stretch fabric allows a full range of motion, and the tapered ankle cuff keeps the pant from bunching or catching on equipment. Nurses consistently tell us joggers feel better than traditional scrubs by hour ten of a shift."
+      },
+      {
+        "q": "Where can I try on jogger scrubs in New Jersey?",
+        "a": "You can try on the full jogger scrub range at The Scrub Boutique ULTD, 60 Chambersbridge Road, Unit 4, Lakewood, NJ 08701. We carry jogger styles from Grey's Anatomy by Barco, Barco One, and more, and our Uniform Specialists will help you find the right fit in person."
+      },
+      {
+        "q": "Can I get jogger scrubs embroidered with my name or logo?",
+        "a": "Yes. We embroider everything we sell in our in-house shop with no middleman. Jogger scrub tops take left-chest embroidery just like classic scrubs, and we digitize your logo once so reorders match perfectly for your whole department or office."
+      },
+      {
+        "q": "What brands make the best jogger scrubs?",
+        "a": "Grey's Anatomy by Barco and Barco One are the leading jogger scrub brands we carry, both built from four-way stretch performance fabric. As a Barco Platinum Retailer, we stock the full color range and can match group orders. Stop in to feel the fabric and compare the fit in person."
+      }
+    ]
+  },
+  {
     "slug": "clipglow-hands-free-nursing-light",
     "title": "ClipGlow: The Hands-Free Clip-On Light Every NJ Nurse Needs for Night Shifts",
     "metaTitle": "ClipGlow Nursing Light NJ | Hands-Free Clip-On Light for Nurses | Lakewood",
