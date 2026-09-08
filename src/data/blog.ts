@@ -143,8 +143,7 @@ export const posts: BlogPost[] = [
         "q": "Does The Scrub Boutique ULTD offer group orders for hospital departments in September?",
         "a": "Yes. September is a popular month for hospital group uniform programs, and we offer bulk pricing, custom branding, and embroidery for departments across Monmouth and Ocean County. Contact us at 866-245-9816 to discuss your facility's fall uniform needs and turnaround times."
       }
-    ],
-    "image": img_best_scrubs_september
+    ]
   },
   {
     "slug": "jogger-scrubs-hottest-trend-medical-uniforms",
