@@ -14,6 +14,7 @@ import img_stethoscope_guide from "@/assets/blog/stethoscope-guide.jpg";
 import img_jogger_scrubs_guide from "@/assets/blog/jogger-scrubs-guide.jpg";
 import img_jogger_scrubs_trend from "@/assets/blog/jogger-scrubs-trend.jpg";
 import img_clipglow_nursing_light from "@/assets/blog/clipglow-nursing-light.jpg";
+import img_best_scrubs_september from "@/assets/blog/best-scrubs-september.jpg";
 
 export type BlogPost = {
   slug: string;
@@ -31,6 +32,119 @@ export type BlogPost = {
 };
 
 export const posts: BlogPost[] = [
+  {
+    "slug": "best-scrubs-for-september",
+    "title": "Best Scrubs for September: A NJ Healthcare Worker's Fall Refresh Guide",
+    "metaTitle": "Best Scrubs for September 2026 | Fall Scrub Picks in Lakewood NJ",
+    "metaDescription": "The best scrubs for September in New Jersey—fall colors, moisture-wicking fabrics, jogger styles and layering picks to refresh your work wardrobe at our Lakewood boutique.",
+    "excerpt": "September is the perfect time to refresh your scrub wardrobe for fall. Here are the best scrubs, colors, and layering pieces for NJ healthcare workers heading into cooler shifts.",
+    "shortKeywords": [
+      "best scrubs for September",
+      "fall scrubs NJ",
+      "scrub colors autumn",
+      "medical uniforms Lakewood",
+      "September scrub refresh"
+    ],
+    "longKeywords": [
+      "best scrubs for September in New Jersey",
+      "fall color scrubs for nurses Lakewood NJ",
+      "autumn scrub wardrobe refresh Monmouth County",
+      "moisture-wicking fall scrubs Ocean County NJ",
+      "Barco Platinum fall scrubs Lakewood",
+      "best jogger scrubs for September NJ healthcare workers"
+    ],
+    "date": "2026-09-08",
+    "readTime": "8 min",
+    "image": img_best_scrubs_september,
+    "sections": [
+      {
+        "heading": "Why September Is the Perfect Time to Refresh Your Scrubs",
+        "paragraphs": [
+          "September marks a turning point in the year. The summer heat that had you reaching for the lightest, breeziest scrubs is finally fading, and the crisp New Jersey autumn is right around the corner. For healthcare workers at Jersey Shore University Medical Center, Monmouth Medical Center, and clinics across the Tri-State area, September is the natural moment to reset your work wardrobe before the cold-weather rush sets in.",
+          "At The Scrub Boutique ULTD, a Barco Platinum Retailer in Lakewood, we see it every year: nurses, doctors, and techs come in looking to trade their sun-faded summer sets for fresh fall colors and warmer layering pieces. A September refresh isn't just about looking good—it's about staying comfortable and prepared as the seasons change and your schedule fills up."
+        ]
+      },
+      {
+        "heading": "Fall Scrub Colors That Work on Every Floor",
+        "paragraphs": [
+          "Color is the easiest place to start a September refresh. The deep, jewel-toned palette that feels right in autumn—navy, burgundy, forest green, plum, and rich teal—also happens to be universally flattering and hospital-approved. These shades read as polished and professional while hiding the inevitable coffee splashes and ink marks that accumulate over a long shift.",
+          "Navy remains the backbone of a fall scrub wardrobe because it pairs with everything and never looks dated. Burgundy and plum are the seasonal standouts this September, adding warmth without straying from dress code. If your facility requires a specific color, use September as the excuse to replace the faded, pilled sets from last fall with fresh, high-retention fabric from brands like Grey's Anatomy by Barco. Browse our full lineup on the [Brands page](/brands)."
+        ]
+      },
+      {
+        "heading": "Fabric Matters When the Weather Shifts",
+        "paragraphs": [
+          "September in New Jersey is unpredictable—muggy mornings, cool evenings, and air-conditioned wards that feel like a different climate entirely. That's why fabric choice matters more than ever this month. Moisture-wicking, four-way stretch blends keep you dry during the warm afternoon walk to your car and comfortable in a chilled exam room an hour later.",
+          "Look for performance fabrics like Barco One and the Grey's Anatomy Stretch collection, which are engineered to move with you and regulate temperature. Avoid heavy cotton blends this early in the season; they'll hold sweat in the afternoon heat and feel clammy once the sun drops. Our Uniform Specialists at the Lakewood boutique can walk you through the fabric weights that make sense for your specific facility and shift pattern."
+        ]
+      },
+      {
+        "heading": "Jogger Scrubs: The September Silhouette",
+        "paragraphs": [
+          "If you haven't made the switch yet, September is the month to try jogger scrubs. The tapered ankle keeps cold air from sneaking up your pant leg on early-morning walks across the parking lot, and the athletic cut layers beautifully under a fleece or a light jacket between calls. Joggers also avoid the dragging-hem problem that gets worse once wet leaves and slush arrive in October and November.",
+          "We covered the full jogger trend in our recent piece on [why jogger scrubs are the hottest style in medical uniforms](/blog/jogger-scrubs-hottest-trend-medical-uniforms), but the short version is this: joggers look modern, move with you, and solve real problems for NJ healthcare workers on long shifts. Try a pair on in our fitting room and you'll feel the difference immediately."
+        ]
+      },
+      {
+        "heading": "Layering Pieces for the In-Between Weeks",
+        "paragraphs": [
+          "The secret to surviving September's temperature swings is layering. A lightweight long-sleeve underscrub tee in a complementary color lets you add warmth in a cold OR and peel it off the moment you step outside. A fitted scrub jacket or vest—think a Grey's Anatomy zip-up—gives you a polished, professional layer that works from the parking lot to the nurses' station without looking like an afterthought.",
+          "This is also the time to check your [lab coat](/blog/scrubs-vs-lab-coats) situation. If your old white coat is looking gray and tired, a fresh one instantly upgrades your professional image for the new season. And don't forget [custom embroidery](/embroidery)—adding your name and credentials to a fall layering piece makes it unmistakably yours and keeps it from walking off in a shared locker room."
+        ]
+      },
+      {
+        "heading": "Footwear to Match the Season",
+        "paragraphs": [
+          "Your feet take the brunt of a 12-hour shift, and September is when many healthcare workers realize their summer shoes are shot. Supportive, slip-resistant nursing shoes become even more important once wet leaves and early-season rain make hospital floors slicker. Brands like Skechers and Nurse Mates offer the arch support and grip you need through fall and into winter.",
+          "We dive deep into this in our guide to the [best nursing shoes for 12-hour shifts](/blog/best-nursing-shoes-12-hour-shifts), but the takeaway for September is simple: if your current pair has gone flat, replace them now before the holiday rush. Your back, knees, and ankles will thank you through the busy winter months ahead."
+        ]
+      },
+      {
+        "heading": "Care Tips to Keep September Scrubs Looking Fresh",
+        "paragraphs": [
+          "New scrubs are an investment, and a few smart care habits will keep your September refresh looking sharp all season. Wash new dark-colored sets inside out in cold water before the first wear to set the dye and prevent bleeding onto lighter pieces. Skip the dryer heat when you can—hang drying preserves stretch fibers and keeps colors true far longer than a hot tumble.",
+          "For the full breakdown of stain removal, washing temperatures, and longevity tricks, read our [scrub care and laundry guide](/blog/scrub-care-laundry-guide). A little attention upfront means the burgundy set you buy this September will still look rich and professional come Thanksgiving."
+        ]
+      },
+      {
+        "heading": "Why Shop Your September Refresh at The Scrub Boutique ULTD",
+        "paragraphs": [
+          "There's a difference between ordering scrubs online and getting fitted in person by someone who understands your facility's dress code and your body. As a Barco Platinum Retailer, The Scrub Boutique ULTD carries the deepest selection of premium scrubs in Lakewood and across New Jersey—from XXS to 5XL, in every fall color you could want. Our in-house [embroidery](/embroidery) shop means your name and logo are done right, with no middleman.",
+          "September is also when [hospital group programs](/groups) start placing bulk orders for the season. If your department needs branded uniforms before winter, talk to us about group pricing and turnaround times. Visit us at 60 Chambersbridge Road, Unit 4, Lakewood, NJ 08701, or call 866-245-9816. [Shop online](https://shop.thescrubboutiqueultd.com/) or stop in and let our Uniform Specialists build your fall wardrobe with you."
+        ]
+      }
+    ],
+    "faqs": [
+      {
+        "q": "What are the best scrub colors for September?",
+        "a": "The best September scrub colors are deep, warm jewel tones—navy, burgundy, plum, forest green, and rich teal. These shades look polished, hide stains well, and complement the autumn season. Navy is the most versatile base, while burgundy and plum add seasonal warmth without breaking most hospital dress codes in New Jersey."
+      },
+      {
+        "q": "Should I buy new scrubs in September or wait until winter?",
+        "a": "September is the ideal time to refresh your scrub wardrobe. You avoid the holiday rush, get first pick of fall colors, and have time to break in new pieces before the busy winter season. Buying in September also lets you add lightweight layering pieces that bridge the gap between warm afternoons and cold exam rooms."
+      },
+      {
+        "q": "Are jogger scrubs good for fall weather in New Jersey?",
+        "a": "Yes. Jogger scrubs are an excellent choice for September in NJ because the tapered ankle keeps cold air out on early-morning walks, prevents hems from dragging on wet leaves, and layers cleanly under a light jacket. Their athletic fit also moves well as your activity level shifts with the season."
+      },
+      {
+        "q": "What fabric is best for scrubs in September?",
+        "a": "Performance moisture-wicking fabrics with four-way stretch are best for September because they handle the temperature swings between warm outdoors and air-conditioned wards. Barco One and Grey's Anatomy Stretch are top picks. Avoid heavy cotton blends early in the season, as they trap heat and feel clammy when temperatures drop."
+      },
+      {
+        "q": "Do you carry fall scrubs in plus sizes at your Lakewood store?",
+        "a": "Yes. The Scrub Boutique ULTD carries premium fall scrubs from XXS to 5XL, including plus-size options from Cherokee, Healing Hands, and Wink. Our Uniform Specialists are experts at finding the right fit and cut for every body type, so you can build a comfortable, confident fall wardrobe in person."
+      },
+      {
+        "q": "Can I get my September scrubs embroidered the same day?",
+        "a": "Because we run our own in-house embroidery shop at The Scrub Boutique ULTD, turnaround is fast and there's no middleman. Stop by our Lakewood boutique at 60 Chambersbridge Road, Unit 4, and our team can add your name, credentials, or department logo to your new fall scrubs quickly and professionally."
+      },
+      {
+        "q": "Does The Scrub Boutique ULTD offer group orders for hospital departments in September?",
+        "a": "Yes. September is a popular month for hospital group uniform programs, and we offer bulk pricing, custom branding, and embroidery for departments across Monmouth and Ocean County. Contact us at 866-245-9816 to discuss your facility's fall uniform needs and turnaround times."
+      }
+    ]
+  },
   {
     "slug": "jogger-scrubs-hottest-trend-medical-uniforms",
     "title": "Why Jogger Scrubs Are the Hottest Trend in Medical Uniforms",
