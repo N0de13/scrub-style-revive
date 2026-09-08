@@ -14,6 +14,7 @@ import img_stethoscope_guide from "@/assets/blog/stethoscope-guide.jpg";
 import img_jogger_scrubs_guide from "@/assets/blog/jogger-scrubs-guide.jpg";
 import img_jogger_scrubs_trend from "@/assets/blog/jogger-scrubs-trend.jpg";
 import img_clipglow_nursing_light from "@/assets/blog/clipglow-nursing-light.jpg";
+import img_best_scrubs_september from "@/assets/blog/best-scrubs-september.jpg";
 
 export type BlogPost = {
   slug: string;
