@@ -15,6 +15,7 @@ import img_jogger_scrubs_guide from "@/assets/blog/jogger-scrubs-guide.jpg";
 import img_jogger_scrubs_trend from "@/assets/blog/jogger-scrubs-trend.jpg";
 import img_clipglow_nursing_light from "@/assets/blog/clipglow-nursing-light.jpg";
 import img_best_scrubs_september from "@/assets/blog/best-scrubs-september.jpg";
+import img_how_should_scrubs_fit_nj from "@/assets/blog/how-should-scrubs-fit-nj.jpg";
 
 export type BlogPost = {
   slug: string;
@@ -27,11 +28,151 @@ export type BlogPost = {
   date: string;
   readTime: string;
   image: string;
+  imageAlt?: string;
   sections: { heading: string; paragraphs: string[] }[];
   faqs: { q: string; a: string }[];
 };
 
 export const posts: BlogPost[] = [
+  {
+    slug: "how-should-scrubs-fit",
+    title: "How Should Scrubs Fit? The Complete Guide for New Jersey Healthcare Professionals",
+    metaTitle: "How Should Scrubs Fit? | NJ Scrub Fit Guide",
+    metaDescription: "Learn how scrubs should fit across the shoulders, waist, hips and hem. NJ healthcare professionals can use this guide to find comfortable workwear.",
+    excerpt: "Scrubs should feel secure without pulling, allow full movement, and stay professional through a long shift. Use this head-to-toe guide to find your best fit.",
+    shortKeywords: [
+      "how should scrubs fit",
+      "scrub fit guide",
+      "scrub sizes",
+      "medical scrubs NJ",
+      "scrub store Lakewood"
+    ],
+    longKeywords: [
+      "how should medical scrubs fit New Jersey",
+      "professional scrub fitting near Lakewood NJ",
+      "how should scrub tops and pants fit",
+      "petite tall and plus size scrubs New Jersey",
+      "where to try on nursing scrubs in Ocean County",
+      "comfortable scrubs for long shifts Monmouth County"
+    ],
+    date: "2026-09-20",
+    readTime: "11 min",
+    image: img_how_should_scrubs_fit_nj,
+    imageAlt: "New Jersey healthcare professionals wearing properly fitted navy, teal, burgundy and green medical scrubs in a Lakewood uniform boutique",
+    sections: [
+      {
+        heading: "The Short Answer: How Should Scrubs Fit?",
+        paragraphs: [
+          "Scrubs should fit close enough to look neat and stay out of your way, but loose enough for you to bend, reach, squat, sit, and walk without pulling. Shoulder seams should sit at the edge of your shoulders, the top should not gape when you lean forward, the waistband should stay secure without digging in, and pant hems should clear the floor. A good set follows your shape without restricting it. You should be able to complete every normal movement of a shift while the garment returns to place instead of riding up, twisting, or sliding down.",
+          "That simple answer matters because healthcare work is not performed while standing still. Nurses, medical assistants, dental teams, therapists, veterinarians, and technicians move through hundreds of small tasks every day. A fit that looks fine in a mirror may fail when you reach for a supply, transfer a patient, sit at a workstation, or walk quickly down a corridor. The best test is therefore not whether scrubs look tight or loose. It is whether they remain comfortable, covered, and professional while you move."
+        ]
+      },
+      {
+        heading: "Why Proper Scrub Fit Matters During a Long Shift",
+        paragraphs: [
+          "Correct fit supports comfort, mobility, safety, and a polished appearance. Scrubs that are too tight can pull across the back, restrict a deep bend, press into the waist, and strain seams. Scrubs that are too loose can catch on handles, shift while you work, obscure your shape, or leave pant hems touching the floor. Neither extreme serves a healthcare professional well. The goal is functional ease: enough room for your body and your work, without unnecessary fabric moving around you.",
+          "Fit can also change how you feel at hour ten of a twelve-hour shift. A waistband that seemed merely snug in the fitting room may become distracting after hours of sitting and standing. A shoulder seam positioned too far down the arm can make a top feel bulky under a jacket. Fabric, cut, and size work together, so the number on a label never tells the whole story. Our guide to [choosing scrubs for long shifts](/blog/choose-scrubs-long-shifts) explains how stretch and moisture management complement a dependable fit."
+        ]
+      },
+      {
+        heading: "How Should a Scrub Top Fit?",
+        paragraphs: [
+          "Start at the shoulders. The seam should land near the natural edge of each shoulder, and the fabric across your upper back should remain smooth when your arms rest at your sides. Cross your arms, reach overhead, and extend both hands forward. If the back feels tight, the sleeves pull sharply, or the entire top rises several inches, try a roomier size or a cut designed for broader shoulders. If the shoulder seams droop far down your arms and the neckline shifts as you move, the top may be too large.",
+          "Next, check the neckline, chest, and length. A V-neck should lie flat without gaping when you bend toward a patient or supply drawer. The chest should have enough ease for a comfortable breath and full arm movement without buttons, pockets, or embroidery pulling. The hem should cover your waistband during normal movement but not extend so low that it bunches around the hips. Petite wearers may need a shorter top, while tall wearers may benefit from extra body length. Always test pockets with the items you actually carry; a loaded pocket changes how a top hangs."
+        ]
+      },
+      {
+        heading: "How Should Scrub Pants Fit at the Waist, Hips and Rise?",
+        paragraphs: [
+          "A scrub waistband should stay in place while you walk, sit, and bend without requiring constant adjustment. You should be able to slide about two fingers comfortably beneath it, although the feel varies with elastic, knit panels, and drawcords. If the waistband rolls, pinches, leaves deep marks, or pulls the pockets open, it is too tight or the rise is wrong for your body. If it drops when your pockets are loaded or creates excessive gathering under the drawcord, try a smaller size or a different waistband design.",
+          "Across the hips and seat, look for smooth fabric rather than horizontal stress lines. Sit in a chair and squat as if retrieving something from a low cabinet. The back waist should maintain coverage, the rise should not pull, and the thigh should allow movement without strain. Straight-leg pants typically need a little more ease through the leg, while tapered styles intentionally narrow toward the ankle. If you are comparing silhouettes, our article on [why jogger scrubs are popular](/blog/jogger-scrubs-hottest-trend-medical-uniforms) covers the practical differences."
+        ]
+      },
+      {
+        heading: "How Long Should Scrub Pants Be?",
+        paragraphs: [
+          "Straight-leg scrub pants should reach the top of your work shoe or fall slightly lower without touching the floor. They should not drag behind the heel, fold heavily over the shoe, or sweep the ground when you walk. Floor contact collects dirt, damages the hem, and can create a trip risk. Try pants with the shoes you wear at work because sole height changes the break of the hem. If the waist and hips fit but the length does not, choose a petite, short, tall, or long inseam rather than compromising the whole garment.",
+          "Jogger cuffs usually sit at or just above the ankle bone. The cuff should stay comfortably in place without squeezing the lower leg, and the fabric above it should fall cleanly rather than ballooning excessively. Taller wearers should check the cuff while seated, since a pant that looks right standing may climb too high in a chair. Petite wearers should avoid stacking so much fabric above the cuff that the tapered shape disappears. A proper inseam makes even a simple scrub set look intentional."
+        ]
+      },
+      {
+        heading: "Should Scrubs Be Tight or Loose?",
+        paragraphs: [
+          "Scrubs should be neither skin-tight nor oversized. A tailored fit can follow the body and still be workplace appropriate when the fabric does not strain, become sheer, or limit movement. Look for a small amount of fabric ease at the chest, waist, hips, and thighs. Pinching, pronounced pulling lines, stretched pocket openings, and a top that rides up are signs to size up or change cuts. If you can gather large handfuls of extra fabric, the neckline shifts, or sleeves and hems interfere with work, size down or try a more shaped style.",
+          "Workplace policy comes first. Color, silhouette, logo placement, undershirts, and permitted jogger cuffs can vary by employer and department. Before buying several sets, confirm the current written dress code with your manager or human resources team. The Scrub Boutique ULTD can help translate those requirements into options from our full [medical uniform brands](/brands), but your facility remains the final authority. This is especially important for students, new hires, and professionals transferring between New Jersey health systems."
+        ]
+      },
+      {
+        heading: "Finding the Right Cut for Petite, Tall and Plus Sizes",
+        paragraphs: [
+          "Bodies with the same general measurements can need different proportions. Petite sizing is not simply a shorter hem; well-designed petite scrubs may also adjust the rise, knee position, sleeve, and torso length. Tall sizing should add length where it is needed without making the garment unnecessarily wide. Curvy cuts often provide more room through the hip and thigh with a waistband shaped to reduce gapping. Athletic and men's cuts may allow more room through the shoulder or use a straighter body shape.",
+          "Do not let one disappointing size convince you that all scrubs fit the same. Each brand uses its own pattern, and collections within a brand can fit differently because of fabric and styling. Our [plus-size scrubs guide](/blog/plus-size-scrubs-guide) covers fit, fabric, and confidence in greater detail. At our Lakewood store, sizes from XXS through 5XL let healthcare professionals compare proportions instead of relying only on a size chart. The right cut often solves a fit issue more effectively than moving up or down a size."
+        ]
+      },
+      {
+        heading: "Fabric and Brand Change the Way Scrubs Fit",
+        paragraphs: [
+          "Stretch percentage, fabric weight, drape, and recovery all affect fit. A soft four-way-stretch fabric may feel close to the body while still allowing excellent movement. A firmer woven fabric may need more ease in the same labeled size. Recovery describes whether material returns to shape after bending and sitting; poor recovery can leave knees baggy and waistbands loose by the end of a shift. Breathability and moisture management also affect comfort, particularly during humid New Jersey summers and fast-paced clinical work.",
+          "Compare collections rather than shopping by label alone. [Barco](/brands/barco) and [Grey's Anatomy by Barco](/brands/greys-anatomy) offer polished performance options with different hand-feels and silhouettes. [White Cross](/brands/white-cross) blends fashion-led details with work-ready function, while [Landau](/brands/landau) offers dependable professional choices. Trying several brands in the same visit reveals differences that online measurements cannot fully communicate. Move in each set and judge the garment after a few minutes, not just the first glance."
+        ]
+      },
+      {
+        heading: "The Five-Minute Fitting Room Movement Test",
+        paragraphs: [
+          "Use a simple movement test before removing any tags. First, raise both arms overhead and reach forward as if accessing a shelf. Second, cross your arms and rotate your torso. Third, sit fully in a chair and stand without pulling at the waistband. Fourth, squat or bend safely at the knees. Fifth, take several long steps and place the items you normally carry into the pockets. Throughout the test, notice coverage, pressure points, riding, sliding, and whether the fabric returns to place.",
+          "Then check the mirror from the front, side, and back. Look for level hems, flat necklines, accessible pockets, and smooth seams. Wear your usual undershirt and work shoes to make the test realistic. If you are between sizes, compare two cuts as well as two sizes. A different rise, sleeve, or fabric may solve the problem without creating excess room elsewhere. This practical fitting process is one reason local healthcare workers from Lakewood, Monmouth County, and Ocean County choose an in-person uniform boutique."
+        ]
+      },
+      {
+        heading: "Fit for Embroidery and Group Uniform Programs",
+        paragraphs: [
+          "Finalize fit before adding a name, credentials, or logo. Embroidery makes a garment personal and professional, but it also means the item generally cannot be exchanged like an undecorated piece. The chest area must lie smoothly so stitched details sit level instead of pulling or curving. Our [in-house custom embroidery service](/embroidery) digitizes artwork, reviews placement, and prepares coordinated uniforms for healthcare practices, dental offices, veterinary teams, schools, and public safety organizations.",
+          "For teams, a single unisex style is not always the best route to a consistent appearance. Offering approved cuts in the same color and collection can preserve brand standards while giving each employee a better fit. A try-on event or fit session can reduce sizing mistakes and simplify reorders. Our [hospital and group uniform programs](/groups) combine approved apparel, group pricing, embroidery, and fitting support for organizations across New Jersey. Confirming each employee's size before production protects both comfort and the team's budget."
+        ]
+      },
+      {
+        heading: "Where to Get Professionally Fitted for Scrubs in New Jersey",
+        paragraphs: [
+          "The Scrub Boutique ULTD helps healthcare professionals compare scrub fits in person at 60 Chambersbridge Road, Unit 4, Lakewood, NJ 08701. Our Uniform Specialists can look at shoulder placement, rise, inseam, and movement while you compare brands and silhouettes in sizes XXS through 5XL. We serve nurses, doctors, dental professionals, medical assistants, students, veterinarians, chefs, and first responders from Ocean County, Monmouth County, and communities throughout New Jersey.",
+          "Bring your facility's color and dress-code requirements, the shoes you expect to wear, and any layers you use during a shift. If you need personalization, ask about embroidery before completing your order. You can also [shop online](https://shop.thescrubboutiqueultd.com/), but an in-store fitting is valuable when you are changing brands, starting a new role, or building a multi-set work wardrobe. Call 732-308-7788 with questions or visit the Lakewood boutique to find scrubs that work as hard as you do."
+        ]
+      }
+    ],
+    faqs: [
+      {
+        q: "How should scrubs fit?",
+        a: "Scrubs should look neat without restricting movement. Shoulder seams should sit near the edge of your shoulders, the neckline should stay flat when you bend, the waistband should remain secure without digging in, and pant hems should clear the floor. You should be able to reach, sit, squat, and walk comfortably."
+      },
+      {
+        q: "Should scrubs be tight or loose?",
+        a: "Scrubs should be comfortably tailored rather than tight or baggy. They can follow your shape, but the fabric should not pull, stretch sheer, or restrict movement. Excess fabric should not shift, catch on equipment, or drag on the floor."
+      },
+      {
+        q: "How should a scrub top fit?",
+        a: "A scrub top should lie smoothly across the shoulders and upper back, allow full arm movement, and maintain coverage when you lean forward. The hem should cover the waistband without bunching around the hips, and loaded pockets should not pull the neckline out of place."
+      },
+      {
+        q: "How should scrub pants fit?",
+        a: "Scrub pants should stay secure at the natural waist or intended rise without pinching or sliding. The hips, seat, and thighs need enough room for sitting and squatting, while straight-leg hems should reach the top of your shoes without touching the floor."
+      },
+      {
+        q: "How should jogger scrubs fit?",
+        a: "Jogger scrubs should have comfortable room through the hip and thigh, then taper toward a cuff that sits at or just above the ankle. The cuff should remain in place without squeezing, and the pants should not create excessive bunching above it."
+      },
+      {
+        q: "Do scrubs run big or small?",
+        a: "Scrub sizing varies by brand, collection, fabric, and cut, so there is no universal answer. Compare the brand's measurements, but also try the garment while sitting, reaching, and squatting. A different cut may fit better than simply changing size."
+      },
+      {
+        q: "Should I size up in scrubs?",
+        a: "Size up when the garment pulls across your back or hips, restricts movement, stretches at seams, or becomes sheer. Do not automatically size up for comfort, because excess fabric can interfere with work. Compare another cut or stretch fabric before deciding."
+      },
+      {
+        q: "Where can I get fitted for scrubs near Lakewood, New Jersey?",
+        a: "The Scrub Boutique ULTD offers in-person scrub fitting at 60 Chambersbridge Road, Unit 4, Lakewood, NJ 08701. Healthcare professionals can compare brands, fabrics, and proportions in sizes XXS through 5XL and ask about in-house embroidery or group programs."
+      }
+    ]
+  },
   {
     "slug": "best-scrubs-for-september",
     "title": "Best Scrubs for September: A NJ Healthcare Worker's Fall Refresh Guide",
