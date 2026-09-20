@@ -10,6 +10,37 @@ import { posts } from "@/data/blog";
 
 const SITE = siteUrl;
 
+const sectionId = (heading: string) =>
+  heading
+    .toLowerCase()
+    .replace(/[^a-z0-9\s-]/g, "")
+    .trim()
+    .replace(/\s+/g, "-");
+
+const renderParagraph = (text: string) => {
+  const parts = text.split(/(\[[^\]]+\]\([^)]+\))/g);
+
+  return parts.map((part, index) => {
+    const match = part.match(/^\[([^\]]+)\]\(([^)]+)\)$/);
+    if (!match) return part;
+
+    const [, label, href] = match;
+    if (href.startsWith("/")) {
+      return (
+        <Link key={`${href}-${index}`} to={href} className="font-semibold text-primary underline decoration-primary/30 underline-offset-4 hover:decoration-primary">
+          {label}
+        </Link>
+      );
+    }
+
+    return (
+      <a key={`${href}-${index}`} href={href} target="_blank" rel="noopener noreferrer" className="font-semibold text-primary underline decoration-primary/30 underline-offset-4 hover:decoration-primary">
+        {label}
+      </a>
+    );
+  });
+};
+
 const BlogPost = () => {
   const { slug } = useParams<{ slug: string }>();
   const post = posts.find((p) => p.slug === slug);
@@ -95,18 +126,32 @@ const BlogPost = () => {
             transition={{ duration: 0.6 }}
             className="aspect-[16/9] overflow-hidden rounded-3xl bg-muted mb-12"
           >
-            <img src={post.image} alt={post.title} width={1280} height={768} className="w-full h-full object-cover" />
+            <img src={post.image} alt={post.imageAlt ?? post.title} width={1280} height={768} className="w-full h-full object-cover" />
           </motion.div>
         </div>
 
         <div className="container max-w-3xl pb-16">
+          <nav aria-label="Table of contents" className="mb-14 border-y border-border py-7">
+            <p className="text-sm uppercase tracking-[0.2em] text-primary mb-4">In this guide</p>
+            <ol className="grid gap-x-8 gap-y-3 sm:grid-cols-2">
+              {post.sections.map((section, index) => (
+                <li key={section.heading}>
+                  <a href={`#${sectionId(section.heading)}`} className="group flex items-start gap-3 text-sm text-foreground/80 hover:text-primary">
+                    <span className="font-display text-primary">{String(index + 1).padStart(2, "0")}</span>
+                    <span className="border-b border-transparent group-hover:border-primary/30">{section.heading}</span>
+                  </a>
+                </li>
+              ))}
+            </ol>
+          </nav>
+
           <div className="prose-content space-y-10">
             {post.sections.map((s, i) => (
-              <section key={i}>
+              <section key={i} id={sectionId(s.heading)} className="scroll-mt-28">
                 <h2 className="font-display text-3xl md:text-4xl text-foreground mb-5">{s.heading}</h2>
                 {s.paragraphs.map((para, j) => (
                   <p key={j} className="text-foreground/80 leading-relaxed text-lg mb-4">
-                    {para}
+                    {renderParagraph(para)}
                   </p>
                 ))}
               </section>
