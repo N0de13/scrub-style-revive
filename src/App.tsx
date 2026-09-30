@@ -3,7 +3,7 @@ import { Toaster } from "@/components/ui/toaster";
 import { Toaster as Sonner } from "@/components/ui/sonner";
 import { TooltipProvider } from "@/components/ui/tooltip";
 import { QueryClient, QueryClientProvider } from "@tanstack/react-query";
-import { BrowserRouter, Routes, Route, useLocation } from "react-router-dom";
+import { BrowserRouter, Routes, Route, useLocation, Navigate } from "react-router-dom";
 import { trackPageView } from "./lib/analytics";
 
 import Index from "./pages/Index";
@@ -54,6 +54,12 @@ const App = () => (
           <Route path="/blog/:slug" element={<BlogPost />} />
           <Route path="/smith-warren-badges" element={<SmithWarrenBadges />} />
           <Route path="/new-customer-discount" element={<NewCustomerDiscount />} />
+          {/* Legacy URL redirects from the old site */}
+          <Route path="/news" element={<Navigate to="/blog" replace />} />
+          <Route path="/news/*" element={<Navigate to="/blog" replace />} />
+          <Route path="/tag/news" element={<Navigate to="/blog" replace />} />
+          <Route path="/tag/pumpkins" element={<Navigate to="/" replace />} />
+          <Route path="/tag/*" element={<Navigate to="/blog" replace />} />
           {/* ADD ALL CUSTOM ROUTES ABOVE THE CATCH-ALL "*" ROUTE */}
           <Route path="*" element={<NotFound />} />
         </Routes>
