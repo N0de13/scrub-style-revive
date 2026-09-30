@@ -5,10 +5,13 @@ declare global {
   }
 }
 
-const MEASUREMENT_ID = "G-NB8D3WQQMX";
+const MEASUREMENT_ID =
+  import.meta.env.VITE_LOVABLE_CONNECTOR_GOOGLE_ANALYTICS_API_KEY ||
+  "G-NB8D3WQQMX";
 
 export function initAnalytics(): void {
   if (typeof document === "undefined") return;
+  if (!MEASUREMENT_ID) return;
 
   const script = document.createElement("script");
   script.async = true;
@@ -22,7 +25,7 @@ export function initAnalytics(): void {
   window.gtag = gtag;
 
   gtag("js", new Date());
-  gtag("config", MEASUREMENT_ID);
+  gtag("config", MEASUREMENT_ID, { send_page_view: true });
 }
 
 export function trackPageView(path: string): void {
