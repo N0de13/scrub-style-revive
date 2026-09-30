@@ -5,9 +5,7 @@ declare global {
   }
 }
 
-const MEASUREMENT_ID =
-  import.meta.env.VITE_LOVABLE_CONNECTOR_GOOGLE_ANALYTICS_API_KEY ||
-  "G-NB8D3WQQMX";
+const MEASUREMENT_ID = "G-NB8D3WQQMX";
 
 export function initAnalytics(): void {
   if (typeof document === "undefined") return;
