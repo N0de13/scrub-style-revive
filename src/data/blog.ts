@@ -16,6 +16,7 @@ import img_jogger_scrubs_trend from "@/assets/blog/jogger-scrubs-trend.jpg";
 import img_clipglow_nursing_light from "@/assets/blog/clipglow-nursing-light.jpg";
 import img_best_scrubs_september from "@/assets/blog/best-scrubs-september.jpg";
 import img_how_should_scrubs_fit_nj from "@/assets/blog/how-should-scrubs-fit-nj.jpg";
+import img_buy_local_scrubs from "@/assets/blog/buy-local-scrubs-guide.jpg";
 
 export type BlogPost = {
   slug: string;
