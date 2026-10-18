@@ -52,6 +52,7 @@ const Index = () => {
       <Navbar />
       <HeroSection />
       <BadgeBanner />
+      <SkechersBanner />
       <ServicesSection />
       <AboutSection />
       <BrandsMarquee />
