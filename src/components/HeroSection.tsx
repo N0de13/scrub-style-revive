@@ -1,5 +1,7 @@
 import { motion } from "framer-motion";
-import heroImg from "@/assets/hero-scrubs.jpg";
+import heroAsset from "@/assets/hero-barco-strong.png.asset.json";
+
+const heroImg = heroAsset.url;
 
 const HeroSection = () => {
   return (
