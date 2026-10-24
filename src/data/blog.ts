@@ -77,7 +77,7 @@ export const posts: BlogPost[] = [
         heading: "Holiday Prints, Caps and Accessories",
         paragraphs: [
           "Printed tops are the easiest way to go festive. Look for snowflakes, winter florals, gingerbread and playful pediatric prints. Choose prints on a stretch-poly blend so colors stay bright through repeated hot washes.",
-          "Scrub caps are a favorite small upgrade, and surgical and OR teams love them because they are often the only place a print is allowed. Pair with compression socks in holiday patterns for comfort on long shifts; read our [compression and accessories guide](/blog/compression-socks-accessories) for sizing tips.",
+          "Scrub caps are a favorite small upgrade, and surgical and OR teams love them because they are often the only place a print is allowed. Pair with compression socks in holiday patterns for comfort on long shifts; read our [compression and accessories guide](/blog/compression-socks-nurse-accessories) for sizing tips.",
           "Do not forget layering. December mornings in Lakewood are cold, and a warm-up jacket or long-sleeve underscrub in a coordinating color keeps you comfortable walking in from the parking lot.",
         ],
       },
@@ -85,7 +85,7 @@ export const posts: BlogPost[] = [
         heading: "Gift Guide: Gifts Nurses and Doctors Actually Want",
         paragraphs: [
           "Buying for a healthcare worker? Skip the mug. These are the gifts our customers ask for most:",
-          "A premium scrub set: a jogger set in four-way stretch fabric is a luxury most nurses will not buy for themselves. See why in our [jogger scrubs guide](/blog/jogger-scrubs-guide). Supportive shoes: quality nursing shoes from brands like [Nurse Mates](/brands/nurse-mates) can change how a 12-hour shift feels. A quality stethoscope: a meaningful gift for new graduates; our [stethoscope guide](/blog/stethoscope-guide) explains what to look for. A ClipGlow light: a hands-free clip light is a night-shift favorite, covered in our [ClipGlow article](/blog/clipglow-nursing-light). Personalized embroidery: adding a name and credentials to a jacket or top makes any gift personal.",
+          "A premium scrub set: a jogger set in four-way stretch fabric is a luxury most nurses will not buy for themselves. See why in our [jogger scrubs guide](/blog/jogger-scrubs-new-favorite-nursing-pants). Supportive shoes: quality nursing shoes from brands like [Nurse Mates](/brands/nurse-mates) can change how a 12-hour shift feels. A quality stethoscope: a meaningful gift for new graduates; our [stethoscope guide](/blog/choosing-the-right-stethoscope) explains what to look for. A ClipGlow light: a hands-free clip light is a night-shift favorite, covered in our [ClipGlow article](/blog/clipglow-hands-free-nursing-light). Personalized embroidery: adding a name and credentials to a jacket or top makes any gift personal.",
           "Not sure of their size? A Scrub Boutique gift card lets them come into the Lakewood store for a proper fitting. Fit matters, as we explain in [how should scrubs fit](/blog/how-should-scrubs-fit).",
         ],
       },
@@ -94,13 +94,13 @@ export const posts: BlogPost[] = [
         paragraphs: [
           "December is the most popular month for team gifts. Practice managers across Ocean and Monmouth County use our in-house [embroidery services](/embroidery) to give staff matching jackets or tops with the office logo, a name, and credentials.",
           "Embroidery takes time during the holiday rush. We recommend placing team orders by mid-November for December delivery. Larger facilities can use our [hospital and group programs](/groups) for volume pricing, sizing days and consolidated billing.",
-          "Want to learn more about team uniform planning? Read our [embroidery playbook for medical offices](/blog/embroidery-medical-offices-groups).",
+          "Want to learn more about team uniform planning? Read our [embroidery playbook for medical offices](/blog/custom-embroidery-medical-offices-groups).",
         ],
       },
       {
         heading: "How to Keep Holiday Scrubs Looking New",
         paragraphs: [
-          "Wash printed and dark scrubs inside out in cold or warm water, skip fabric softener on performance fabrics, and tumble dry low. Treat stains right after your shift. Our [scrub care guide](/blog/scrub-care-guide) covers everything from blood stains to keeping embroidery crisp.",
+          "Wash printed and dark scrubs inside out in cold or warm water, skip fabric softener on performance fabrics, and tumble dry low. Treat stains right after your shift. Our [scrub care guide](/blog/scrub-care-laundry-guide) covers everything from blood stains to keeping embroidery crisp.",
           "If your facility requires high-temperature laundering, ask us about [antimicrobial scrubs](/blog/antimicrobial-scrubs-guide) and color-fast fabrics that hold up all season.",
         ],
       },
