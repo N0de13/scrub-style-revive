@@ -18,6 +18,7 @@ import img_best_scrubs_september from "@/assets/blog/best-scrubs-september.jpg";
 import img_how_should_scrubs_fit_nj from "@/assets/blog/how-should-scrubs-fit-nj.jpg";
 import img_buy_local_scrubs from "@/assets/blog/buy-local-scrubs-guide.jpg";
 import img_nurses_doctors_scrubs from "@/assets/blog/nurses-doctors-favorite-scrubs-nj.jpg";
+import img_holiday_scrub_guide from "@/assets/blog/holiday-scrub-guide-nj.jpg";
 
 export type BlogPost = {
   slug: string;
@@ -36,6 +37,92 @@ export type BlogPost = {
 };
 
 export const posts: BlogPost[] = [
+  {
+    slug: "holiday-scrub-guide-nj",
+    title: "The Scrub Boutique Holiday Scrub Guide: Festive Scrubs, Gifts and Group Orders for New Jersey Healthcare Teams",
+    metaTitle: "Holiday Scrub Guide 2026 | Festive Scrubs Lakewood NJ",
+    metaDescription: "The Scrub Boutique's holiday scrub guide: festive colors, gift ideas for nurses, embroidered team scrubs and holiday shopping tips in Lakewood, NJ.",
+    excerpt: "Festive colors, gifts every nurse actually wants, embroidered team scrubs for holiday parties, and how to plan your December shopping at our Lakewood boutique.",
+    shortKeywords: ["holiday scrubs NJ", "Christmas scrubs Lakewood", "gifts for nurses NJ", "festive scrubs", "scrub store Lakewood NJ"],
+    longKeywords: ["holiday scrubs for nurses in Lakewood New Jersey", "best gifts for nurses and doctors in Ocean County NJ", "embroidered holiday scrubs for medical office staff NJ", "where to buy Christmas scrubs near Toms River and Brick NJ", "scrub gift cards Monmouth County New Jersey"],
+    date: "2026-10-24",
+    readTime: "9 min read",
+    image: img_holiday_scrub_guide,
+    imageAlt: "Watercolor illustration of a smiling nurse in red holiday scrubs holding a gift inside a decorated scrub boutique in Lakewood, NJ",
+    sections: [
+      {
+        heading: "Quick Answer: What Are the Best Holiday Scrubs This Season?",
+        paragraphs: [
+          "The best holiday scrubs combine a festive touch with the same comfort and durability you need for a 12-hour shift. For the 2026 season, our Lakewood team recommends rich jewel tones like wine, evergreen and navy, jogger-style pants, soft four-way stretch fabrics, and a single fun accent such as a printed top or a holiday cap rather than head-to-toe novelty prints.",
+          "The Scrub Boutique ULTD at 60 Chambersbridge Road, Unit 4, Lakewood, NJ serves nurses, physicians, dental teams and medical office staff across Ocean and Monmouth County. This guide covers festive styling, gift ideas, embroidered group orders and how to plan your holiday visit so you are not rushing in on December 23rd.",
+        ],
+      },
+      {
+        heading: "Why Holiday Scrubs Matter More Than You Think",
+        paragraphs: [
+          "Healthcare never closes for the holidays. Nurses, techs and doctors across New Jersey work Thanksgiving, Christmas Eve and New Year's Day while the rest of the world celebrates. A festive scrub top is a small way to bring the season onto the unit for staff, patients and families.",
+          "Patients notice, too. Pediatric units, long-term care facilities and outpatient practices often tell us that a cheerful color or seasonal print opens conversations and eases anxiety, especially for children and older adults spending the holidays in care.",
+          "Holiday scrubs are also a morale tool. Many local practices pick a coordinated holiday color or matching embroidered tops for the month of December, and it shows up in staff photos, social posts and team spirit.",
+        ],
+      },
+      {
+        heading: "Festive Scrub Colors for 2026",
+        paragraphs: [
+          "You do not need red-and-green candy cane prints to look seasonal. These are the colors flying off our racks this fall:",
+          "Wine and burgundy: a sophisticated holiday red that works from Thanksgiving through Valentine's Day. Evergreen and hunter green: classic, flattering on most skin tones, and hides wear well. Royal and navy: wintry and professional, perfect for hospitals with color-coded departments. Heather gray and charcoal: pair with a festive cap or printed underscrub for a subtle look.",
+          "Before you buy, check your facility's dress code. Many New Jersey hospitals assign colors by role, so a printed scrub cap, sock or jacket may be the smartest way to celebrate. Our staff can help you match approved colors from brands like [Barco](/brands/barco), [Grey's Anatomy](/brands/greys-anatomy) and [Landau](/brands/landau).",
+        ],
+      },
+      {
+        heading: "Holiday Prints, Caps and Accessories",
+        paragraphs: [
+          "Printed tops are the easiest way to go festive. Look for snowflakes, winter florals, gingerbread and playful pediatric prints. Choose prints on a stretch-poly blend so colors stay bright through repeated hot washes.",
+          "Scrub caps are a favorite small upgrade, and surgical and OR teams love them because they are often the only place a print is allowed. Pair with compression socks in holiday patterns for comfort on long shifts; read our [compression and accessories guide](/blog/compression-socks-accessories) for sizing tips.",
+          "Do not forget layering. December mornings in Lakewood are cold, and a warm-up jacket or long-sleeve underscrub in a coordinating color keeps you comfortable walking in from the parking lot.",
+        ],
+      },
+      {
+        heading: "Gift Guide: Gifts Nurses and Doctors Actually Want",
+        paragraphs: [
+          "Buying for a healthcare worker? Skip the mug. These are the gifts our customers ask for most:",
+          "A premium scrub set: a jogger set in four-way stretch fabric is a luxury most nurses will not buy for themselves. See why in our [jogger scrubs guide](/blog/jogger-scrubs-guide). Supportive shoes: quality nursing shoes from brands like [Nurse Mates](/brands/nurse-mates) can change how a 12-hour shift feels. A quality stethoscope: a meaningful gift for new graduates; our [stethoscope guide](/blog/stethoscope-guide) explains what to look for. A ClipGlow light: a hands-free clip light is a night-shift favorite, covered in our [ClipGlow article](/blog/clipglow-nursing-light). Personalized embroidery: adding a name and credentials to a jacket or top makes any gift personal.",
+          "Not sure of their size? A Scrub Boutique gift card lets them come into the Lakewood store for a proper fitting. Fit matters, as we explain in [how should scrubs fit](/blog/how-should-scrubs-fit).",
+        ],
+      },
+      {
+        heading: "Embroidered Holiday Scrubs for Offices and Teams",
+        paragraphs: [
+          "December is the most popular month for team gifts. Practice managers across Ocean and Monmouth County use our in-house [embroidery services](/embroidery) to give staff matching jackets or tops with the office logo, a name, and credentials.",
+          "Embroidery takes time during the holiday rush. We recommend placing team orders by mid-November for December delivery. Larger facilities can use our [hospital and group programs](/groups) for volume pricing, sizing days and consolidated billing.",
+          "Want to learn more about team uniform planning? Read our [embroidery playbook for medical offices](/blog/embroidery-medical-offices-groups).",
+        ],
+      },
+      {
+        heading: "How to Keep Holiday Scrubs Looking New",
+        paragraphs: [
+          "Wash printed and dark scrubs inside out in cold or warm water, skip fabric softener on performance fabrics, and tumble dry low. Treat stains right after your shift. Our [scrub care guide](/blog/scrub-care-guide) covers everything from blood stains to keeping embroidery crisp.",
+          "If your facility requires high-temperature laundering, ask us about [antimicrobial scrubs](/blog/antimicrobial-scrubs-guide) and color-fast fabrics that hold up all season.",
+        ],
+      },
+      {
+        heading: "Planning Your Holiday Visit to Our Lakewood Store",
+        paragraphs: [
+          "Our boutique is open Monday through Thursday 10 AM to 6 PM and Saturday 10 AM to 5 PM, and closed Sunday. Weekday mornings in November are the calmest time to shop, try things on and talk through embroidery.",
+          "Shopping in person means you can feel fabrics, try sizes from XXS to 5XL, and walk out with your order the same day. Read why in [why buying scrubs locally beats online](/blog/buy-local-scrubs-vs-online). Prefer to restock from home? Visit our [online shop](https://shop.thescrubboutiqueultd.com/).",
+          "New to The Scrub Boutique? Check our [new customer discount](/new-customer-discount) before your first visit, and [contact us](/contact) with any group or embroidery questions.",
+        ],
+      },
+    ],
+    faqs: [
+      { q: "Can I wear Christmas scrubs to work in a New Jersey hospital?", a: "It depends on your facility's dress code. Many NJ hospitals assign scrub colors by role, so festive caps, socks or jackets are a safe way to celebrate. Our Lakewood staff can help you find options that meet your color requirements." },
+      { q: "What is a good holiday gift for a nurse?", a: "Popular gifts include a premium jogger scrub set, supportive nursing shoes, a quality stethoscope, a ClipGlow clip light, personalized embroidery, or a Scrub Boutique gift card so they can be fitted in store." },
+      { q: "When should I order embroidered holiday scrubs for my office?", a: "Place team embroidery orders by mid-November for December delivery. The holiday season is our busiest embroidery period." },
+      { q: "Do you sell gift cards at The Scrub Boutique in Lakewood, NJ?", a: "Yes. Gift cards are available in store at 60 Chambersbridge Road, Unit 4, Lakewood, NJ, so the recipient can choose their own size and style." },
+      { q: "What holiday scrub colors are popular this year?", a: "Wine, burgundy, evergreen, hunter green, royal, navy and charcoal are the top picks for the 2026 holiday season." },
+      { q: "What sizes do you carry?", a: "We carry scrubs from XXS to 5XL, including petite and tall lengths in many styles, from brands like Barco, Grey's Anatomy and Landau." },
+      { q: "Can I use the new customer coupon on holiday gifts?", a: "The 15% new customer code applies to most scrubs, but excludes accessories, shoes, sale items and game/work apparel." },
+    ],
+  },
   {
     slug: "why-nurses-doctors-love-scrubs",
     title: "Why Nurses and Doctors Love Scrubs: Comfort, Confidence and Personal Style",
