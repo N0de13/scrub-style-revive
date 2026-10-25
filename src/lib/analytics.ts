@@ -17,8 +17,10 @@ export function initAnalytics(): void {
   document.head.appendChild(script);
 
   window.dataLayer = window.dataLayer || [];
-  function gtag(...args: unknown[]) {
-    window.dataLayer.push(args);
+  function gtag(..._args: unknown[]) {
+    // gtag.js processes Arguments objects, not ordinary arrays.
+    // eslint-disable-next-line prefer-rest-params
+    window.dataLayer.push(arguments);
   }
   window.gtag = gtag;
 
