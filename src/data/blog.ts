@@ -19,6 +19,16 @@ import img_how_should_scrubs_fit_nj from "@/assets/blog/how-should-scrubs-fit-nj
 import img_buy_local_scrubs from "@/assets/blog/buy-local-scrubs-guide.jpg";
 import img_nurses_doctors_scrubs from "@/assets/blog/nurses-doctors-favorite-scrubs-nj.jpg";
 import img_holiday_scrub_guide from "@/assets/blog/holiday-scrub-guide-nj.jpg";
+import fallCover from "@/assets/blog/fall-scrubs-barco-lakewood-nj.jpg.asset.json";
+import ariaBlack from "@/assets/blog/aria-black-fall-scrubs.png.asset.json";
+import ariaBerry from "@/assets/blog/aria-berry-fall-scrubs.png.asset.json";
+import phoenixTop from "@/assets/blog/phoenix-top-fall-scrubs.png.asset.json";
+import phoenixPant from "@/assets/blog/phoenix-pant-fall-scrubs.png.asset.json";
+import kateTop from "@/assets/blog/kate-top-fall-scrubs.png.asset.json";
+import thomasPant from "@/assets/blog/thomas-pant-fall-scrubs.png.asset.json";
+
+const greysShop = "https://shop.thescrubboutiqueultd.com/ProductPage?fsj=reset&brand=all&group=none&dept=GREY&show=toppicks&departmentname=Greys+Anatomy";
+const barcoShop = "https://shop.thescrubboutiqueultd.com/ProductPage?fsj=reset&brand=BCO&group=none&dept=all&show=toppicks&brandname=Barco+Of+California";
 
 export type BlogPost = {
   slug: string;
@@ -32,11 +42,106 @@ export type BlogPost = {
   readTime: string;
   image: string;
   imageAlt?: string;
-  sections: { heading: string; paragraphs: string[] }[];
+  sections: { heading: string; paragraphs: string[]; images?: { src: string; alt: string; caption: string; href: string; shopLabel: string }[] }[];
   faqs: { q: string; a: string }[];
 };
 
 export const posts: BlogPost[] = [
+  {
+    slug: "great-scrubs-for-fall-lakewood-nj",
+    title: "Great Scrubs for Fall: The Scrub Boutique’s Barco Style Guide",
+    metaTitle: "Great Fall Scrubs: Barco Styles | Lakewood NJ",
+    metaDescription: "Explore fall scrub looks from Grey’s Anatomy by Barco Cultivate and Barco Strong. See Aria, Phoenix, Kate and Thomas styles and shop in Lakewood, NJ.",
+    excerpt: "Berry tones, dependable navy and versatile black: discover six fall-ready looks from Grey’s Anatomy by Barco Cultivate and Barco Strong, with photos and shopping links.",
+    shortKeywords: ["fall scrubs", "Barco scrubs NJ", "Grey’s Anatomy scrubs", "Lakewood NJ scrub store", "Barco Strong scrubs"],
+    longKeywords: ["great medical scrubs for fall in Lakewood New Jersey", "Grey’s Anatomy by Barco Cultivate Aria Phoenix scrubs NJ", "Barco Strong Kate Thomas scrubs Ocean County", "shop navy black berry scrubs near Brick and Toms River", "fall medical uniforms for nurses and doctors Monmouth County NJ"],
+    date: "2026-11-01",
+    readTime: "8 min read",
+    image: fallCover.url,
+    imageAlt: "Berry Aria, navy Phoenix and navy Kate medical scrub tops in The Scrub Boutique fall scrub guide, Lakewood New Jersey",
+    sections: [
+      {
+        heading: "Quick Answer: What Makes a Great Scrub for Fall?",
+        paragraphs: [
+          "Great fall scrubs combine a workplace-approved color, a comfortable fit, practical pockets and room for an approved lightweight layer. For a seasonal refresh, consider navy, black and berry-toned options rather than choosing heavier clothing simply because the weather is cooler. Your commute may be chilly, but your clinical workspace can still feel warm once the shift gets moving.",
+          "At The Scrub Boutique ULTD in Lakewood, New Jersey, fall style starts with the way your uniform works for you. This guide features the six product photos shown throughout the article: two color looks for the Aria top, a Phoenix top and pant, a Kate top and a Thomas pant. The pictured garments come from Grey’s Anatomy by Barco Cultivate and Barco Strong. Shopping links lead to the relevant brand departments, where you can check current selections; they are not promises that every pictured color or size is currently available."
+        ]
+      },
+      {
+        heading: "Aria in Black: A Polished Foundation for Your Fall Wardrobe",
+        paragraphs: [
+          "The Aria Women’s 6-Pocket Sportneck Zip-Front Top from Grey’s Anatomy by Barco Cultivate offers a different look from the familiar V-neck. In the uploaded black version, the zip-front construction and neat sportneck give the top a streamlined appearance. If black is permitted by your employer, it can be an easy foundation for a rotation that works through fall and beyond.",
+          "Six pockets give you several places to organize the small items you carry, but the number alone is not the whole story. When trying the top on, check which pockets are easiest to reach and whether your usual items change the way it hangs. Raise your arms, reach forward and sit down. A top should still feel comfortable after you stop posing in the mirror and start moving as you would at work.",
+          "Choose coordinating pants by comparing fabric and shade in person whenever possible; two garments described as black do not necessarily have an identical finish. Learn more about our [Grey’s Anatomy selection](/brands/greys-anatomy), or [browse Grey’s Anatomy in the online shop](" + greysShop + ")."
+        ],
+        images: [{ src: ariaBlack.url, alt: "Black Aria Women’s 6-Pocket Sportneck Zip-Front Top from Grey’s Anatomy by Barco Cultivate, fall scrubs guide Lakewood NJ", caption: "Aria Women’s 6-Pocket Sportneck Zip-Front Top — Grey’s Anatomy by Barco Cultivate, pictured in black.", href: greysShop, shopLabel: "Shop Grey’s Anatomy" }]
+      },
+      {
+        heading: "Aria in a Berry Tone: A Seasonal Color Without a Costume",
+        paragraphs: [
+          "The second Aria photo shows the same zip-front top in a muted berry or mauve-looking shade. That richer color feels at home in a fall wardrobe without relying on leaf prints or a novelty design. It is a useful option for healthcare professionals whose workplace allows personal color choices and who want something different from their usual neutrals.",
+          "Treat the photograph as a styling reference rather than an exact color chart. Lighting and screen settings can change the appearance of a garment, and the official manufacturer color name is not shown in the supplied screenshot. Before ordering, compare the shop’s listed color name with what your department requires. If your unit specifies burgundy, for example, a berry-looking top is not automatically an approved substitute.",
+          "For a cohesive outfit, look for pants from the compatible collection and confirm the shade. A matching set creates an uncomplicated morning routine; a contrasting neutral can work when your dress code permits it. Keep accessories practical, avoid anything that interferes with hand hygiene, and let the color do the styling work. [Shop the Grey’s Anatomy department](" + greysShop + ") to compare current options."
+        ],
+        images: [{ src: ariaBerry.url, alt: "Berry-toned Aria Women’s 6-Pocket Sportneck Zip-Front scrub top, Grey’s Anatomy by Barco Cultivate fall style for New Jersey healthcare workers", caption: "Aria zip-front top — pictured in a berry tone; confirm the official color name before ordering.", href: greysShop, shopLabel: "Shop Grey’s Anatomy" }]
+      },
+      {
+        heading: "Phoenix in Navy: A Practical Men’s Scrub Pairing",
+        paragraphs: [
+          "The Phoenix Men’s 3-Pocket Rib Knit V-Neck Top and Phoenix Men’s 6-Pocket Snap Waistband Straight Leg Pant are both identified as Grey’s Anatomy by Barco Cultivate in the supplied photos. Pictured in navy, they offer a straightforward pairing for someone who prefers a classic silhouette rather than a tapered jogger. Navy also carries easily into winter, making it a sensible color to consider for a longer-lasting wardrobe refresh.",
+          "The top’s product name identifies three pockets and a rib knit V-neck. During a fitting, check the neckline when bending and the shoulders when reaching. A tidy neckline matters, but the top also needs enough room across your chest and back for the tasks you do repeatedly. Choosing a larger size to accommodate a layer should not leave the neckline gaping or the sleeves in the way.",
+          "The pant’s product name identifies six pockets, a snap waistband and a straight leg. Pay particular attention to the waist while sitting and the hem while wearing your work shoes. Pants that look the right length barefoot can behave differently with footwear. Load a pocket with an item you normally carry and check that the waistband remains comfortable. Our [scrub fit guide](/blog/how-should-scrubs-fit) gives you a fuller checklist before you decide.",
+          "If you want the photographed pairing, confirm both pieces are offered in a compatible navy shade and your preferred size. The [Grey’s Anatomy shopping department](" + greysShop + ") is the place to start; ask our team about the Phoenix names if you cannot locate a particular piece."
+        ],
+        images: [
+          { src: phoenixTop.url, alt: "Navy Phoenix Men’s 3-Pocket Rib Knit V-Neck Top by Grey’s Anatomy Barco Cultivate in Lakewood NJ fall scrub guide", caption: "Phoenix Men’s 3-Pocket Rib Knit V-Neck Top — Grey’s Anatomy by Barco Cultivate.", href: greysShop, shopLabel: "Shop Grey’s Anatomy" },
+          { src: phoenixPant.url, alt: "Navy Phoenix Men’s 6-Pocket Snap Waistband Straight Leg Pant, fall medical uniforms New Jersey", caption: "Phoenix Men’s 6-Pocket Snap Waistband Straight Leg Pant — Grey’s Anatomy by Barco Cultivate.", href: greysShop, shopLabel: "Shop Grey’s Anatomy" }
+        ]
+      },
+      {
+        heading: "Kate by Barco Strong: A Familiar V-Neck in Dependable Navy",
+        paragraphs: [
+          "The Kate Women’s 3-Pocket V-Neck Patch Pocket Top from Barco Strong is pictured in navy. Its familiar V-neck shape makes it a good style to compare if you prefer a conventional scrub top over a zip-front design. The visible lower patch pockets also make pocket placement easy to assess before you try it on.",
+          "Think about your actual work routine when choosing between Kate and Aria. Do you prefer reaching into lower patch pockets, or organizing items across a larger number of pockets? Do you like a traditional neckline, or the appearance of a sportneck? Neither design is automatically better. The right choice is the one that suits your movement, storage needs and uniform policy.",
+          "For fall, navy can be paired with an approved underscrub or warm-up layer without making the outfit feel busy. Check that the layer does not pull at the sleeves or distort the neckline. Visit our [Barco brand page](/brands/barco) for the boutique’s brand overview and [shop the Barco department](" + barcoShop + ") for current choices."
+        ],
+        images: [{ src: kateTop.url, alt: "Navy Kate Women’s 3-Pocket V-Neck Patch Pocket Top by Barco Strong, fall scrubs Lakewood Ocean County NJ", caption: "Kate Women’s 3-Pocket V-Neck Patch Pocket Top — Barco Strong, pictured in navy.", href: barcoShop, shopLabel: "Shop Barco" }]
+      },
+      {
+        heading: "Thomas by Barco Strong: Straight-Leg Comfort in a Rich Fall Tone",
+        paragraphs: [
+          "The Thomas Men’s 4-Pocket Elastic Waistband Straight Leg Pant from Barco Strong appears in a deep wine-looking shade with a contrasting drawcord in the supplied photo. That rich tone is a natural fall styling idea when your workplace permits it. As with the berry Aria top, confirm the official shop color name rather than relying on the screenshot alone.",
+          "An elastic waistband is worth comparing if you prefer a less structured feel around the waist, but comfort still depends on the correct size. Try sitting, bending and walking with your normal pocket load. Check whether the waistband stays in place and whether the straight-leg cut gives you the movement you need without excess fabric brushing the floor.",
+          "The photograph shows the pants with a light long-sleeve top. Use that as inspiration for an approved layering combination, not as a substitute for your facility’s uniform rules. Compare compatible tops, ask about matching colors, and [browse Barco in the online shop](" + barcoShop + ") before building your fall set."
+        ],
+        images: [{ src: thomasPant.url, alt: "Wine-toned Thomas Men’s 4-Pocket Elastic Waistband Straight Leg Pant by Barco Strong, fall scrub shopping Lakewood New Jersey", caption: "Thomas Men’s 4-Pocket Elastic Waistband Straight Leg Pant — Barco Strong, pictured in a wine tone.", href: barcoShop, shopLabel: "Shop Barco" }]
+      },
+      {
+        heading: "Build a Fall Rotation That Works Beyond the Commute",
+        paragraphs: [
+          "New Jersey fall weather can change quickly, but your uniform should be selected for the work environment as well as the trip there. Start with the approved scrub set, then add a removable layer if your employer allows it. Check sleeve rules for direct patient care and avoid choosing a heavy layer that you cannot comfortably remove during the shift.",
+          "Before refreshing several sets, review what already works in your wardrobe. Replace pants with worn hems or tops that no longer fit comfortably, and keep reliable pieces in rotation. Follow each garment’s care label and your workplace laundering requirements; the photos do not establish fabric composition, antimicrobial properties or a particular wash temperature. For everyday maintenance ideas, read our [scrub care guide](/blog/scrub-care-laundry-guide).",
+          "For medical offices updating uniforms together, choose a shared approved color first, then allow staff to compare suitable cuts. Our [group uniform programs](/groups) and [custom embroidery services](/embroidery) can help you discuss coordinated uniforms and personalization. Confirm garment choices, artwork and timing with the boutique before making a team order."
+        ]
+      },
+      {
+        heading: "Shop Fall Scrubs in Lakewood, NJ or Online",
+        paragraphs: [
+          "The Scrub Boutique ULTD is at 60 Chambersbridge Road, Unit 4, Lakewood, NJ 08701, serving healthcare professionals from Ocean County, Monmouth County and nearby communities including Brick and Toms River. Bring your dress-code requirements and work shoes when comparing fall styles. Trying a neckline, waistband and hem in person can make the difference between an appealing photo and a dependable work outfit.",
+          "Ready to browse? [Shop Grey’s Anatomy by Barco](" + greysShop + ") for the department associated with the pictured Aria and Phoenix pieces, [shop Barco](" + barcoShop + ") to explore the brand behind Kate and Thomas, or visit the [full online shop](https://shop.thescrubboutiqueultd.com/). These links open our separate storefront. Check live product listings for prices, sizes, official colors and availability, or [contact the boutique](/contact) for help finding a featured style."
+        ]
+      }
+    ],
+    faqs: [
+      { q: "What scrub colors work well for fall?", a: "Navy, black, berry and wine tones can make a versatile fall wardrobe. Your employer’s required color takes priority, and you should confirm the manufacturer’s official color name before ordering." },
+      { q: "Which Grey’s Anatomy by Barco Cultivate styles are featured?", a: "This guide features the Aria Women’s 6-Pocket Sportneck Zip-Front Top in two pictured colors, the Phoenix Men’s 3-Pocket Rib Knit V-Neck Top and the Phoenix Men’s 6-Pocket Snap Waistband Straight Leg Pant." },
+      { q: "Which Barco Strong styles are featured?", a: "The uploaded photos show the Kate Women’s 3-Pocket V-Neck Patch Pocket Top in navy and the Thomas Men’s 4-Pocket Elastic Waistband Straight Leg Pant in a wine-looking shade." },
+      { q: "Should I buy heavier scrubs for fall?", a: "Not necessarily. Choose for your indoor work environment and consider an approved removable layer for colder commutes. Check your workplace sleeve and uniform rules first." },
+      { q: "Can I buy every pictured style through the article links?", a: "The links lead to the relevant Grey’s Anatomy and Barco shopping departments, not individual product listings. Current styles, colors and sizes may vary; check the storefront or ask the boutique about a specific garment." },
+      { q: "Where can I try on fall scrubs near Brick or Toms River?", a: "Visit The Scrub Boutique ULTD at 60 Chambersbridge Road, Unit 4, Lakewood, NJ 08701. Bring your uniform requirements and work shoes to compare fit, color and length." },
+      { q: "Can our medical office coordinate fall uniforms?", a: "The Scrub Boutique offers group uniform programs and custom embroidery. Contact the boutique to discuss approved colors, individual sizing, personalization and order timing." }
+    ]
+  },
   {
     slug: "holiday-scrub-guide-nj",
     title: "The Scrub Boutique Holiday Scrub Guide: Festive Scrubs, Gifts and Group Orders for New Jersey Healthcare Teams",

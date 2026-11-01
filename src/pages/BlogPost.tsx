@@ -154,6 +154,21 @@ const BlogPost = () => {
                     {renderParagraph(para)}
                   </p>
                 ))}
+                {s.images && (
+                  <div className="grid gap-8 sm:grid-cols-2 mt-8">
+                    {s.images.map((image) => (
+                      <figure key={image.src} className="min-w-0">
+                        <a href={image.href} target="_blank" rel="noopener noreferrer" aria-label={`${image.shopLabel}: ${image.caption}`}>
+                          <img src={image.src} alt={image.alt} loading="lazy" className="w-full h-auto rounded-lg border border-border" />
+                        </a>
+                        <figcaption className="mt-3 text-sm text-muted-foreground leading-relaxed">
+                          {image.caption}
+                          <a href={image.href} target="_blank" rel="noopener noreferrer" className="block mt-2 font-semibold text-primary underline underline-offset-4">{image.shopLabel} →</a>
+                        </figcaption>
+                      </figure>
+                    ))}
+                  </div>
+                )}
               </section>
             ))}
           </div>

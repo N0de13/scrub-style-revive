@@ -1,0 +1,3 @@
+# Project conventions
+- Blog articles remain in the shared posts collection; optional section images hold product captions, descriptive alt text, and external shopping destinations so editorial photos render consistently without separate article pages.
+- Uploaded editorial media uses Lovable Assets pointers; shopping links remain external because the storefront is separate from the promotional website.
