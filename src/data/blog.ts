@@ -19,6 +19,7 @@ import img_how_should_scrubs_fit_nj from "@/assets/blog/how-should-scrubs-fit-nj
 import img_buy_local_scrubs from "@/assets/blog/buy-local-scrubs-guide.jpg";
 import img_nurses_doctors_scrubs from "@/assets/blog/nurses-doctors-favorite-scrubs-nj.jpg";
 import img_holiday_scrub_guide from "@/assets/blog/holiday-scrub-guide-nj.jpg";
+import img_what_to_embroider_scrubs from "@/assets/blog/embroidery-ideas-scrubs-nj.jpg";
 import fallCover from "@/assets/blog/fall-scrubs-barco-lakewood-nj.jpg.asset.json";
 import ariaBlack from "@/assets/blog/aria-black-fall-scrubs.png.asset.json";
 import ariaBerry from "@/assets/blog/aria-berry-fall-scrubs.png.asset.json";
@@ -47,6 +48,118 @@ export type BlogPost = {
 };
 
 export const posts: BlogPost[] = [
+  {
+    slug: "what-to-embroider-on-your-scrubs",
+    title: "What to Embroider on Your Scrubs: Names, Credentials and Placement Ideas",
+    metaTitle: "What to Embroider on Your Scrubs | Lakewood NJ",
+    metaDescription: "Name, credentials, department or logo? Learn what to embroider on scrubs, where it goes, which thread holds up, and why to order before mid-November.",
+    excerpt: "A stitch-by-stitch guide to what to embroider on a scrub top, lab coat or warm-up jacket: the name line, credential order, placement, thread colors, and the holiday order cutoff.",
+    shortKeywords: ["scrub embroidery", "embroidered scrubs", "what to embroider on scrubs", "custom scrub embroidery NJ", "personalized scrubs"],
+    longKeywords: [
+      "what to embroider on your scrubs in Lakewood New Jersey",
+      "embroidered scrubs with name and credentials NJ",
+      "where to get scrubs embroidered near Monmouth County",
+      "personalized scrubs for nurses Ocean County NJ",
+      "holiday embroidered scrub gift orders Lakewood NJ",
+      "scrub embroidery placement left chest New Jersey"
+    ],
+    date: "2026-11-09",
+    readTime: "9 min",
+    image: img_what_to_embroider_scrubs,
+    imageAlt: "Watercolor of a folded navy scrub top with a stitched leaf motif, teal and amber thread spools, needle and shears, embroidery ideas for New Jersey healthcare workers",
+    sections: [
+      {
+        heading: "Quick Answer: What Should You Embroider on Your Scrubs?",
+        paragraphs: [
+          "Most healthcare professionals embroider three things and stop there: a first name, a credential, and either the employer's logo or the department name. That combination answers the two questions patients and coworkers actually ask — who are you, and what is your role — without turning your top into a billboard.",
+          "Everything else is optional: a specialty identifier, a program or school name, a short personal line for a jacket or lab coat. The rule that keeps the result looking polished rather than crowded is one focal point per side of the garment, readable from about arm's length.",
+          "Before you choose anything, read your employer's dress code. Some facilities approve only the logo and name, some allow credentials, and some prohibit personal text entirely. Embroidery cannot be removed cleanly, so the policy check comes first. Our [embroidery services page](/embroidery) shows what we stitch, and our team will tell you plainly when an idea will not read well on a given garment."
+        ]
+      },
+      {
+        heading: "Start With the Name Line Most People Get Right",
+        paragraphs: [
+          "The name line is the one almost everyone should embroider. It is the detail that makes a uniform feel made for you, and it is the one a patient can read while you are standing six feet away. Keep it to what you would put on your badge: first name, optional initial, then credentials.",
+          "The common convention is to place your license or registration closest to your name, then degrees and certifications — for example, 'A. Rivera, RN, BSN' or 'J. Chen, PA-C'. If you hold several credentials, choose the two your workplace actually cares about rather than listing every one; a line of five abbreviations becomes unreadable at arm's length and costs more in stitch count.",
+          "A nickname can work if your unit already uses it, but think past the break room. If you float to other departments or expect to move to a new facility, a professional name line travels better than an inside joke. Avoid your full surname unless your employer requires it — it is the one detail that can follow you home."
+        ]
+      },
+      {
+        heading: "Ideas by Role: What to Stitch When You Are Not a Nurse",
+        paragraphs: [
+          "Nurses usually embroider name plus 'RN' or 'LPN', then a specialty such as 'ER', 'ICU', 'L&D' or 'OR' on a second line. The specialty is what makes a float nurse recognizable to a team that changes every shift.",
+          "Advanced practice and other clinical roles follow the same logic: 'NP', 'PA-C', 'CRNA', 'RNFA', 'RDH', 'DMD', 'CVT' or 'RVT' for veterinary teams, 'Rad Tech' or 'Phlebotomist' for diagnostics and lab work. Students do best with an honest, simple label — 'Student Nurse', 'DPT Student' or 'MS3' — so patients know exactly where you are in your training.",
+          "Non-clinical staff benefit most, because the front desk is where first impressions are made. 'Medical Assistant', 'Patient Coordinator' or 'Front Desk' removes the guesswork for someone walking in for the first time. If you are not sure which abbreviation your employer prefers, ask your manager for the exact wording before ordering; the boutique can stitch whatever your team approves."
+        ]
+      },
+      {
+        heading: "Placement: Where Each Item Belongs",
+        paragraphs: [
+          "The default for a medical workplace is the employer's logo on the wearer's left chest, roughly three to three and a half inches wide and about seven to eight inches down from the shoulder seam. It is the spot a patient's eyes find first, and it survives every position you work in. Your name and credential then sit either beneath that logo or on the opposite chest — one focal point per side.",
+          "Sleeves suit a short specialty tag or a small mark, because the fabric is narrow and the text is read at a glance. Back yokes and hood lines carry larger logos well and are best saved for lab coats, fleece and warm-up jackets, where there is room for the design to sit flat. A pocket can take a small monogram or a tiny department mark, which is a good compromise when your dress code allows personalization but not a full logo.",
+          "Placement also depends on what you already wear over the top. A badge reel, stethoscope or lab coat will cover part of the chest, so a name stitched too low ends up hidden. Bring the garments you layer when you visit, and we will mark the placement with you before anything is stitched."
+        ]
+      },
+      {
+        heading: "Thread Color, Font and the Arm's-Length Test",
+        paragraphs: [
+          "Contrast decides whether embroidery reads at all. Cream or white thread on navy is the clearest pairing; navy on a light top works just as well. Teal and warm amber give a uniform personality without looking novelty, and we color-match thread to a practice's brand from a library of more than fifteen colors.",
+          "Fonts are where good intentions go wrong. Block lettering stays legible from across a hallway; script and italic faces look elegant on a sample card and blur into one line at distance. Fine serif type under about a quarter of an inch tends to fill in on stretch knit, so small details disappear rather than look delicate.",
+          "Run the simple test before approving: hold the sample at arm's length and have someone who has not seen your design read it out loud. If they hesitate, the fix is a larger size, a simpler font or fewer characters — not more colors. Metallic and specialty threads are available, but check your facility's rules before using them in a clinical setting."
+        ]
+      },
+      {
+        heading: "What Not to Embroider",
+        paragraphs: [
+          "Skip anything that could follow you home: a last name, phone number, address or social handle has no place on a uniform you wear in public. That is a privacy decision, not a style one.",
+          "Skip the long slogan. Two short lines is the practical limit before a top starts to look busy, and more than two or three thread colors on one garment usually fights the fabric instead of complementing it. Avoid tiny type, duplicate information your badge already carries, and anything your dress code has not approved.",
+          "Be cautious about placement over stretch panels, seams and pockets that open, because embroidery on those areas can distort or hide. And think twice before stitching a permanent department tag onto a garment you plan to wear if you rotate units or change jobs — a name and credential travel with you, an employer's department name does not."
+        ]
+      },
+      {
+        heading: "Embroidered Scrubs as a Holiday Gift — Order Before Mid-November",
+        paragraphs: [
+          "A stitched name and credential turns a good scrub set into something a nurse keeps for years. It works well for a new graduate's first job, a white-coat or pinning ceremony, or a retirement jacket — 'RN, 1998–2026' is one of the most requested lines we stitch each December.",
+          "Timing matters more than most gift shoppers expect. Holiday season is our busiest embroidery period, so we recommend placing team orders by mid-November for December delivery, and standard name-and-credential work on single garments generally runs seven to ten business days. If you are buying for a whole office or department, our [hospital and group programs](/groups) handle sizing days, coordinated placement and consolidated billing.",
+          "Not sure of the size? A gift card lets the recipient come in for a proper fitting — we stock XXS through 5XL in store, and fit makes the difference between a thoughtful gift and a drawer ornament. Our [holiday scrub guide](/blog/holiday-scrub-guide-nj) covers gift ideas beyond embroidery, from jogger sets to clip lights."
+        ]
+      },
+      {
+        heading: "What It Costs and Whether One Item Is Enough",
+        paragraphs: [
+          "One item is enough. There is no minimum order here — a single scrub top with a name and credential is a normal request, and it is the fastest way to see the quality before committing to a group run.",
+          "Pricing comes down to stitch count, thread colors and quantity. A name line is a low-stitch-count text run, so it costs less than a detailed logo; converting a logo into a stitch file is a one-time digitizing charge per mark; and group runs earn tiered discounts, so the per-piece cost at twenty-five garments is meaningfully lower than at three. We will quote your specific design rather than guessing from a chart.",
+          "If you already own the garment, bring it in. We prefer stitching the brands we carry so we can judge the fabric first, and we occasionally accept outside items once we have looked at the material and confirmed it will hold a stitch cleanly."
+        ]
+      },
+      {
+        heading: "Caring for Embroidered Scrubs",
+        paragraphs: [
+          "Embroidery outlives the fabric when it is done correctly. On stretch knit scrubs we use a cut-away stabilizer rather than a cheap tear-away, which keeps the stitching flat and square instead of puckering after a few washes, and bleach-resistant polyester thread on medical apparel so colors hold up under the laundering protocols many facilities still run.",
+          "Your part is simple: wash embroidered garments inside out in cool water, skip ultra-harsh chemicals and high-heat drying, and follow the care label. Our [scrub care and laundry guide](/blog/scrub-care-laundry-guide) covers the rest of the routine."
+        ]
+      },
+      {
+        heading: "Get It Stitched in Lakewood, New Jersey",
+        paragraphs: [
+          "The Scrub Boutique ULTD is at 60 Chambersbridge Road, Unit 4, Lakewood, NJ 08701, with directions available [here](https://maps.app.goo.gl/7ZGULnNvccpsntKH9). We are open Monday through Thursday 10 AM to 6 PM and Saturday 10 AM to 5 PM, closed Sunday, and we serve healthcare teams across Ocean County, Monmouth County and the Jersey Shore.",
+          "Stop by to see thread colors in person, try the garment on, and approve placement before production — or email [peter@tsbuniforms.com](mailto:peter@tsbuniforms.com) and your artwork to start. Call 732-308-7788 for a quote, browse the [full online shop](https://shop.thescrubboutiqueultd.com/) for the garment itself, or read our guides to [custom embroidery on medical uniforms](/blog/custom-embroidery-medical-uniforms-nj) and [embroidery programs for medical offices](/blog/custom-embroidery-medical-offices-groups)."
+        ]
+      }
+    ],
+    faqs: [
+      { q: "What should I embroider on my scrubs?", a: "Start with your first name and one credential, then add your employer's logo or department if your dress code allows it. A specialty such as 'ER', 'ICU' or 'OR' is useful if you float. Keep it to one focal point per side of the garment and make sure it reads from arm's length." },
+      { q: "Should I embroider my scrubs?", a: "If your employer approves it, embroidery is worth it for the garments you wear most. A name and credential make a uniform feel personal, help patients and coworkers identify your role, and last the life of the garment when stitched with proper stabilizer and bleach-resistant thread." },
+      { q: "What order do credentials go in after my name?", a: "The common convention is your license or registration first, then degrees and certifications — for example, 'A. Rivera, RN, BSN'. Pick the two credentials your workplace actually cares about; long lists become unreadable at a distance. Confirm the exact wording your employer prefers before ordering." },
+      { q: "Where can I get my scrubs embroidered near Lakewood, NJ?", a: "The Scrub Boutique ULTD at 60 Chambersbridge Road, Unit 4, Lakewood, NJ 08701 embroiders in-house, with digitizing, thread color matching and sample approval before production. We serve Monmouth County, Ocean County and the Jersey Shore. Call 732-308-7788 or email peter@tsbuniforms.com." },
+      { q: "How much does it cost to embroider one scrub top?", a: "Pricing depends on stitch count, thread colors and quantity. A name and credential line is a low stitch count and costs less than a detailed logo, and one-time digitizing is charged per logo. We quote your specific design instead of guessing — bring the garment in or call 732-308-7788." },
+      { q: "Can I bring scrubs I already own for embroidery?", a: "Sometimes. We prefer stitching the brands we carry so we can judge the fabric first, but we do evaluate outside garments in store. Bring them to the Lakewood boutique and we will tell you whether the material will hold a stitch cleanly." },
+      { q: "How long does name and credential embroidery take?", a: "Standard single-garment name and title work typically runs seven to ten business days. Group runs generally take one to two weeks after artwork approval and size confirmation, and rush timelines are often possible — tell us your deadline when you order." },
+      { q: "Will embroidery hold up to hot hospital laundry?", a: "Yes, when it is done properly. We use cut-away stabilizer on stretch knit scrubs and bleach-resistant polyester thread, so the stitching stays flat, square and colorfast through repeated industrial wash cycles. Wash inside out in cool water and avoid high-heat drying." },
+      { q: "When should I order embroidered scrubs as a holiday gift?", a: "Place team orders by mid-November for December delivery, and allow seven to ten business days for single garments since the holidays are our busiest embroidery period. Unsure of the size? A gift card lets the recipient be fitted in store." },
+      { q: "What should I not embroider on scrubs?", a: "Avoid personal information such as your surname, phone number, address or social handles. Skip long slogans, tiny type, more than two or three thread colors, and anything your dress code has not approved. Also avoid placement that a badge reel, stethoscope or lab coat will cover." }
+    ]
+  },
   {
     slug: "great-scrubs-for-fall-lakewood-nj",
     title: "Great Scrubs for Fall: The Scrub Boutique’s Barco Style Guide",
