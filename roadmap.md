@@ -10,5 +10,5 @@
 - [ ] Confirm which phone number the article body should use (732-308-7788 vs 866-245-9816).
 
 # Professional embroidery article
-- [ ] Add a guide to embroidery and professional presentation featuring Lakewood and nearby communities, with a watercolor cover and FAQs.
-- [ ] Update search discovery files and verify the article and homepage placement.
+- [x] Add a guide to embroidery and professional presentation featuring Lakewood and nearby communities, with a watercolor cover and FAQs.
+- [x] Update search discovery files and verify the article and homepage placement.
