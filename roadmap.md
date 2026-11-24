@@ -25,3 +25,6 @@
 # AI-listing removal
 - [x] Delete llms.txt and verify it is no longer served.
 
+# Robots-file removal
+- [x] Delete robots.txt and verify it is no longer served.
+
