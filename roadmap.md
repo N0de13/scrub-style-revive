@@ -15,3 +15,7 @@
 
 # Popup removal
 - [x] Take down the "Big Sale" flyer popup; keep the email and SMS signup popup.
+
+# Sitemap removal
+- [x] Delete sitemap.xml and remove its reference from robots.txt.
+

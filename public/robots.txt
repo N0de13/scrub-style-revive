@@ -21,5 +21,3 @@ Allow: /
 
 User-agent: *
 Allow: /
-
-Sitemap: https://thescrubboutiqueultd.com/sitemap.xml
