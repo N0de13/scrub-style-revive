@@ -12,3 +12,6 @@
 # Professional embroidery article
 - [x] Add a guide to embroidery and professional presentation featuring Lakewood and nearby communities, with a watercolor cover and FAQs.
 - [x] Update search discovery files and verify the article and homepage placement.
+
+# Popup removal
+- [x] Take down the "Big Sale" flyer popup; keep the email and SMS signup popup.

@@ -17,7 +17,6 @@ import BlogPost from "./pages/BlogPost";
 import NotFound from "./pages/NotFound";
 import ScrollToTop from "./components/ScrollToTop";
 import SmsPopup from "./components/SmsPopup";
-import EmailPopup from "./components/EmailPopup";
 import SmithWarrenBadges from "./pages/SmithWarrenBadges";
 import NewCustomerDiscount from "./pages/NewCustomerDiscount";
 
@@ -42,7 +41,6 @@ const App = () => (
         <AnalyticsTracker />
         <ScrollToTop />
         <SmsPopup />
-        <EmailPopup />
         <Routes>
           <Route path="/" element={<Index />} />
           <Route path="/about" element={<About />} />
