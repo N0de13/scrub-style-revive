@@ -6,25 +6,7 @@ import Breadcrumbs from "@/components/Breadcrumbs";
 import RelatedLinks from "@/components/RelatedLinks";
 import groupsHero from "@/assets/groups-hero.png";
 import teamImg from "@/assets/groups-team.jpg";
-import {
-  Seo,
-  localBusinessJsonLd,
-  buildBreadcrumbLd,
-  buildSpeakableLd,
-  siteUrl,
-} from "@/components/Seo";
-
-const groupsServiceLd = {
-  "@context": "https://schema.org",
-  "@type": "Service",
-  serviceType: "Group Uniform Program",
-  name: "Hospital & Group Uniform Programs",
-  provider: { "@id": `${siteUrl}/#store` },
-  areaServed: ["Lakewood NJ", "Monmouth County", "Ocean County", "New Jersey", "Tri-State Area"],
-  url: `${siteUrl}/groups`,
-  description:
-    "Bulk pricing, embroidery, and dress-code standardization for hospitals, medical offices, schools, veterinary clinics, chef teams, and first responder units across New Jersey.",
-};
+import { Seo } from "@/components/Seo";
 
 const features = [
   {
@@ -81,15 +63,6 @@ const Groups = () => {
           "Atlantic Health scrubs",
           "medical office uniforms Monmouth County",
           "nursing school scrubs NJ",
-        ]}
-        jsonLd={[
-          localBusinessJsonLd,
-          groupsServiceLd,
-          buildBreadcrumbLd([
-            { name: "Home", path: "/" },
-            { name: "Groups", path: "/groups" },
-          ]),
-          buildSpeakableLd(`${siteUrl}/groups`, ["h1", "h2", "p"]),
         ]}
       />
       <Navbar />

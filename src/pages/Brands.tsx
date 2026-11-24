@@ -5,7 +5,7 @@ import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
 import Breadcrumbs from "@/components/Breadcrumbs";
 import RelatedLinks from "@/components/RelatedLinks";
-import { Seo, localBusinessJsonLd, buildBreadcrumbLd, buildSpeakableLd, siteUrl } from "@/components/Seo";
+import { Seo } from "@/components/Seo";
 import { brands } from "@/data/brands";
 
 const categoryLabels: Record<string, string> = {
@@ -21,23 +21,6 @@ const Brands = () => {
     return acc;
   }, {});
 
-  const itemListJsonLd = {
-    "@context": "https://schema.org",
-    "@type": "ItemList",
-    itemListElement: brands.map((b, i) => ({
-      "@type": "ListItem",
-      position: i + 1,
-      name: b.name,
-      url: `${siteUrl}/brands/${b.slug}`,
-    })),
-  };
-
-  const breadcrumbLd = buildBreadcrumbLd([
-    { name: "Home", path: "/" },
-    { name: "Brands", path: "/brands" },
-  ]);
-  const speakableLd = buildSpeakableLd(`${siteUrl}/brands`, ["h1", "h2", "p"]);
-
   return (
     <div className="min-h-screen bg-background">
       <Seo
@@ -50,7 +33,6 @@ const Brands = () => {
           "medical uniforms Lakewood",
           "nursing brands NJ",
         ]}
-        jsonLd={[localBusinessJsonLd, itemListJsonLd, breadcrumbLd, speakableLd]}
       />
       <Navbar />
       <Breadcrumbs items={[{ name: "Brands" }]} />

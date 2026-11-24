@@ -13,15 +13,7 @@ import TestimonialsSection from "@/components/TestimonialsSection";
 import ContactSection from "@/components/ContactSection";
 import Footer from "@/components/Footer";
 import RelatedLinks from "@/components/RelatedLinks";
-import {
-  Seo,
-  localBusinessJsonLd,
-  organizationJsonLd,
-  websiteJsonLd,
-  buildBreadcrumbLd,
-  buildSpeakableLd,
-  siteUrl,
-} from "@/components/Seo";
+import { Seo, siteUrl } from "@/components/Seo";
 
 const Index = () => {
   return (
@@ -41,13 +33,6 @@ const Index = () => {
           "hospital uniform programs NJ",
         ]}
         image={`${siteUrl}/og-image.jpg`}
-        jsonLd={[
-          organizationJsonLd,
-          websiteJsonLd,
-          localBusinessJsonLd,
-          buildBreadcrumbLd([{ name: "Home", path: "/" }]),
-          buildSpeakableLd(`${siteUrl}/`, ["h1", ".speakable", "p"]),
-        ]}
       />
       <Navbar />
       <HeroSection />

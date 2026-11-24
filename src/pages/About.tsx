@@ -7,22 +7,7 @@ import RelatedLinks from "@/components/RelatedLinks";
 import ownersImg from "@/assets/about-owners.jpg.asset.json";
 import teamImg from "@/assets/about-team.jpg";
 import storeImg from "@/assets/store.jpg";
-import {
-  Seo,
-  localBusinessJsonLd,
-  organizationJsonLd,
-  buildBreadcrumbLd,
-  buildSpeakableLd,
-  siteUrl,
-} from "@/components/Seo";
-
-const aboutPageLd = {
-  "@context": "https://schema.org",
-  "@type": "AboutPage",
-  url: `${siteUrl}/about`,
-  name: "About The Scrub Boutique ULTD",
-  about: { "@id": `${siteUrl}/#store` },
-};
+import { Seo } from "@/components/Seo";
 
 const values = [
   {
@@ -66,16 +51,6 @@ const About = () => {
           "Lakewood NJ uniform store",
           "Platinum Barco Retailer New Jersey",
           "Coastline Custom Embroidery",
-        ]}
-        jsonLd={[
-          organizationJsonLd,
-          localBusinessJsonLd,
-          aboutPageLd,
-          buildBreadcrumbLd([
-            { name: "Home", path: "/" },
-            { name: "About", path: "/about" },
-          ]),
-          buildSpeakableLd(`${siteUrl}/about`, ["h1", "h2", "p"]),
         ]}
       />
       <Navbar />

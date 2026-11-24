@@ -5,7 +5,7 @@ import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
 import Breadcrumbs from "@/components/Breadcrumbs";
 import RelatedLinks from "@/components/RelatedLinks";
-import { Seo, localBusinessJsonLd, buildBreadcrumbLd, buildSpeakableLd, siteUrl } from "@/components/Seo";
+import { Seo } from "@/components/Seo";
 import { brands, getBrand } from "@/data/brands";
 import barcoBadge from "@/assets/barco-platinum-badge.png";
 
@@ -14,38 +14,6 @@ const BrandPage = () => {
   const brand = slug ? getBrand(slug) : undefined;
 
   if (!brand) return <Navigate to="/brands" replace />;
-
-  const faqJsonLd = {
-    "@context": "https://schema.org",
-    "@type": "FAQPage",
-    mainEntity: brand.faqs.map((f) => ({
-      "@type": "Question",
-      name: f.q,
-      acceptedAnswer: { "@type": "Answer", text: f.a },
-    })),
-  };
-
-  const breadcrumbJsonLd = buildBreadcrumbLd([
-    { name: "Home", path: "/" },
-    { name: "Brands", path: "/brands" },
-    { name: brand.name, path: `/brands/${brand.slug}` },
-  ]);
-
-  const speakableLd = buildSpeakableLd(`${siteUrl}/brands/${brand.slug}`, ["h1", "h2", "p"]);
-
-  const productJsonLd = {
-    "@context": "https://schema.org",
-    "@type": "Product",
-    name: `${brand.name} at The Scrub Boutique ULTD`,
-    description: brand.shortDescription,
-    brand: { "@type": "Brand", name: brand.name },
-    category: brand.category,
-    offers: {
-      "@type": "Offer",
-      availability: "https://schema.org/InStock",
-      seller: { "@type": "Organization", name: "The Scrub Boutique ULTD" },
-    },
-  };
 
   const otherBrands = brands.filter((b) => b.slug !== brand.slug).slice(0, 4);
 
@@ -56,7 +24,6 @@ const BrandPage = () => {
         description={brand.seoDescription}
         canonicalPath={`/brands/${brand.slug}`}
         keywords={brand.keywords}
-        jsonLd={[localBusinessJsonLd, productJsonLd, faqJsonLd, breadcrumbJsonLd, speakableLd]}
       />
       <Navbar />
       <Breadcrumbs

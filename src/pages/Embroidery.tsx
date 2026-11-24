@@ -8,25 +8,7 @@ import capImg from "@/assets/embroidery-cap.jpg";
 import machineImg from "@/assets/embroidery-machine.jpg";
 import multiheadImg from "@/assets/embroidery-multihead.jpg";
 import detailImg from "@/assets/embroidery-detail.jpg";
-import {
-  Seo,
-  localBusinessJsonLd,
-  buildBreadcrumbLd,
-  buildSpeakableLd,
-  siteUrl,
-} from "@/components/Seo";
-
-const embroideryServiceLd = {
-  "@context": "https://schema.org",
-  "@type": "Service",
-  serviceType: "Custom Embroidery",
-  name: "Custom Embroidery for Medical, Corporate & Public Safety Uniforms",
-  provider: { "@id": `${siteUrl}/#store` },
-  areaServed: ["Lakewood NJ", "Monmouth County", "Ocean County", "New Jersey", "Tri-State Area"],
-  url: `${siteUrl}/embroidery`,
-  description:
-    "In-house digitizing and commercial multi-head embroidery on scrubs, lab coats, chef coats, corporate apparel, and first responder uniforms.",
-};
+import { Seo } from "@/components/Seo";
 
 const services = [
   {
@@ -73,15 +55,6 @@ const Embroidery = () => {
           "uniform embroidery Ocean County",
           "fire EMS police embroidery NJ",
           "Coastline Custom Embroidery",
-        ]}
-        jsonLd={[
-          localBusinessJsonLd,
-          embroideryServiceLd,
-          buildBreadcrumbLd([
-            { name: "Home", path: "/" },
-            { name: "Embroidery", path: "/embroidery" },
-          ]),
-          buildSpeakableLd(`${siteUrl}/embroidery`, ["h1", "h2", "p"]),
         ]}
       />
       <Navbar />

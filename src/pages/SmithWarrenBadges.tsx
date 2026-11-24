@@ -3,31 +3,7 @@ import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
 import Breadcrumbs from "@/components/Breadcrumbs";
 import RelatedLinks from "@/components/RelatedLinks";
-import {
-  Seo,
-  localBusinessJsonLd,
-  buildBreadcrumbLd,
-  buildSpeakableLd,
-  siteUrl,
-} from "@/components/Seo";
-
-const badgesProductLd = {
-  "@context": "https://schema.org",
-  "@type": "Product",
-  name: "Custom Smith & Warren Badges",
-  image: "https://www.visualbadge.com/images/visualbadge-logo.png",
-  description: "Design and build your custom Smith & Warren badges online. Full selection of police, fire, EMS, and security badges.",
-  brand: {
-    "@type": "Brand",
-    name: "Smith & Warren"
-  },
-  offers: {
-    "@type": "Offer",
-    "url": `${siteUrl}/smith-warren-badges`,
-    "priceCurrency": "USD",
-    "availability": "https://schema.org/InStock"
-  }
-};
+import { Seo } from "@/components/Seo";
 
 const SmithWarrenBadges = () => {
   return (
@@ -44,15 +20,6 @@ const SmithWarrenBadges = () => {
           "EMS badges NJ",
           "security badges Lakewood New Jersey",
           "Visual Badge builder"
-        ]}
-        jsonLd={[
-          localBusinessJsonLd,
-          badgesProductLd,
-          buildBreadcrumbLd([
-            { name: "Home", path: "/" },
-            { name: "Smith & Warren Badges", path: "/smith-warren-badges" },
-          ]),
-          buildSpeakableLd(`${siteUrl}/smith-warren-badges`, ["h1", "h2", "p"]),
         ]}
       />
       <Navbar />

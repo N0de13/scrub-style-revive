@@ -19,3 +19,6 @@
 # Sitemap removal
 - [x] Delete sitemap.xml and remove its reference from robots.txt.
 
+# Schema removal
+- [x] Remove structured-data schema from every page and verify no schema markup remains.
+

@@ -3,21 +3,7 @@ import { motion } from "framer-motion";
 import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
 import Breadcrumbs from "@/components/Breadcrumbs";
-import {
-  Seo,
-  localBusinessJsonLd,
-  organizationJsonLd,
-  buildBreadcrumbLd,
-  buildSpeakableLd,
-  siteUrl,
-} from "@/components/Seo";
-
-const newCustomerDiscountPageLd = {
-  "@context": "https://schema.org",
-  "@type": "WebPage",
-  url: `${siteUrl}/new-customer-discount`,
-  name: "New Customer Discount | The Scrub Boutique ULTD",
-};
+import { Seo } from "@/components/Seo";
 
 const NewCustomerDiscount = () => {
   const formContainerRef = useRef<HTMLDivElement>(null);
@@ -46,16 +32,6 @@ const NewCustomerDiscount = () => {
           "new customer coupon",
           "scrub boutique coupons",
           "Lakewood NJ uniform store discount",
-        ]}
-        jsonLd={[
-          organizationJsonLd,
-          localBusinessJsonLd,
-          newCustomerDiscountPageLd,
-          buildBreadcrumbLd([
-            { name: "Home", path: "/" },
-            { name: "New Customer Discount", path: "/new-customer-discount" },
-          ]),
-          buildSpeakableLd(`${siteUrl}/new-customer-discount`, ["h1", "h2", "p"]),
         ]}
       />
       <Navbar />

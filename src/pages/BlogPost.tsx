@@ -5,7 +5,7 @@ import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
 import Breadcrumbs from "@/components/Breadcrumbs";
 import RelatedLinks from "@/components/RelatedLinks";
-import { Seo, buildBreadcrumbLd, buildSpeakableLd, siteUrl } from "@/components/Seo";
+import { Seo, siteUrl } from "@/components/Seo";
 import { posts } from "@/data/blog";
 
 const SITE = siteUrl;
@@ -47,43 +47,6 @@ const BlogPost = () => {
   if (!post) return <Navigate to="/blog" replace />;
 
   const related = posts.filter((p) => p.slug !== post.slug).slice(0, 3);
-  const url = `${SITE}/blog/${post.slug}`;
-
-  const articleLd = {
-    "@context": "https://schema.org",
-    "@type": "BlogPosting",
-    headline: post.title,
-    description: post.metaDescription,
-    image: `${SITE}${post.image}`,
-    datePublished: post.date,
-    dateModified: post.date,
-    author: { "@type": "Organization", name: "The Scrub Boutique ULTD" },
-    publisher: {
-      "@type": "Organization",
-      name: "The Scrub Boutique ULTD",
-      logo: { "@type": "ImageObject", url: `${SITE}/og-image.jpg` },
-    },
-    mainEntityOfPage: { "@type": "WebPage", "@id": url },
-    keywords: [...post.shortKeywords, ...post.longKeywords].join(", "),
-  };
-
-  const faqLd = {
-    "@context": "https://schema.org",
-    "@type": "FAQPage",
-    mainEntity: post.faqs.map((f) => ({
-      "@type": "Question",
-      name: f.q,
-      acceptedAnswer: { "@type": "Answer", text: f.a },
-    })),
-  };
-
-  const breadcrumbLd = buildBreadcrumbLd([
-    { name: "Home", path: "/" },
-    { name: "Journal", path: "/blog" },
-    { name: post.title, path: `/blog/${post.slug}` },
-  ]);
-
-  const speakableLd = buildSpeakableLd(url, ["h1", "h2", "p"]);
 
   return (
     <div className="min-h-screen">
@@ -93,7 +56,6 @@ const BlogPost = () => {
         canonicalPath={`/blog/${post.slug}`}
         keywords={[...post.shortKeywords, ...post.longKeywords]}
         image={`${SITE}${post.image}`}
-        jsonLd={[articleLd, faqLd, breadcrumbLd, speakableLd]}
       />
       <Navbar />
       <Breadcrumbs
