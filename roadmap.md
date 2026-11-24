@@ -28,3 +28,6 @@
 # Robots-file removal
 - [x] Delete robots.txt and verify it is no longer served.
 
+# Attribution removal
+- [x] Remove "Managed By The Real Social" from the site footer and verify it is gone.
+
