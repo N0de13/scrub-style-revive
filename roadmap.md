@@ -22,3 +22,6 @@
 # Schema removal
 - [x] Remove structured-data schema from every page and verify no schema markup remains.
 
+# AI-listing removal
+- [x] Delete llms.txt and verify it is no longer served.
+
